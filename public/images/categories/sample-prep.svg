@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#2A2A30"/>
+      <stop offset="100%" stop-color="#1F1F25"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="80%" cy="20%" r="60%">
+      <stop offset="0%" stop-color="#FF6A1A" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#FF6A1A" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Background — noticeably lighter than card surface #141416 -->
+  <rect width="800" height="600" fill="url(#bg)"/>
+
+  <!-- Orange corner glow -->
+  <rect width="800" height="600" fill="url(#glow)"/>
+
+  <!-- Large centred silhouette -->
+  <path d="M300 155 L300 370 Q300 405 325 405 L375 405 Q400 405 400 370 L400 155 Q400 128 375 122 L325 122 Q300 128 300 155 Z M315 122 L315 85 L385 85 L385 122 M345 85 L345 52 L355 52 L355 85 M440 155 L440 370 Q440 405 465 405 L515 405 Q540 405 540 370 L540 155 Q540 128 515 122 L465 122 Q440 128 440 155 Z M455 122 L455 85 L525 85 L525 122 M485 85 L485 52 L495 52 L495 85" fill="#FFFFFF" opacity="0.22"/>
+
+  <!-- Category name — dominant element -->
+  <text x="400" y="468" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="42" font-weight="700" fill="#FFFFFF" opacity="0.95" text-anchor="middle">Sample Preparation</text>
+
+  <!-- Orange divider under name -->
+  <line x1="340" y1="484" x2="460" y2="484" stroke="#FF6A1A" stroke-width="2" opacity="0.70"/>
+
+  <!-- Bottom tag -->
+  <text x="400" y="554" font-family="monospace, 'Courier New'" font-size="11" letter-spacing="2" fill="#FFFFFF" opacity="0.50" text-anchor="middle">Product photography in progress</text>
+</svg>

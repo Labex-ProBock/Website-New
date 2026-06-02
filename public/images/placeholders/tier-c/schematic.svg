@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#2A2A30"/>
+      <stop offset="100%" stop-color="#1F1F25"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="80%" cy="20%" r="60%">
+      <stop offset="0%" stop-color="#FF6A1A" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#FF6A1A" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="600" fill="url(#bg)"/>
+
+  <!-- Orange corner glow -->
+  <rect width="800" height="600" fill="url(#glow)"/>
+
+  <!-- Abstract motif — prominent orange -->
+  <path d="M120 180 L680 180 M120 240 L360 240 M480 240 L680 240 M360 240 L360 360 L480 360 L480 240 M120 300 L310 300 M530 300 L680 300 M120 420 L680 420" fill="none" stroke="#FF6A1A" stroke-width="3" opacity="0.28" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Quote required heading -->
+  <text x="400" y="448" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="38" font-weight="600" fill="#FFFFFF" opacity="0.95" text-anchor="middle">Quote required</text>
+
+  <!-- Orange divider -->
+  <line x1="340" y1="464" x2="460" y2="464" stroke="#FF6A1A" stroke-width="2" opacity="0.70"/>
+
+  <!-- Subtitle -->
+  <text x="400" y="496" font-family="monospace, 'Courier New'" font-size="12" letter-spacing="1" fill="#FFFFFF" opacity="0.50" text-anchor="middle">Custom build · 24-hour response</text>
+</svg>

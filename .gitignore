@@ -1,0 +1,67 @@
+# dependencies
+/node_modules
+node_modules
+/.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+
+# testing
+/coverage
+
+# next.js
+/.next/
+.next
+
+# production
+/build
+/out/
+
+# temp
+.tmp
+
+# misc
+.DS_Store
+*.pem
+
+# logs
+*.log
+bulk-image-fetch.log
+bulk-image-fetch.err.log
+brand-fetch.log
+daihan-fetch.log
+representative-fetch*.log
+dev-output.log
+dev-error.log
+targeted-retry.log
+image-fetch-failures.log
+
+# fetch reports
+bulk-fetch-report.md
+image-fetch-report.md
+
+# python scratch scripts
+__pycache__
+*.pyc
+*.py
+
+# env files
+.env*
+!.env.example
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+# labex content files (not source code)
+*.pdf
+*.xlsx
+
+# CRM (separate project)
+Labex_CRM

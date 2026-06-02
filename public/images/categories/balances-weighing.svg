@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#2A2A30"/>
+      <stop offset="100%" stop-color="#1F1F25"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="80%" cy="20%" r="60%">
+      <stop offset="0%" stop-color="#FF6A1A" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#FF6A1A" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Background — noticeably lighter than card surface #141416 -->
+  <rect width="800" height="600" fill="url(#bg)"/>
+
+  <!-- Orange corner glow -->
+  <rect width="800" height="600" fill="url(#glow)"/>
+
+  <!-- Large centred silhouette -->
+  <path d="M395 120 L395 270 L405 270 L405 120 Z M370 112 L430 112 L430 120 L370 120 Z M230 260 L570 260 L570 272 L230 272 Z M230 266 L195 360 L265 360 Z M570 266 L535 360 L605 360 Z M175 360 L285 360 L285 388 L175 388 Z M515 360 L625 360 L625 388 L515 388 Z M370 388 L430 388 L430 420 L370 420 Z" fill="#FFFFFF" opacity="0.22"/>
+
+  <!-- Category name — dominant element -->
+  <text x="400" y="468" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="42" font-weight="700" fill="#FFFFFF" opacity="0.95" text-anchor="middle">Balances & Weighing</text>
+
+  <!-- Orange divider under name -->
+  <line x1="340" y1="484" x2="460" y2="484" stroke="#FF6A1A" stroke-width="2" opacity="0.70"/>
+
+  <!-- Bottom tag -->
+  <text x="400" y="554" font-family="monospace, 'Courier New'" font-size="11" letter-spacing="2" fill="#FFFFFF" opacity="0.50" text-anchor="middle">Product photography in progress</text>
+</svg>
