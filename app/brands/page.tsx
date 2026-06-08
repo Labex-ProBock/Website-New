@@ -71,28 +71,42 @@ export default function BrandsPage() {
               <RevealOnScroll key={brand.slug} delay={i * 0.07}>
                 <Link
                   href={`/brands/${brand.slug}`}
-                  className="group aspect-square flex flex-col items-center justify-center p-6 rounded-2xl border cursor-pointer transition-all duration-300"
+                  className="group aspect-square flex flex-col items-center justify-center gap-4 p-6 rounded-2xl border cursor-pointer transition-all duration-300 hover:-translate-y-1 hover:border-[rgba(255,106,26,0.5)]"
                   style={{
                     backgroundColor: "var(--color-surface)",
                     borderColor: "var(--color-border)",
                   }}
                 >
-                  <div className="relative w-24 h-10">
-                    <Image
-                      src={brand.logo}
-                      alt={brand.name}
-                      fill
-                      sizes="96px"
-                      className="object-contain"
-                      style={{ filter: "brightness(0) invert(1)", opacity: 0.5 }}
-                    />
-                  </div>
-                  <p
-                    className="text-xs mt-2 text-center leading-tight"
-                    style={{ color: "var(--color-muted)" }}
+                  {/* Logo on white tile so the brand mark reads on the dark card */}
+                  <div
+                    className="flex items-center justify-center w-full"
+                    style={{
+                      backgroundColor: "#fff",
+                      borderRadius: "10px",
+                      padding: "0.85rem 1rem",
+                      height: "64px",
+                      maxWidth: "150px",
+                    }}
                   >
-                    {brand.tagline}
-                  </p>
+                    <div className="relative w-full h-full">
+                      <Image
+                        src={brand.logo}
+                        alt={`${brand.name} logo`}
+                        fill
+                        sizes="150px"
+                        className="object-contain"
+                      />
+                    </div>
+                  </div>
+                  <div style={{ textAlign: "center" }}>
+                    <p className="font-semibold text-white text-sm">{brand.name}</p>
+                    <p
+                      className="text-xs mt-1 leading-tight"
+                      style={{ color: "var(--color-muted)" }}
+                    >
+                      {brand.tagline}
+                    </p>
+                  </div>
                 </Link>
               </RevealOnScroll>
             ))}
@@ -122,17 +136,16 @@ export default function BrandsPage() {
                         }}
                       >
                         <div
-                          className="w-12 h-12 rounded-xl flex items-center justify-center shrink-0 relative"
-                          style={{ backgroundColor: "var(--color-surface-2)" }}
+                          className="w-14 h-14 rounded-xl flex items-center justify-center shrink-0 relative"
+                          style={{ backgroundColor: "#fff", padding: "0.4rem" }}
                         >
-                          <div className="relative w-8 h-8">
+                          <div className="relative w-full h-full">
                             <Image
                               src={brand.logo}
-                              alt={brand.name}
+                              alt={`${brand.name} logo`}
                               fill
-                              sizes="32px"
+                              sizes="56px"
                               className="object-contain"
-                              style={{ filter: "brightness(0) invert(1)", opacity: 0.6 }}
                             />
                           </div>
                         </div>

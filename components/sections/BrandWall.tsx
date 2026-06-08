@@ -37,28 +37,28 @@ export default function BrandWall() {
             <Link
               key={`${brand.slug}-${i}`}
               href={`/brands/${brand.slug}`}
-              className="inline-flex items-center justify-center shrink-0 group cursor-pointer"
-              style={{ width: "160px", height: "64px" }}
+              className="inline-flex items-center justify-center shrink-0 group cursor-pointer transition-all duration-300"
+              style={{
+                width: "168px",
+                height: "72px",
+                backgroundColor: "#fff",
+                borderRadius: "12px",
+                padding: "0.9rem 1.25rem",
+                opacity: 0.85,
+              }}
+              onMouseEnter={(e) => {
+                (e.currentTarget as HTMLAnchorElement).style.opacity = "1";
+              }}
+              onMouseLeave={(e) => {
+                (e.currentTarget as HTMLAnchorElement).style.opacity = "0.85";
+              }}
             >
-              <div
-                className="relative w-full h-full transition-all duration-300"
-                style={{ opacity: 0.55, filter: "invert(1)" }}
-                onMouseEnter={(e) => {
-                  const el = e.currentTarget as HTMLDivElement;
-                  el.style.opacity = "1";
-                  el.style.filter = "invert(1)";
-                }}
-                onMouseLeave={(e) => {
-                  const el = e.currentTarget as HTMLDivElement;
-                  el.style.opacity = "0.55";
-                  el.style.filter = "invert(1)";
-                }}
-              >
+              <div className="relative w-full h-full">
                 <Image
                   src={brand.logo}
-                  alt={brand.name}
+                  alt={`${brand.name} logo`}
                   fill
-                  sizes="160px"
+                  sizes="168px"
                   className="object-contain"
                 />
               </div>

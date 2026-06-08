@@ -73,10 +73,15 @@
 }
 
 /* ── Global resets ───────────────────────────────────────────────── */
-*, *::before, *::after {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+/* Kept inside @layer base so Tailwind utility classes (p-*, m-*, py-*…)
+   still win in the cascade. An UNLAYERED reset here would beat every
+   layered utility and silently zero out all padding/margin utilities. */
+@layer base {
+  *, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
 }
 
 html {

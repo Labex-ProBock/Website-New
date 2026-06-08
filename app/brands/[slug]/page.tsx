@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import Image from "next/image";
 import { notFound } from "next/navigation";
 import SiteFooter from "@/components/sections/SiteFooter";
 import RevealOnScroll from "@/components/motion/RevealOnScroll";
@@ -38,7 +39,28 @@ export default async function BrandPage({ params }: PageProps) {
         style={{ backgroundColor: "var(--color-black-warm)" }}
         className="py-32 text-center px-6"
       >
-        <div className="max-w-3xl mx-auto">
+        <div className="max-w-3xl mx-auto flex flex-col items-center">
+          {/* Logo on a white tile so the brand mark reads on the dark hero */}
+          <div
+            className="flex items-center justify-center mb-8"
+            style={{
+              backgroundColor: "#fff",
+              borderRadius: "16px",
+              padding: "1.25rem 1.75rem",
+              width: "200px",
+              height: "96px",
+            }}
+          >
+            <div className="relative w-full h-full">
+              <Image
+                src={brand.logo}
+                alt={`${brand.name} logo`}
+                fill
+                sizes="200px"
+                className="object-contain"
+              />
+            </div>
+          </div>
           <p
             className="text-xs uppercase tracking-widest mb-4"
             style={{ color: "var(--color-orange)" }}
