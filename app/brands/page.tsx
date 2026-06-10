@@ -65,13 +65,19 @@ export default function BrandsPage() {
             </h2>
           </RevealOnScroll>
 
-          {/* Featured grid */}
-          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4">
+          {/* Featured grid — flex-wrap + justify-center so a partial last
+              row (e.g. the lone MRC Lab card) centres instead of hanging left.
+              Responsive basis reproduces the old 2 / 3 / 5 column widths. */}
+          <div className="flex flex-wrap justify-center gap-4">
             {featuredBrands.map((brand, i) => (
-              <RevealOnScroll key={brand.slug} delay={i * 0.07}>
+              <RevealOnScroll
+                key={brand.slug}
+                delay={i * 0.07}
+                className="basis-[calc((100%-1rem)/2)] md:basis-[calc((100%-2rem)/3)] lg:basis-[calc((100%-4rem)/5)]"
+              >
                 <Link
                   href={`/brands/${brand.slug}`}
-                  className="brand-tile group aspect-square flex flex-col items-center justify-center gap-5 cursor-pointer"
+                  className="brand-tile group aspect-square w-full flex flex-col items-center justify-center gap-5 cursor-pointer"
                   style={{ padding: "1.5rem" }}
                 >
                   {/* Full-colour logo on the dark matte tile */}
