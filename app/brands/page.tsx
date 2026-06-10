@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import Image from "next/image";
 import RevealOnScroll from "@/components/motion/RevealOnScroll";
 import SiteFooter from "@/components/sections/SiteFooter";
+import BrandLogo from "@/components/ui/BrandLogo";
 import { brands, featuredBrands } from "@/content/brands";
 
 export const metadata: Metadata = {
@@ -71,33 +71,17 @@ export default function BrandsPage() {
               <RevealOnScroll key={brand.slug} delay={i * 0.07}>
                 <Link
                   href={`/brands/${brand.slug}`}
-                  className="group aspect-square flex flex-col items-center justify-center gap-4 p-6 rounded-2xl border cursor-pointer transition-all duration-300 hover:-translate-y-1 hover:border-[rgba(255,106,26,0.5)]"
-                  style={{
-                    backgroundColor: "var(--color-surface)",
-                    borderColor: "var(--color-border)",
-                  }}
+                  className="brand-tile group aspect-square flex flex-col items-center justify-center gap-5 cursor-pointer"
+                  style={{ padding: "1.5rem" }}
                 >
-                  {/* Logo on white tile so the brand mark reads on the dark card */}
-                  <div
-                    className="flex items-center justify-center w-full"
-                    style={{
-                      backgroundColor: "#fff",
-                      borderRadius: "10px",
-                      padding: "0.85rem 1rem",
-                      height: "64px",
-                      maxWidth: "150px",
-                    }}
-                  >
-                    <div className="relative w-full h-full">
-                      <Image
-                        src={brand.logo}
-                        alt={`${brand.name} logo`}
-                        fill
-                        sizes="150px"
-                        className="object-contain"
-                      />
-                    </div>
-                  </div>
+                  {/* Full-colour logo on the dark matte tile */}
+                  <BrandLogo
+                    logo={brand.logo}
+                    name={brand.name}
+                    boxW="84%"
+                    boxH="72px"
+                    sizes="220px"
+                  />
                   <div style={{ textAlign: "center" }}>
                     <p className="font-semibold text-white text-sm">{brand.name}</p>
                     <p
@@ -129,25 +113,20 @@ export default function BrandsPage() {
                     <li>
                       <Link
                         href={`/brands/${brand.slug}`}
-                        className="flex items-center gap-4 p-5 rounded-2xl border transition-all duration-200 group"
-                        style={{
-                          backgroundColor: "var(--color-surface)",
-                          borderColor: "var(--color-border)",
-                        }}
+                        className="brand-tile flex items-center gap-4 group"
+                        style={{ padding: "1rem 1.25rem" }}
                       >
                         <div
-                          className="w-14 h-14 rounded-xl flex items-center justify-center shrink-0 relative"
-                          style={{ backgroundColor: "#fff", padding: "0.4rem" }}
+                          className="shrink-0 flex items-center justify-center"
+                          style={{ width: "72px", height: "44px" }}
                         >
-                          <div className="relative w-full h-full">
-                            <Image
-                              src={brand.logo}
-                              alt={`${brand.name} logo`}
-                              fill
-                              sizes="56px"
-                              className="object-contain"
-                            />
-                          </div>
+                          <BrandLogo
+                            logo={brand.logo}
+                            name={brand.name}
+                            boxW="100%"
+                            boxH="100%"
+                            sizes="72px"
+                          />
                         </div>
                         <div className="flex-1 min-w-0">
                           <p className="font-semibold text-white text-sm">

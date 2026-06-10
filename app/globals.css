@@ -171,6 +171,44 @@ body {
   background: radial-gradient(ellipse at center, rgba(255, 106, 26, 0.15) 0%, transparent 70%);
 }
 
+/* ── Brand wall: dark matte logo tiles ───────────────────────────── */
+.brand-tile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 14px;
+  transition: transform 0.3s var(--ease-out-quart), background 0.3s ease,
+    border-color 0.3s ease, box-shadow 0.3s ease;
+}
+.brand-tile:hover {
+  transform: translateY(-4px);
+  background: rgba(255, 255, 255, 0.07);
+  border-color: rgba(255, 255, 255, 0.16);
+  box-shadow: 0 14px 32px -10px rgba(0, 0, 0, 0.65);
+}
+
+/* logo holder inside a tile */
+.brand-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* dark-ink logos: smallest, softest off-white pad so they stay legible */
+.brand-logo--chip {
+  background: rgba(233, 233, 228, 0.82);
+  border-radius: 7px;
+  padding: 5px 9px;
+}
+/* faint logos: barely-there backing + slight brightness/contrast lift */
+.brand-logo--lift {
+  background: rgba(255, 255, 255, 0.06);
+  border-radius: 7px;
+  padding: 4px 8px;
+  filter: brightness(1.12) contrast(1.06);
+}
+
 /* Horizontal scroll container (for scroll-driven sections) */
 .horizontal-scroll-track {
   display: flex;
