@@ -59,7 +59,7 @@ export default function BrandsPage() {
           <RevealOnScroll>
             <h2
               className="font-display font-bold text-white mb-12"
-              style={{ fontSize: "var(--text-h2)" }}
+              style={{ fontSize: "var(--text-h2)", textAlign: "center" }}
             >
               Featured brands
             </h2>
@@ -108,18 +108,25 @@ export default function BrandsPage() {
               <RevealOnScroll>
                 <h2
                   className="font-display font-bold text-white mb-8"
-                  style={{ fontSize: "var(--text-h2)" }}
+                  style={{ fontSize: "var(--text-h2)", textAlign: "center" }}
                 >
                   Also distributed
                 </h2>
               </RevealOnScroll>
-              <ul className="grid grid-cols-1 sm:grid-cols-2 gap-4 max-w-4xl">
+              {/* flex-wrap + justify-center centres a partial last row;
+                  mx-auto centres the list so the title sits above its middle.
+                  Each card keeps its logo-left + text-right layout. */}
+              <ul className="flex flex-wrap justify-center gap-4 max-w-4xl mx-auto">
                 {nonFeaturedBrands.map((brand, i) => (
-                  <RevealOnScroll key={brand.slug} delay={i * 0.08}>
+                  <RevealOnScroll
+                    key={brand.slug}
+                    delay={i * 0.08}
+                    className="basis-full sm:basis-[calc((100%-1rem)/2)]"
+                  >
                     <li>
                       <Link
                         href={`/brands/${brand.slug}`}
-                        className="brand-tile flex items-center gap-4 group"
+                        className="brand-tile flex items-center gap-4 group w-full"
                         style={{ padding: "1rem 1.25rem" }}
                       >
                         <div
