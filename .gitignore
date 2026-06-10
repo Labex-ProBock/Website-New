@@ -62,9 +62,22 @@ next-env.d.ts
 # labex content files (not source code)
 *.pdf
 *.xlsx
-ItemExport.csv
-labex-real-catalogue.csv
 temp_check.html
+
+# business-sensitive — raw data exports, never commit
+*.csv
+ItemExport.*
+labex-real-catalogue.csv
+
+# business-sensitive — internal client / sourcing / strategy docs
+labex-overview.md
+confirmed-product-sources.json
+CATALOGUE_NOTES.md
+COMPETITIVE_NOTES.md
+
+# internal build prompts (kept local, never public)
+labex-*-prompt.md
+LABEX-PROMPT-REFERENCE.md
 
 # CRM (separate project)
 Labex_CRM

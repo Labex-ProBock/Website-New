@@ -35,9 +35,9 @@ function serializeProduct(p: CatalogueProduct): string {
     tier: "${p.tier}",
     priceExcl: ${num(p.priceExcl)},
     priceIncl: ${num(p.priceIncl)},
-    avgCost: ${num(p.avgCost)},
-    lastCost: ${num(p.lastCost)},
-    qtyOnHand: ${p.qtyOnHand},
+    avgCost: null,
+    lastCost: null,
+    qtyOnHand: ${p.qtyOnHand > 0 ? 1 : 0},
     active: ${p.active},
     imageStatus: "${p.imageStatus}",
     reviewStatus: "${p.reviewStatus}",
@@ -127,10 +127,14 @@ function main() {
     if (!row.priceIncl) stats.noPrice++;
   }
 
-  // Write products.generated.ts (full data — server-side use only, contains cost fields)
+  // Write products.generated.ts (sanitised — public fields only).
+  // avgCost/lastCost are forced to null and qtyOnHand collapsed to 0/1 at
+  // serialisation time so no supplier cost or exact stock level can ever be
+  // committed or shipped, even though the source CSV still holds them.
   const tsContent = `// AUTO-GENERATED — do not edit manually. Run: npm run build:catalogue
 // Generated: ${new Date().toISOString()}
-// ⚠ Contains avgCost/lastCost — do NOT import in client components.
+// Sanitised: avgCost/lastCost are null and qtyOnHand is a 0/1 in-stock flag.
+// No supplier cost, margin, or exact stock quantity is present in this file.
 import type { CatalogueProduct } from '@/lib/catalogue-types';
 
 export const products: CatalogueProduct[] = [
