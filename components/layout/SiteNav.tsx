@@ -2,16 +2,16 @@
 
 import Link from "next/link";
 import { useEffect } from "react";
-import { Menu, X, Phone, ShoppingBag, ArrowRight } from "lucide-react";
+import { Menu, X, Phone, ArrowRight } from "lucide-react";
 import { useLabexStore } from "@/lib/store";
-import { useQuoteCart } from "@/lib/quote-cart-store";
+import { useAssistant } from "@/lib/assistant-store";
 import { cn } from "@/lib/utils";
 import ProductsMegaMenu from "@/components/layout/ProductsMegaMenu";
 import MagneticButton from "@/components/motion/MagneticButton";
 
 export default function SiteNav() {
   const { menuOpen, toggleMenu, setMenuOpen } = useLabexStore();
-  const { items: cartItems, openDrawer } = useQuoteCart();
+  const openAssistant = useAssistant((s) => s.open);
 
   useEffect(() => {
     setMenuOpen(false);
@@ -67,39 +67,6 @@ export default function SiteNav() {
             {/* Desktop right side */}
             <div className="hidden md:flex items-center gap-2">
 
-              {/* Quote cart — icon only */}
-              <button
-                onClick={() => openDrawer()}
-                aria-label={cartItems.length > 0 ? `Quote cart: ${cartItems.length} item${cartItems.length !== 1 ? "s" : ""}` : "Quote cart"}
-                className="relative flex items-center justify-center cursor-pointer flex-shrink-0 transition-all"
-                style={{
-                  width: "36px",
-                  height: "36px",
-                  backgroundColor: "var(--color-surface-2)",
-                  border: "1px solid var(--color-border)",
-                  borderRadius: "10px",
-                  color: "var(--color-muted)",
-                }}
-                onMouseEnter={(e) => {
-                  (e.currentTarget as HTMLButtonElement).style.borderColor = "rgba(255,255,255,0.12)";
-                  (e.currentTarget as HTMLButtonElement).style.color = "white";
-                }}
-                onMouseLeave={(e) => {
-                  (e.currentTarget as HTMLButtonElement).style.borderColor = "var(--color-border)";
-                  (e.currentTarget as HTMLButtonElement).style.color = "var(--color-muted)";
-                }}
-              >
-                <ShoppingBag className="w-4 h-4" />
-                {cartItems.length > 0 && (
-                  <span
-                    className="absolute -top-1.5 -right-1.5 w-4 h-4 rounded-full flex items-center justify-center font-bold text-white"
-                    style={{ backgroundColor: "var(--color-orange)", fontSize: "10px" }}
-                  >
-                    {cartItems.length > 9 ? "9+" : cartItems.length}
-                  </span>
-                )}
-              </button>
-
               {/* Phone — icon only */}
               <a
                 href="tel:0117281338"
@@ -126,10 +93,11 @@ export default function SiteNav() {
                 <Phone className="w-4 h-4" />
               </a>
 
-              {/* Primary CTA */}
+              {/* Primary CTA → opens the persistent assistant panel */}
               <MagneticButton>
                 <button
-                  onClick={() => openDrawer({ trigger: "category-browse" })}
+                  type="button"
+                  onClick={() => openAssistant()}
                   className="flex items-center gap-1.5 font-semibold text-sm text-white cursor-pointer flex-shrink-0"
                   style={{
                     height: "36px",
@@ -208,7 +176,11 @@ export default function SiteNav() {
           style={{ borderTop: "1px solid var(--color-border)" }}
         >
           <button
-            onClick={() => { setMenuOpen(false); openDrawer({ trigger: "category-browse" }); }}
+            type="button"
+            onClick={() => {
+              setMenuOpen(false);
+              openAssistant();
+            }}
             className="flex items-center justify-center gap-2 rounded-xl font-semibold text-white cursor-pointer"
             style={{
               backgroundColor: "var(--color-orange)",
@@ -216,7 +188,7 @@ export default function SiteNav() {
               border: "none",
             }}
           >
-            <ShoppingBag className="w-5 h-5" />
+            <ArrowRight className="w-5 h-5" />
             Get a quote
           </button>
           <a

@@ -3,7 +3,7 @@ import { GeistSans } from "geist/font/sans";
 import "./globals.css";
 import SmoothScrollProvider from "@/components/layout/SmoothScrollProvider";
 import SiteNav from "@/components/layout/SiteNav";
-import QuoteCartLayer from "@/components/layout/QuoteCartLayer";
+import AssistantPanel from "@/components/layout/AssistantPanel";
 
 export const metadata: Metadata = {
   title: {
@@ -64,8 +64,10 @@ export default function RootLayout({
         <SmoothScrollProvider>
           <SiteNav />
           <main id="main-content">{children}</main>
-          <QuoteCartLayer />
         </SmoothScrollProvider>
+
+        {/* Single, persistent assistant — mounted once, never unmounted. */}
+        <AssistantPanel />
       </body>
     </html>
   );

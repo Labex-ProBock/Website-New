@@ -2,9 +2,10 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
 import { notFound, redirect } from "next/navigation";
-import { ArrowLeft, ArrowRight, Phone } from "lucide-react";
+import { ArrowLeft, ArrowRight, Phone, MessageSquare } from "lucide-react";
 import SiteFooter from "@/components/sections/SiteFooter";
 import ProductGroupDetail from "@/components/ui/ProductGroupDetail";
+import AssistantTriggerButton from "@/components/ui/AssistantTriggerButton";
 import { products as allProducts } from "@/data/products.generated";
 import { categoryBySlug } from "@/data/categories";
 import { resolveProductImage } from "@/lib/product-image";
@@ -321,25 +322,27 @@ export default async function ProductDetailPage({ params, searchParams }: PagePr
                 Need help choosing?
               </p>
               <p style={{ color: "var(--color-muted)", fontSize: "0.875rem", lineHeight: 1.75, marginBottom: "1.25rem", maxWidth: "40rem" }}>
-                Our specialist team is available to advise on the right product for your application.
-                Call us directly or send an enquiry.
+                Our assistant can advise on the right product for your application and start a quote —
+                or call us directly.
               </p>
               <div className="flex flex-wrap gap-3">
+                <AssistantTriggerButton
+                  seed={`I need help choosing the right ${categoryMeta?.name ?? category} — I'm looking at the ${group.brand ? `${group.brand} ` : ""}${group.baseName}.`}
+                  label={group.brand && !group.baseName.toLowerCase().includes(group.brand.toLowerCase()) ? `${group.brand} ${group.baseName}` : group.baseName}
+                  className="inline-flex items-center gap-2 rounded-xl text-sm font-semibold cursor-pointer"
+                  style={{ backgroundColor: "var(--color-orange)", color: "white", padding: "0.625rem 1.25rem", border: "none" }}
+                >
+                  <MessageSquare className="w-4 h-4" />
+                  Talk to our assistant
+                </AssistantTriggerButton>
                 <a
                   href="tel:0117281338"
-                  className="inline-flex items-center gap-2 rounded-xl text-sm font-semibold"
-                  style={{ backgroundColor: "var(--color-orange)", color: "white", padding: "0.625rem 1.25rem" }}
+                  className="inline-flex items-center gap-2 rounded-xl text-sm font-semibold border transition-colors hover:border-white/40 hover:text-white"
+                  style={{ borderColor: "var(--color-border)", color: "var(--color-muted)", padding: "0.625rem 1.25rem" }}
                 >
                   <Phone className="w-4 h-4" />
                   (011) 728 1338
                 </a>
-                <Link
-                  href="/contact"
-                  className="inline-flex items-center gap-2 rounded-xl text-sm font-semibold border transition-colors hover:border-white/40 hover:text-white"
-                  style={{ borderColor: "var(--color-border)", color: "var(--color-muted)", padding: "0.625rem 1.25rem" }}
-                >
-                  Send an enquiry
-                </Link>
               </div>
             </div>
           </div>

@@ -12,6 +12,7 @@ import { searchDocs } from "@/data/products.search.generated";
 import type { SearchResult } from "@/lib/search-index";
 import { resolveProductImage } from "@/lib/product-image";
 import { computeGroupId } from "@/lib/variant-grouper";
+import { useAssistant } from "@/lib/assistant-store";
 
 // ─── Static pre-computed data ─────────────────────────────────────────────────
 
@@ -82,6 +83,7 @@ function MegaPanel({
   const inputRef = useRef<HTMLInputElement>(null);
   const featured = FEATURED[activeCategory] ?? [];
   const activeCatMeta = categories.find((c) => c.slug === activeCategory);
+  const openAssistant = useAssistant((s) => s.open);
 
   // Focus input on open
   useEffect(() => {
@@ -236,8 +238,18 @@ function MegaPanel({
                 </p>
               </Link>
             )) : (
-              <div style={{ padding: "2.5rem 1.5rem", textAlign: "center", color: "rgba(255,255,255,0.3)", fontSize: "0.875rem" }}>
-                No results for &ldquo;{query}&rdquo;
+              <div style={{ padding: "2.5rem 1.5rem", textAlign: "center", fontSize: "0.875rem" }}>
+                <p style={{ color: "rgba(255,255,255,0.3)", marginBottom: "0.75rem" }}>
+                  No results for &ldquo;{query}&rdquo;
+                </p>
+                <button
+                  type="button"
+                  onClick={() => { onClose(); openAssistant({ seed: query, label: query }); }}
+                  className="cursor-pointer"
+                  style={{ color: "var(--color-orange)", fontWeight: 600, background: "none", border: "none", padding: 0 }}
+                >
+                  Ask the assistant &rarr;
+                </button>
               </div>
             )}
           </div>

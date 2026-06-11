@@ -3,6 +3,8 @@
 import { useState, useMemo } from "react";
 import { X } from "lucide-react";
 import CatalogueProductCard from "@/components/ui/CatalogueProductCard";
+import { categoryBySlug } from "@/data/categories";
+import { useAssistant } from "@/lib/assistant-store";
 import type { ProductGroup } from "@/lib/variant-grouper";
 
 interface CategoryGridProps {
@@ -66,6 +68,7 @@ const TIER_CHIPS = [
 ] as const;
 
 export default function CategoryGrid({ groups }: CategoryGridProps) {
+  const openAssistant = useAssistant((s) => s.open);
   const [activeSubcat, setActiveSubcat] = useState<string | null>(null);
   const [activeTier, setActiveTier] = useState<string | null>(null);
   const [withPriceOnly, setWithPriceOnly] = useState(false);
@@ -94,6 +97,15 @@ export default function CategoryGrid({ groups }: CategoryGridProps) {
   }, [groups, activeSubcat, activeTier, withPriceOnly, withInStockOnly]);
 
   const hasFilters = activeSubcat !== null || activeTier !== null || withPriceOnly || withInStockOnly;
+
+  // No free-text search on category pages — seed the assistant with what the user
+  // was browsing: the active subcategory filter (if any) plus the category name.
+  const categoryName = groups[0]
+    ? categoryBySlug[groups[0].category]?.name ?? groups[0].category
+    : "";
+  const askTopic = [activeSubcat, categoryName].filter(Boolean).join(" ").trim();
+  const openAsk = () =>
+    openAssistant(askTopic ? { seed: `I'm looking for ${askTopic}`, label: askTopic } : {});
 
   function clearAll() {
     setActiveSubcat(null);
@@ -187,14 +199,24 @@ export default function CategoryGrid({ groups }: CategoryGridProps) {
           <p className="text-sm" style={{ color: "var(--color-muted)" }}>
             No products match the selected filters.
           </p>
-          <button
-            type="button"
-            onClick={clearAll}
-            className="mt-4 text-sm underline transition-opacity hover:opacity-70 cursor-pointer"
-            style={{ color: "var(--color-orange)" }}
-          >
-            Clear all filters
-          </button>
+          <div className="mt-4 flex items-center justify-center gap-4">
+            <button
+              type="button"
+              onClick={clearAll}
+              className="text-sm underline transition-opacity hover:opacity-70 cursor-pointer"
+              style={{ color: "var(--color-orange)" }}
+            >
+              Clear all filters
+            </button>
+            <button
+              type="button"
+              onClick={openAsk}
+              className="text-sm underline transition-opacity hover:opacity-70 cursor-pointer"
+              style={{ color: "var(--color-orange)", background: "none", border: "none", padding: 0 }}
+            >
+              Ask the assistant
+            </button>
+          </div>
         </div>
       ) : (
         <div

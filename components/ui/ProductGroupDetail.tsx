@@ -1,11 +1,11 @@
 "use client";
 
 import { useState } from "react";
-import { Phone, Check } from "lucide-react";
+import { Phone, Check, MessageSquare } from "lucide-react";
 import Link from "next/link";
-import AddToQuoteButton from "@/components/ui/AddToQuoteButton";
 import type { ProductGroup, ProductVariant } from "@/lib/variant-grouper";
 import { detectVariantAxis } from "@/lib/variant-grouper";
+import { useAssistant } from "@/lib/assistant-store";
 
 interface ProductGroupDetailProps {
   group: ProductGroup;
@@ -30,17 +30,17 @@ export default function ProductGroupDetail({ group, initialSku }: ProductGroupDe
 
   const [selected, setSelected] = useState<ProductVariant>(initial);
   const isMulti = group.variants.length > 1;
+  const openAssistant = useAssistant((s) => s.open);
 
-  const cartProduct = {
-    code: selected.code,
-    slug: selected.slug,
-    name: group.baseName,
-    brand: group.brand,
-    category: group.category,
-    priceIncl: selected.priceIncl,
-    tier: group.tier,
-    sizeLabel: isMulti ? selected.sizeLabel : undefined,
-  };
+  // Seed for the embedded assistant — tracks the selected variant's SKU. Missing
+  // fields drop out gracefully. Only prepend the brand when the name doesn't
+  // already contain it (avoids doubled brand, e.g. "Eppendorf … Eppendorf").
+  const productLabel =
+    group.brand && !group.baseName.toLowerCase().includes(group.brand.toLowerCase())
+      ? `${group.brand} ${group.baseName}`
+      : group.baseName;
+  const quoteSeed = `I'd like a quote for ${productLabel}${selected.code ? ` (SKU ${selected.code})` : ""}`;
+  const openQuote = () => openAssistant({ seed: quoteSeed, label: productLabel });
 
   return (
     <>
@@ -111,8 +111,18 @@ export default function ProductGroupDetail({ group, initialSku }: ProductGroupDe
 
         {/* CTAs */}
         <div style={{ display: "flex", flexDirection: "column", gap: "0.625rem" }}>
-          {/* Primary */}
-          <AddToQuoteButton product={cartProduct} />
+          {/* Primary → opens the persistent assistant panel */}
+          <button
+            type="button"
+            onClick={openQuote}
+            className="flex items-center justify-center gap-2 w-full py-3 rounded-xl text-sm font-semibold transition-colors cursor-pointer"
+            style={{ backgroundColor: "var(--color-orange)", color: "white", border: "none" }}
+            onMouseEnter={(e) => { e.currentTarget.style.backgroundColor = "var(--color-orange-deep)"; }}
+            onMouseLeave={(e) => { e.currentTarget.style.backgroundColor = "var(--color-orange)"; }}
+          >
+            <MessageSquare className="w-4 h-4" />
+            Get a quote
+          </button>
 
           {/* 2-col secondary */}
           <div className="grid grid-cols-2 gap-2">
@@ -159,7 +169,7 @@ export default function ProductGroupDetail({ group, initialSku }: ProductGroupDe
                 el.style.color = "var(--color-muted)";
               }}
             >
-              Get a quote
+              Contact us
             </Link>
           </div>
         </div>
@@ -189,7 +199,15 @@ export default function ProductGroupDetail({ group, initialSku }: ProductGroupDe
           padding: "0.875rem 1.25rem calc(0.875rem + env(safe-area-inset-bottom))",
         }}
       >
-        <AddToQuoteButton product={cartProduct} />
+        <button
+          type="button"
+          onClick={openQuote}
+          className="flex items-center justify-center gap-2 w-full py-3 rounded-xl text-sm font-semibold transition-colors cursor-pointer"
+          style={{ backgroundColor: "var(--color-orange)", color: "white", border: "none" }}
+        >
+          <MessageSquare className="w-4 h-4" />
+          Get a quote
+        </button>
       </div>
     </>
   );
