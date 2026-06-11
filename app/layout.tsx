@@ -37,6 +37,15 @@ export const metadata: Metadata = {
     index: true,
     follow: true,
   },
+  // Original Labex flask mark (cropped from the brand logo in Labex_CRM).
+  icons: {
+    icon: [
+      { url: "/icon.svg", type: "image/svg+xml" },
+      { url: "/favicon.ico", sizes: "any" },
+      { url: "/icon-32.png", type: "image/png", sizes: "32x32" },
+    ],
+    apple: [{ url: "/apple-icon.png", sizes: "180x180" }],
+  },
 };
 
 export const viewport: Viewport = {
@@ -52,7 +61,6 @@ export default function RootLayout({
   return (
     <html lang="en-ZA" className={GeistSans.variable} suppressHydrationWarning>
       <head>
-        <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
       </head>
