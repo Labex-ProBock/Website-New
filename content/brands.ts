@@ -19,15 +19,6 @@ export const brands: Brand[] = [
     featured: true,
   },
   {
-    slug: "ohaus",
-    name: "Ohaus",
-    tagline: "Balances and weighing solutions",
-    description: "Global leader in precision balances and weighing instruments for laboratory and industrial applications.",
-    categories: ["Balances", "Weighing"],
-    logo: "/brands/ohaus.png",
-    featured: true,
-  },
-  {
     slug: "adam-equipment",
     name: "Adam Equipment",
     tagline: "Weighing & moisture analysis",

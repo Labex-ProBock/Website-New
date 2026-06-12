@@ -12,11 +12,6 @@ interface ProductGroupDetailProps {
   initialSku?: string;
 }
 
-function formatPrice(priceIncl: number | null): string {
-  if (!priceIncl) return "Contact for pricing";
-  return `R ${priceIncl.toLocaleString("en-ZA")}`;
-}
-
 const TRUST = [
   "VAT-registered South African supplier",
   "Expert technical support available",
@@ -77,18 +72,9 @@ export default function ProductGroupDetail({ group, initialSku }: ProductGroupDe
 
         {/* Price block — border-y visual anchor */}
         <div style={{ borderTop: "1px solid var(--color-border)", borderBottom: "1px solid var(--color-border)", paddingTop: "1.5rem", paddingBottom: "1.5rem" }}>
-          <p style={{ fontSize: "0.7rem", color: "var(--color-muted)", marginBottom: "0.375rem" }}>
-            Price (incl. VAT)
+          <p className="font-medium" style={{ color: "var(--color-muted)", fontSize: "1.125rem" }}>
+            Price on request
           </p>
-          {selected.priceIncl ? (
-            <p className="font-black text-white" style={{ fontSize: "clamp(1.75rem, 3.5vw, 2.5rem)", lineHeight: 1.05 }}>
-              {formatPrice(selected.priceIncl)}
-            </p>
-          ) : (
-            <p className="font-medium" style={{ color: "var(--color-muted)", fontSize: "1.125rem" }}>
-              Contact for pricing
-            </p>
-          )}
 
           {/* Stock dot + SKU row */}
           <div className="flex items-center justify-between mt-3">

@@ -71,7 +71,6 @@ export default function CategoryGrid({ groups }: CategoryGridProps) {
   const openAssistant = useAssistant((s) => s.open);
   const [activeSubcat, setActiveSubcat] = useState<string | null>(null);
   const [activeTier, setActiveTier] = useState<string | null>(null);
-  const [withPriceOnly, setWithPriceOnly] = useState(false);
   const [withInStockOnly, setWithInStockOnly] = useState(false);
 
   const subcategories = useMemo(() => {
@@ -90,13 +89,12 @@ export default function CategoryGrid({ groups }: CategoryGridProps) {
     return groups.filter((g) => {
       if (activeSubcat && g.subcategory !== activeSubcat) return false;
       if (activeTier && g.tier !== activeTier) return false;
-      if (withPriceOnly && !g.priceMin) return false;
       if (withInStockOnly && !g.variants.some((v) => v.qtyOnHand > 0)) return false;
       return true;
     });
-  }, [groups, activeSubcat, activeTier, withPriceOnly, withInStockOnly]);
+  }, [groups, activeSubcat, activeTier, withInStockOnly]);
 
-  const hasFilters = activeSubcat !== null || activeTier !== null || withPriceOnly || withInStockOnly;
+  const hasFilters = activeSubcat !== null || activeTier !== null || withInStockOnly;
 
   // No free-text search on category pages — seed the assistant with what the user
   // was browsing: the active subcategory filter (if any) plus the category name.
@@ -110,7 +108,6 @@ export default function CategoryGrid({ groups }: CategoryGridProps) {
   function clearAll() {
     setActiveSubcat(null);
     setActiveTier(null);
-    setWithPriceOnly(false);
     setWithInStockOnly(false);
   }
 
@@ -149,11 +146,6 @@ export default function CategoryGrid({ groups }: CategoryGridProps) {
                 onClick={() => setActiveTier(activeTier === tier ? null : tier)}
               />
             ))}
-            <FilterChip
-              label="Priced items only"
-              isActive={withPriceOnly}
-              onClick={() => setWithPriceOnly(!withPriceOnly)}
-            />
             <FilterChip
               label="In stock"
               isActive={withInStockOnly}

@@ -10,17 +10,54 @@ import type { CatalogueProduct, ImageManifest, ImageManifestEntry } from '../lib
 
 const ROOT = process.cwd();
 const CSV_PATH = path.join(ROOT, 'labex-real-catalogue.csv');
+const REMOVAL_PATH = path.join(ROOT, 'labex-removal-list.csv');
 const OUTPUT_TS = path.join(ROOT, 'data', 'products.generated.ts');
 const OUTPUT_SEARCH = path.join(ROOT, 'data', 'products.search.generated.ts');
 const OUTPUT_MANIFEST = path.join(ROOT, 'data', 'image-manifest.json');
+
+// Brands Labex no longer stocks — every product carrying one of these in its
+// name/description is dropped, even if its Code isn't in the removal list (e.g.
+// "Washer (Miele)"). These whole brands also come off the site branding.
+const DROPPED_BRANDS_RE = /\b(ohaus|miele|salvis)\b/i;
 
 function codeToSlug(code: string): string {
   return code.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '');
 }
 
+// The image-manifest accumulates working review states (e.g. "needs-mandy-review")
+// that aren't part of the public ReviewStatus union. Coerce anything unknown to
+// 'pending' so the generated, type-checked output always stays valid. The raw
+// value is preserved in image-manifest.json for internal tooling.
+const VALID_REVIEW_STATUSES = new Set(['pending', 'approved', 'hide']);
+function coerceReviewStatus(value: string | undefined): 'pending' | 'approved' | 'hide' {
+  return value && VALID_REVIEW_STATUSES.has(value) ? (value as 'pending' | 'approved' | 'hide') : 'pending';
+}
+
+/**
+ * Load the discontinued-product Codes from labex-removal-list.csv (Code in the
+ * first column; the rest of the row is ignored). Keeps Part A durable: every
+ * rebuild re-reads this list and excludes the matching products. Returns an
+ * empty set (with a warning) if the file is absent so a fresh checkout can still
+ * build.
+ */
+function loadRemovalCodes(): Set<string> {
+  if (!fs.existsSync(REMOVAL_PATH)) {
+    process.stderr.write(`[build-catalogue] WARNING: ${path.basename(REMOVAL_PATH)} not found — no products will be excluded.\n`);
+    return new Set();
+  }
+  const set = new Set<string>();
+  const lines = fs.readFileSync(REMOVAL_PATH, 'utf8').split(/\r?\n/);
+  for (let i = 1; i < lines.length; i++) {        // skip header
+    const line = lines[i].trim();
+    if (!line) continue;
+    const code = line.split(',')[0].trim();        // Codes never contain commas
+    if (code) set.add(code);
+  }
+  return set;
+}
+
 function serializeProduct(p: CatalogueProduct): string {
   const str = (v: string | null) => v === null ? 'null' : `"${v.replace(/\\/g, '\\\\').replace(/"/g, '\\"')}"`;
-  const num = (v: number | null) => v === null ? 'null' : String(v);
   const terms = p.searchTerms.map(t => `"${t}"`).join(', ');
 
   return `  {
@@ -33,8 +70,8 @@ function serializeProduct(p: CatalogueProduct): string {
     category: ${str(p.category)},
     subcategory: ${str(p.subcategory)},
     tier: "${p.tier}",
-    priceExcl: ${num(p.priceExcl)},
-    priceIncl: ${num(p.priceIncl)},
+    priceExcl: null,
+    priceIncl: null,
     avgCost: null,
     lastCost: null,
     qtyOnHand: ${p.qtyOnHand > 0 ? 1 : 0},
@@ -57,6 +94,17 @@ function main() {
   const rows = parseCatalogueCSV(CSV_PATH);
   console.log(`  Parsed ${rows.length} rows`);
 
+  // Part A — load discontinued Codes and exclude them (durable across rebuilds).
+  const removalCodes = loadRemovalCodes();
+  console.log(`  Loaded ${removalCodes.size} removal-list codes`);
+  const excludeStats = { byCode: 0, byBrand: 0 };
+  const keptRows = rows.filter((row) => {
+    if (removalCodes.has(row.code)) { excludeStats.byCode++; return false; }
+    if (DROPPED_BRANDS_RE.test(normalizeDescription(row.description))) { excludeStats.byBrand++; return false; }
+    return true;
+  });
+  console.log(`  Excluded ${excludeStats.byCode} by removal Code + ${excludeStats.byBrand} by dropped brand → ${keptRows.length} products remain`);
+
   // Load existing manifest for merging (preserves manually-set imageStatus/reviewStatus)
   let existingManifestMap: Map<string, ImageManifestEntry> = new Map();
   if (fs.existsSync(OUTPUT_MANIFEST)) {
@@ -72,7 +120,7 @@ function main() {
 
   const stats = { tierA: 0, tierB: 0, tierC: 0, withBrand: 0, withSubcat: 0, noPrice: 0 };
 
-  for (const row of rows) {
+  for (const row of keptRows) {
     const name = normalizeDescription(row.description);
     const rawDescription = row.description;
     const slug = codeToSlug(row.code);
@@ -102,7 +150,7 @@ function main() {
       qtyOnHand: row.qtyOnHand,
       active: row.active,
       imageStatus: existing?.imageStatus ?? imageStatusDefault,
-      reviewStatus: existing?.reviewStatus ?? 'pending',
+      reviewStatus: coerceReviewStatus(existing?.reviewStatus),
       searchTerms,
     };
 
@@ -128,13 +176,14 @@ function main() {
   }
 
   // Write products.generated.ts (sanitised — public fields only).
-  // avgCost/lastCost are forced to null and qtyOnHand collapsed to 0/1 at
-  // serialisation time so no supplier cost or exact stock level can ever be
-  // committed or shipped, even though the source CSV still holds them.
+  // priceExcl/priceIncl/avgCost/lastCost are all forced to null and qtyOnHand
+  // collapsed to a 0/1 flag at serialisation time, so no price, supplier cost,
+  // or exact stock level can ever be committed or shipped, even though the
+  // source CSV still holds them. The site is quote-only.
   const tsContent = `// AUTO-GENERATED — do not edit manually. Run: npm run build:catalogue
 // Generated: ${new Date().toISOString()}
-// Sanitised: avgCost/lastCost are null and qtyOnHand is a 0/1 in-stock flag.
-// No supplier cost, margin, or exact stock quantity is present in this file.
+// Sanitised: all price/cost fields are null; qtyOnHand is a 0/1 in-stock flag.
+// Quote-only site — no price, supplier cost, margin, or stock quantity here.
 import type { CatalogueProduct } from '@/lib/catalogue-types';
 
 export const products: CatalogueProduct[] = [
@@ -147,7 +196,7 @@ ${products.map(serializeProduct).join(',\n')}
 
   // Write products.search.generated.ts (slim client-safe — search index only)
   const serializeSearchDoc = (p: CatalogueProduct) =>
-    `  { id:${JSON.stringify(p.code)}, code:${JSON.stringify(p.code)}, slug:${JSON.stringify(p.slug)}, name:${JSON.stringify(p.name)}, brand:${JSON.stringify(p.brand ?? '')}, category:${JSON.stringify(p.category)}, subcategory:${JSON.stringify(p.subcategory ?? '')}, tier:${JSON.stringify(p.tier)}, priceIncl:${p.priceIncl ?? null} }`;
+    `  { id:${JSON.stringify(p.code)}, code:${JSON.stringify(p.code)}, slug:${JSON.stringify(p.slug)}, name:${JSON.stringify(p.name)}, brand:${JSON.stringify(p.brand ?? '')}, category:${JSON.stringify(p.category)}, subcategory:${JSON.stringify(p.subcategory ?? '')}, tier:${JSON.stringify(p.tier)}, priceIncl:null }`;
 
   const searchContent = `// AUTO-GENERATED — do not edit manually. Run: npm run build:catalogue
 // Generated: ${new Date().toISOString()}

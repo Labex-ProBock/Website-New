@@ -50,14 +50,6 @@ function TierBadge({ tier }: { tier: ProductTier }) {
   return null;
 }
 
-function formatPrice(min: number | null, max: number | null, isMulti: boolean): string {
-  if (!min) return "Contact for pricing";
-  const fmt = (n: number) =>
-    `R ${n.toLocaleString("en-ZA", { minimumFractionDigits: 0, maximumFractionDigits: 0 })}`;
-  if (!isMulti || max === null || max === min) return `${fmt(min)} incl. VAT`;
-  return `From ${fmt(min)} incl. VAT`;
-}
-
 export default function CatalogueProductCard({ group }: { group: ProductGroup }) {
   const openAssistant = useAssistant((s) => s.open);
   const repVariant = group.variants.find((v) => v.code === group.representativeSku) ?? group.variants[0];
@@ -158,9 +150,9 @@ export default function CatalogueProductCard({ group }: { group: ProductGroup })
 
         <p
           className="font-semibold mb-4"
-          style={{ color: group.priceMin ? "white" : "var(--color-muted)", textAlign: "center", fontSize: "0.875rem" }}
+          style={{ color: "var(--color-muted)", textAlign: "center", fontSize: "0.875rem" }}
         >
-          {formatPrice(group.priceMin, group.priceMax, isMultiVariant)}
+          Price on request
         </p>
 
         {/* CTA */}

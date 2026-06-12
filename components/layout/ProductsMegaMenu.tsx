@@ -52,10 +52,8 @@ const FEATURED = Object.fromEntries(
 
 // ─── Helpers ──────────────────────────────────────────────────────────────────
 
-function fmt(p: number | null) {
-  if (!p) return "Quote on request";
-  return `R ${p.toLocaleString("en-ZA", { maximumFractionDigits: 0 })}`;
-}
+// Quote-only site — never render a price number.
+const PRICE_LABEL = "Price on request";
 
 function getHref(r: SearchResult) {
   return r.tier === "C" ? "/products/quote-required" : `/products/${r.category}/${r.groupId}`;
@@ -152,7 +150,7 @@ function MegaPanel({
               type="text"
               value={query}
               onChange={(e) => setQuery(e.target.value)}
-              placeholder="Search 1,213 products, brands, categories…"
+              placeholder="Search 1,191 products, brands, categories…"
               style={{
                 width: "100%",
                 backgroundColor: "rgba(0,0,0,0.5)",
@@ -234,7 +232,7 @@ function MegaPanel({
                   )}
                 </div>
                 <p style={{ fontFamily: "monospace", fontSize: "0.68rem", color: "rgba(255,255,255,0.3)", whiteSpace: "nowrap", marginLeft: "1rem" }}>
-                  {fmt(r.priceIncl)}
+                  {PRICE_LABEL}
                 </p>
               </Link>
             )) : (
@@ -440,7 +438,7 @@ function MegaPanel({
                             color: "rgba(255,255,255,0.32)",
                             marginTop: "0.2rem",
                           }}>
-                            {fmt(p.priceIncl)}
+                            {PRICE_LABEL}
                           </p>
                         </div>
 
@@ -608,7 +606,7 @@ function MegaPanel({
             textAlign: "center",
             flex: 1,
           }}>
-            1,213 products · 10+ premium brands · ships from Edenvale, Johannesburg
+            1,191 products · 10+ premium brands · ships from Edenvale, Johannesburg
           </p>
 
           <a

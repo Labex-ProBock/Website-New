@@ -36,18 +36,14 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const group = groups.find((g) => g.groupId === slug);
   if (!group) return {};
 
-  const rep = group.variants.find((v) => v.code === group.representativeSku) ?? group.variants[0];
   const categoryMeta = categoryBySlug[category];
   const title = group.brand
     ? `${group.baseName} — ${group.brand} | Labex`
     : `${group.baseName} | Labex`;
-  const priceStr = rep.priceIncl
-    ? ` Priced from R ${rep.priceIncl.toLocaleString("en-ZA")}.`
-    : "";
 
   return {
     title,
-    description: `${group.baseName} from Labex, South Africa's laboratory equipment specialists.${priceStr} ${categoryMeta?.description ?? ""}`,
+    description: `${group.baseName} from Labex, South Africa's laboratory equipment specialists. ${categoryMeta?.description ?? ""}`,
     openGraph: { title, type: "website" },
   };
 }
@@ -109,16 +105,7 @@ export default async function ProductDetailPage({ params, searchParams }: PagePr
     sku: rep.code,
     ...(group.brand && { brand: { "@type": "Brand", name: group.brand } }),
     ...(group.subcategory && { category: group.subcategory }),
-    offers: group.priceMin
-      ? {
-          "@type": "AggregateOffer",
-          priceCurrency: "ZAR",
-          lowPrice: String(group.priceMin),
-          ...(group.priceMax && { highPrice: String(group.priceMax) }),
-          offerCount: group.variants.length,
-          seller: { "@type": "Organization", name: "Labex Pty Ltd" },
-        }
-      : undefined,
+    // Quote-only site — no price/offers emitted into structured data.
   };
 
   return (
@@ -292,7 +279,7 @@ export default async function ProductDetailPage({ params, searchParams }: PagePr
                             {g.baseName}
                           </p>
                           <p style={{ fontSize: "0.68rem", color: "var(--color-muted)", marginTop: "0.2rem" }}>
-                            {g.priceMin ? `From R ${g.priceMin.toLocaleString("en-ZA")}` : "Contact for pricing"}
+                            Price on request
                           </p>
                         </div>
                       </Link>

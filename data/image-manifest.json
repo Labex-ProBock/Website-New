@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-24",
-  "total": 1213,
+  "generated": "2026-06-12",
+  "total": 1191,
   "products": [
     {
       "code": "0020011213",
@@ -1098,25 +1098,6 @@
       "reviewNote": "NEEDS REVIEW: representative refractometer image"
     },
     {
-      "code": "21230",
-      "slug": "21230",
-      "imageStatus": "auto-fetched",
-      "imageUrl": "https://www.austscientific.com.au/files/2021/04/8011es_.jpg",
-      "localPath": "/images/products/labex-equipment/lab-blender-hero.jpg",
-      "reviewStatus": "needs-mandy-review",
-      "lastChecked": "2026-05-24",
-      "queryUsed": "representative-type-image",
-      "imageSource": "representative-ddg",
-      "sourceUrl": "https://www.austscientific.com.au/files/2021/04/8011es_.jpg",
-      "imagePaths": {
-        "thumbnail": "/images/products/labex-equipment/lab-blender-thumbnail.jpg",
-        "card": "/images/products/labex-equipment/lab-blender-card.jpg",
-        "hero": "/images/products/labex-equipment/lab-blender-hero.jpg"
-      },
-      "brand": "Laboratory Equipment",
-      "reviewNote": "NEEDS REVIEW: representative lab blender/homogenizer image"
-    },
-    {
       "code": "2131",
       "slug": "2131",
       "imageStatus": "auto-fetched",
@@ -1174,38 +1155,6 @@
       "reviewNote": "NEEDS REVIEW: representative refractometer image"
     },
     {
-      "code": "217",
-      "slug": "217",
-      "imageStatus": "fallback",
-      "imageUrl": null,
-      "localPath": null,
-      "reviewStatus": "pending",
-      "lastChecked": "2026-05-24",
-      "queryUsed": "Pipete Washer Automatic 650 mm laboratory -stock -istockphoto -shutterstock -gettyimages -alamy -dreamstime",
-      "imageSource": null,
-      "sourceUrl": null
-    },
-    {
-      "code": "218",
-      "slug": "218",
-      "imageStatus": "auto-fetched",
-      "imageUrl": "https://omsonslabs.com/wp-content/uploads/01-1-scaled.jpg",
-      "localPath": "/images/products/labex-liquid-handling/pipette-hero.jpg",
-      "reviewStatus": "needs-mandy-review",
-      "lastChecked": "2026-05-24",
-      "queryUsed": "representative-type-image",
-      "imageSource": "representative-ddg",
-      "sourceUrl": "https://omsonslabs.com/wp-content/uploads/01-1-scaled.jpg",
-      "imagePaths": {
-        "thumbnail": "/images/products/labex-liquid-handling/pipette-thumbnail.jpg",
-        "card": "/images/products/labex-liquid-handling/pipette-card.jpg",
-        "hero": "/images/products/labex-liquid-handling/pipette-hero.jpg"
-      },
-      "brand": "Liquid Handling",
-      "displayName": "218",
-      "reviewNote": "NEEDS REVIEW: representative pipette image"
-    },
-    {
       "code": "2181",
       "slug": "2181",
       "imageStatus": "auto-fetched",
@@ -1223,26 +1172,6 @@
       },
       "brand": "Measurement",
       "reviewNote": "NEEDS REVIEW: representative refractometer image"
-    },
-    {
-      "code": "219",
-      "slug": "219",
-      "imageStatus": "auto-fetched",
-      "imageUrl": "https://omsonslabs.com/wp-content/uploads/01-1-scaled.jpg",
-      "localPath": "/images/products/labex-liquid-handling/pipette-hero.jpg",
-      "reviewStatus": "needs-mandy-review",
-      "lastChecked": "2026-05-24",
-      "queryUsed": "representative-type-image",
-      "imageSource": "representative-ddg",
-      "sourceUrl": "https://omsonslabs.com/wp-content/uploads/01-1-scaled.jpg",
-      "imagePaths": {
-        "thumbnail": "/images/products/labex-liquid-handling/pipette-thumbnail.jpg",
-        "card": "/images/products/labex-liquid-handling/pipette-card.jpg",
-        "hero": "/images/products/labex-liquid-handling/pipette-hero.jpg"
-      },
-      "brand": "Liquid Handling",
-      "displayName": "219",
-      "reviewNote": "NEEDS REVIEW: representative pipette image"
     },
     {
       "code": "2200",
@@ -1962,25 +1891,6 @@
     {
       "code": "47/432/0",
       "slug": "47-432-0",
-      "imageStatus": "auto-fetched",
-      "imageUrl": "https://5.imimg.com/data5/SELLER/Default/2023/6/319329532/RZ/BM/RX/34951366/comet-glass-thermometer-red-10-to-110-degrees-celsius-1000x1000.jpg",
-      "localPath": "/images/products/labex-measurement/thermometer-lab-hero.jpg",
-      "reviewStatus": "needs-mandy-review",
-      "lastChecked": "2026-05-24",
-      "queryUsed": "representative-type-image",
-      "imageSource": "representative-ddg",
-      "sourceUrl": "https://5.imimg.com/data5/SELLER/Default/2023/6/319329532/RZ/BM/RX/34951366/comet-glass-thermometer-red-10-to-110-degrees-celsius-1000x1000.jpg",
-      "imagePaths": {
-        "thumbnail": "/images/products/labex-measurement/thermometer-lab-thumbnail.jpg",
-        "card": "/images/products/labex-measurement/thermometer-lab-card.jpg",
-        "hero": "/images/products/labex-measurement/thermometer-lab-hero.jpg"
-      },
-      "brand": "Measurement",
-      "reviewNote": "NEEDS REVIEW: representative thermometer image"
-    },
-    {
-      "code": "50",
-      "slug": "50",
       "imageStatus": "auto-fetched",
       "imageUrl": "https://5.imimg.com/data5/SELLER/Default/2023/6/319329532/RZ/BM/RX/34951366/comet-glass-thermometer-red-10-to-110-degrees-celsius-1000x1000.jpg",
       "localPath": "/images/products/labex-measurement/thermometer-lab-hero.jpg",
@@ -10278,26 +10188,6 @@
       "reviewNote": "NEEDS REVIEW: representative calibration weights image"
     },
     {
-      "code": "SA-300HL",
-      "slug": "sa-300hl",
-      "imageStatus": "auto-fetched",
-      "imageUrl": "https://images-cdn.ubuy.co.in/64074f09aa5026535815edb5-20l-table-top-steam-sterilizer-autoclave.jpg",
-      "localPath": "/images/products/labex-equipment/autoclave-hero.jpg",
-      "reviewStatus": "needs-mandy-review",
-      "lastChecked": "2026-05-24",
-      "queryUsed": "representative-type-image",
-      "imageSource": "representative-ddg",
-      "sourceUrl": "https://images-cdn.ubuy.co.in/64074f09aa5026535815edb5-20l-table-top-steam-sterilizer-autoclave.jpg",
-      "imagePaths": {
-        "thumbnail": "/images/products/labex-equipment/autoclave-thumbnail.jpg",
-        "card": "/images/products/labex-equipment/autoclave-card.jpg",
-        "hero": "/images/products/labex-equipment/autoclave-hero.jpg"
-      },
-      "brand": "Laboratory Equipment",
-      "displayName": "SA-300HL",
-      "reviewNote": "NEEDS REVIEW: representative autoclave image - verify style matches Labex stock"
-    },
-    {
       "code": "SBS-30",
       "slug": "sbs-30",
       "imageStatus": "verified",
@@ -10924,25 +10814,6 @@
       }
     },
     {
-      "code": "SS20",
-      "slug": "ss20",
-      "imageStatus": "auto-fetched",
-      "imageUrl": "https://www.witeg.de/media/5e/4a/f4/1720528204/dh-d-pro.jpg?1720528204",
-      "localPath": "/images/products/labex-equipment/overhead-stirrer-hero.jpg",
-      "reviewStatus": "needs-mandy-review",
-      "lastChecked": "2026-05-24",
-      "queryUsed": "representative-type-image",
-      "imageSource": "representative-ddg",
-      "sourceUrl": "https://www.witeg.de/media/5e/4a/f4/1720528204/dh-d-pro.jpg?1720528204",
-      "imagePaths": {
-        "thumbnail": "/images/products/labex-equipment/overhead-stirrer-thumbnail.jpg",
-        "card": "/images/products/labex-equipment/overhead-stirrer-card.jpg",
-        "hero": "/images/products/labex-equipment/overhead-stirrer-hero.jpg"
-      },
-      "brand": "Laboratory Equipment",
-      "reviewNote": "NEEDS REVIEW: representative overhead stirrer image"
-    },
-    {
       "code": "SS470SP",
       "slug": "ss470sp",
       "imageStatus": "auto-fetched",
@@ -10960,25 +10831,6 @@
       },
       "brand": "Temperature Control",
       "reviewNote": "NEEDS REVIEW: representative laboratory freezer image"
-    },
-    {
-      "code": "SSL2",
-      "slug": "ssl2",
-      "imageStatus": "auto-fetched",
-      "imageUrl": "https://image.made-in-china.com/2f0j00GClfgmzrOWop/Laboratory-LED-Digital-Orbital-Shaker.jpg",
-      "localPath": "/images/products/labex-equipment/orbital-shaker-hero.jpg",
-      "reviewStatus": "needs-mandy-review",
-      "lastChecked": "2026-05-24",
-      "queryUsed": "representative-type-image",
-      "imageSource": "representative-ddg",
-      "sourceUrl": "https://image.made-in-china.com/2f0j00GClfgmzrOWop/Laboratory-LED-Digital-Orbital-Shaker.jpg",
-      "imagePaths": {
-        "thumbnail": "/images/products/labex-equipment/orbital-shaker-thumbnail.jpg",
-        "card": "/images/products/labex-equipment/orbital-shaker-card.jpg",
-        "hero": "/images/products/labex-equipment/orbital-shaker-hero.jpg"
-      },
-      "brand": "Laboratory Equipment",
-      "reviewNote": "NEEDS REVIEW: representative orbital shaker image"
     },
     {
       "code": "ST52/13",
@@ -11862,25 +11714,6 @@
       "reviewNote": "NEEDS REVIEW: representative water bath image - verify style matches Labex stock"
     },
     {
-      "code": "WBM501",
-      "slug": "wbm501",
-      "imageStatus": "auto-fetched",
-      "imageUrl": "https://sc04.alicdn.com/kf/H0f110e20c00b4050a1c538425dd1116eF/241824773/H0f110e20c00b4050a1c538425dd1116eF.jpg",
-      "localPath": "/images/products/labex-temperature/water-bath-hero.jpg",
-      "reviewStatus": "needs-mandy-review",
-      "lastChecked": "2026-05-24",
-      "imageSource": "representative-ddg",
-      "sourceUrl": "https://sc04.alicdn.com/kf/H0f110e20c00b4050a1c538425dd1116eF/241824773/H0f110e20c00b4050a1c538425dd1116eF.jpg",
-      "imagePaths": {
-        "thumbnail": "/images/products/labex-temperature/water-bath-thumbnail.jpg",
-        "card": "/images/products/labex-temperature/water-bath-card.jpg",
-        "hero": "/images/products/labex-temperature/water-bath-hero.jpg"
-      },
-      "brand": "Temperature Control",
-      "queryUsed": "representative-type-image",
-      "reviewNote": "NEEDS REVIEW: representative water bath image - verify style matches Labex stock"
-    },
-    {
       "code": "WBT22",
       "slug": "wbt22",
       "imageStatus": "auto-fetched",
@@ -12429,15 +12262,6 @@
       "lastChecked": null
     },
     {
-      "code": "021001",
-      "slug": "021001",
-      "imageStatus": "quote-on-request",
-      "imageUrl": null,
-      "localPath": null,
-      "reviewStatus": "pending",
-      "lastChecked": null
-    },
-    {
       "code": "0428.01.32",
       "slug": "0428-01-32",
       "imageStatus": "quote-on-request",
@@ -12566,15 +12390,6 @@
     {
       "code": "1000867",
       "slug": "1000867",
-      "imageStatus": "quote-on-request",
-      "imageUrl": null,
-      "localPath": null,
-      "reviewStatus": "pending",
-      "lastChecked": null
-    },
-    {
-      "code": "1001114",
-      "slug": "1001114",
       "imageStatus": "quote-on-request",
       "imageUrl": null,
       "localPath": null,
@@ -12833,15 +12648,6 @@
       "lastChecked": null
     },
     {
-      "code": "243",
-      "slug": "243",
-      "imageStatus": "quote-on-request",
-      "imageUrl": null,
-      "localPath": null,
-      "reviewStatus": "pending",
-      "lastChecked": null
-    },
-    {
       "code": "29-080-66",
       "slug": "29-080-66",
       "imageStatus": "quote-on-request",
@@ -13082,15 +12888,6 @@
     {
       "code": "463",
       "slug": "463",
-      "imageStatus": "quote-on-request",
-      "imageUrl": null,
-      "localPath": null,
-      "reviewStatus": "pending",
-      "lastChecked": null
-    },
-    {
-      "code": "474",
-      "slug": "474",
       "imageStatus": "quote-on-request",
       "imageUrl": null,
       "localPath": null,
@@ -14742,22 +14539,6 @@
       "reviewNote": "NEEDS MANDY REVIEW: medium-low confidence brand attribution. Daihan shaking incubator representative image - confirm this matches the actual product."
     },
     {
-      "code": "G7883",
-      "slug": "g7883",
-      "imageStatus": "verified",
-      "imageUrl": null,
-      "localPath": "/images/products/miele/g7883-hero.png",
-      "reviewStatus": "pending",
-      "lastChecked": "2026-05-24",
-      "brand": "Miele Professional",
-      "displayName": "Miele Professional G7883 Lab Washer",
-      "imagePaths": {
-        "thumbnail": "/images/products/miele/g7883-hero.png",
-        "card": "/images/products/miele/g7883-hero.png",
-        "hero": "/images/products/miele/g7883-hero.png"
-      }
-    },
-    {
       "code": "GWCHLORAR",
       "slug": "gwchlorar",
       "imageStatus": "quote-on-request",
@@ -15781,24 +15562,6 @@
       "lastChecked": null
     },
     {
-      "code": "LT100",
-      "slug": "lt100",
-      "imageStatus": "quote-on-request",
-      "imageUrl": null,
-      "localPath": null,
-      "reviewStatus": "pending",
-      "lastChecked": null
-    },
-    {
-      "code": "LT150",
-      "slug": "lt150",
-      "imageStatus": "quote-on-request",
-      "imageUrl": null,
-      "localPath": null,
-      "reviewStatus": "pending",
-      "lastChecked": null
-    },
-    {
       "code": "LTB25/20",
       "slug": "ltb25-20",
       "imageStatus": "quote-on-request",
@@ -15810,38 +15573,6 @@
     {
       "code": "LTGC-40",
       "slug": "ltgc-40",
-      "imageStatus": "verified",
-      "imageUrl": null,
-      "localPath": "/images/products/snijders/growth-chamber-hero.jpg",
-      "reviewStatus": "pending",
-      "lastChecked": "2026-05-24",
-      "brand": "Lab Companion (representative)",
-      "displayName": "Plant Growth Chamber (representative image)",
-      "imagePaths": {
-        "thumbnail": "/images/products/snijders/growth-chamber-hero.jpg",
-        "card": "/images/products/snijders/growth-chamber-hero.jpg",
-        "hero": "/images/products/snijders/growth-chamber-hero.jpg"
-      }
-    },
-    {
-      "code": "LTGC-M20",
-      "slug": "ltgc-m20",
-      "imageStatus": "verified",
-      "imageUrl": null,
-      "localPath": "/images/products/snijders/growth-chamber-hero.jpg",
-      "reviewStatus": "pending",
-      "lastChecked": "2026-05-24",
-      "brand": "Lab Companion (representative)",
-      "displayName": "Plant Growth Chamber (representative image)",
-      "imagePaths": {
-        "thumbnail": "/images/products/snijders/growth-chamber-hero.jpg",
-        "card": "/images/products/snijders/growth-chamber-hero.jpg",
-        "hero": "/images/products/snijders/growth-chamber-hero.jpg"
-      }
-    },
-    {
-      "code": "LTGC-M40",
-      "slug": "ltgc-m40",
       "imageStatus": "verified",
       "imageUrl": null,
       "localPath": "/images/products/snijders/growth-chamber-hero.jpg",
@@ -15930,15 +15661,6 @@
     {
       "code": "MA6/33",
       "slug": "ma6-33",
-      "imageStatus": "quote-on-request",
-      "imageUrl": null,
-      "localPath": null,
-      "reviewStatus": "pending",
-      "lastChecked": null
-    },
-    {
-      "code": "MFP75",
-      "slug": "mfp75",
       "imageStatus": "quote-on-request",
       "imageUrl": null,
       "localPath": null,
@@ -16508,15 +16230,6 @@
       "lastChecked": null
     },
     {
-      "code": "S2",
-      "slug": "s2",
-      "imageStatus": "quote-on-request",
-      "imageUrl": null,
-      "localPath": null,
-      "reviewStatus": "pending",
-      "lastChecked": null
-    },
-    {
       "code": "S200",
       "slug": "s200",
       "imageStatus": "auto-fetched",
@@ -17055,15 +16768,6 @@
       "lastChecked": null
     },
     {
-      "code": "T234",
-      "slug": "t234",
-      "imageStatus": "quote-on-request",
-      "imageUrl": null,
-      "localPath": null,
-      "reviewStatus": "pending",
-      "lastChecked": null
-    },
-    {
       "code": "T354",
       "slug": "t354",
       "imageStatus": "quote-on-request",
@@ -17075,15 +16779,6 @@
     {
       "code": "T643-2",
       "slug": "t643-2",
-      "imageStatus": "quote-on-request",
-      "imageUrl": null,
-      "localPath": null,
-      "reviewStatus": "pending",
-      "lastChecked": null
-    },
-    {
-      "code": "T700",
-      "slug": "t700",
       "imageStatus": "quote-on-request",
       "imageUrl": null,
       "localPath": null,
