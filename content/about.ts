@@ -1,6 +1,6 @@
 export const aboutContent = {
   subheadline:
-    "Since 1979, Labex has supplied laboratory equipment across South Africa — from a single starting point to a fully equipped Johannesburg facility. Medical labs, research institutions, universities, and industrial operations. Over 45 years and still going.",
+    "Since 1979, Labex has supplied laboratory equipment across South Africa — from a single starting point to a fully equipped Johannesburg facility. Medical labs, research institutions, universities, and industrial operations. 47 years and still going.",
 
   founder: {
     name: "Willem Fredrick Proost",
@@ -14,7 +14,7 @@ export const aboutContent = {
     name: "Mandy Proost",
     title: "Managing Director",
     quote:
-      "Fifty years in, and the belief hasn't changed: science should serve people, not the other way around. Behind every result is someone who needed it to be right. Every smile counts — and we've never lost sight of that.",
+      "Forty-seven years in, and the belief hasn't changed: science should serve people, not the other way around. Behind every result is someone who needed it to be right. Every smile counts — and we've never lost sight of that.",
   },
 
   values: [
@@ -28,7 +28,7 @@ export const aboutContent = {
     },
     {
       title: "After-sales is part of the deal",
-      body: "Internationally trained service technicians on staff. When something needs attention, we fix it — no outsourcing, no queues.",
+      body: "Internationally trained applications, service engineers and sales consultants on staff. When something needs attention, we fix it — no outsourcing, no queues.",
     },
     {
       title: "Level 2 B-BBEE. South African.",
@@ -37,9 +37,8 @@ export const aboutContent = {
   ],
 
   stats: [
-    { value: "50+", label: "Years in business" },
-    { value: "15", label: "Staff members" },
-    { value: "4", label: "Sectors served" },
+    { value: "47", label: "Years in business" },
+    { value: "10", label: "Sectors served" },
     { value: "L2", label: "B-BBEE Certified" },
   ],
 } as const;

@@ -3,6 +3,9 @@
 import { useEffect, useRef } from "react";
 import { registerGSAP, gsap } from "@/lib/gsap";
 import AmbientGrain from "@/components/ui/AmbientGrain";
+import { yearsTrading } from "@/lib/company";
+
+const YEARS = yearsTrading();
 
 const TUBE_H = 260; // inner liquid height
 const TUBE_W = 72;  // outer width
@@ -42,7 +45,7 @@ const tubes: TubeData[] = [
   },
   {
     stat: "3",
-    label: "internationally trained technicians",
+    label: "internationally trained applications, service engineers and sales consultants",
     title: "Expert Support",
     body: "On-site installation, calibration, and repair. We don't just sell instruments — we keep them running.",
     fillRatio: 0.58,
@@ -51,7 +54,7 @@ const tubes: TubeData[] = [
   {
     stat: "1979",
     label: "founded — Johannesburg",
-    title: "45 Years of Trust",
+    title: `${YEARS} Years of Trust`,
     body: "Deep supplier relationships built over four decades. Priority access and product depth that newer distributors simply can't match.",
     fillRatio: 0.94,
     offsetY: 40,

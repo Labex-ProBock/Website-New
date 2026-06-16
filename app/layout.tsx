@@ -28,7 +28,7 @@ export const metadata: Metadata = {
     siteName: "Labex Pty Ltd",
     title: "Labex — Laboratory Equipment South Africa Since 1979",
     description:
-      "South Africa's trusted laboratory equipment distributor. 45 years. 10+ world-leading brands. Expert technical support.",
+      "South Africa's trusted laboratory equipment distributor. 47 years. 10+ world-leading brands. Expert technical support.",
   },
   twitter: {
     card: "summary_large_image",

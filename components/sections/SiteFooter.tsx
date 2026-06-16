@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { MapPin, Phone, Mail, Linkedin, Facebook, Instagram } from "lucide-react";
 import { homeContent } from "@/content/home";
 
@@ -39,10 +40,14 @@ export default function SiteFooter() {
 
           {/* Brand col — wider */}
           <div className="md:col-span-4">
-            <Link href="/" className="inline-block">
-              <p className="font-display font-black text-white" style={{ fontSize: "2rem", lineHeight: 1 }}>
-                LABEX<span style={{ color: "var(--color-orange)" }}>.</span>
-              </p>
+            <Link href="/" className="inline-block" aria-label="Labex — home">
+              <Image
+                src="/labex-logo.png"
+                alt="Labex (Pty) Ltd"
+                width={224}
+                height={48}
+                className="w-auto h-11"
+              />
             </Link>
 
             <p style={{ color: "rgba(255,255,255,0.35)", fontSize: "0.75rem", letterSpacing: "0.15em", textTransform: "uppercase", marginTop: "0.5rem" }}>

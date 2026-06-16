@@ -41,7 +41,7 @@ const contactDetails = [
   },
 ];
 
-const trustItems = ["45+ years trading", "POPIA compliant", "B-BBEE Level 2", "Mon–Fri 08:00–17:00 SAST"];
+const trustItems = ["47 years trading", "POPIA compliant", "B-BBEE Level 2", "Mon–Fri 08:00–17:00 SAST"];
 
 export default function ContactPage() {
   return (

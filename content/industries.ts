@@ -17,7 +17,7 @@ export interface Industry {
   equipment?: EquipmentItem[];
 }
 
-export const industries: Industry[] = [
+const ALL_INDUSTRIES: Industry[] = [
   {
     slug: "research",
     name: "Research",
@@ -124,7 +124,7 @@ export const industries: Industry[] = [
   },
   {
     slug: "chemical",
-    name: "Chemical",
+    name: "Chemical/Petrochemical",
     shortName: "Chemical",
     headline: "High-precision instrumentation for industrial chemistry and polymer QC",
     description:
@@ -229,59 +229,8 @@ export const industries: Industry[] = [
     ],
   },
   {
-    slug: "quality-control",
-    name: "Quality Control",
-    shortName: "QC & Testing",
-    headline: "End-to-end testing instruments for independent QC and compliance labs",
-    description:
-      "Labex supports independent testing laboratories and in-house quality control teams with a diverse selection of instruments engineered for accurate, repeatable results across materials, coatings, and process streams.",
-    applications: [
-      "Viscosity & rheology",
-      "Hardness testing",
-      "Microbiology",
-      "Spectroscopy",
-    ],
-    image: "/industries/material.jpg",
-    color: "#E04E00",
-    intro:
-      "At Labex, we offer a diverse and specialised selection of testing equipment designed to support the rigorous quality control and compliance processes required by independent testing labs and in-house QC teams.",
-    closing:
-      "Labex is dedicated to providing comprehensive, cutting-edge solutions that help advance materials research and support the development of innovative products.",
-    equipment: [
-      {
-        name: "Material & Paint Testing",
-        description:
-          "Abrasion and washability testers, adhesion testers, film application and coating testers, hardness testers, impact testers, melting point meters, rheometers, viscometers, and brightness testers.",
-      },
-      {
-        name: "Calorimeters and Thermal Analysis",
-        description:
-          "Precision calorimeters and heat deflection testers for detailed thermal property analysis and stability testing.",
-      },
-      {
-        name: "Chemical Analysis",
-        description: "Laboratory-grade pH meters and XRF spectrometers for accurate chemical composition determination.",
-      },
-      {
-        name: "Mechanical Testing",
-        description:
-          "Sheet metal testing machines and formability testers for assessing mechanical properties.",
-      },
-      {
-        name: "Environmental Testing",
-        description:
-          "Weathering testers that simulate environmental conditions to evaluate product resilience and longevity.",
-      },
-      {
-        name: "Microbiological Testing",
-        description:
-          "Autoclaves, incubators, laminar flow benches, and colony counters for microbial QC and sterility verification.",
-      },
-    ],
-  },
-  {
     slug: "food-beverage",
-    name: "Food & Beverage",
+    name: "Food and Beverage",
     shortName: "Food & Bev",
     headline: "Compliance-ready equipment for breweries, dairy, and processed-food labs",
     description:
@@ -326,4 +275,114 @@ export const industries: Industry[] = [
       },
     ],
   },
+  {
+    slug: "automotive",
+    name: "Automotive",
+    shortName: "Automotive",
+    headline: "Materials, fluids, and emissions testing for automotive manufacturing and R&D",
+    description:
+      "Labex equips automotive manufacturers, component suppliers, and testing facilities with instruments for materials characterisation, lubricant and fluid analysis, coatings inspection, and emissions testing across the production line and R&D laboratory.",
+    applications: [
+      "Materials & coatings testing",
+      "Lubricant & fluid analysis",
+      "Hardness & wear testing",
+      "Emissions analysis",
+    ],
+    image: "/industries/automotive.jpg",
+    color: "#FF6A1A",
+    intro:
+      "Labex supports the automotive sector with a comprehensive range of laboratory equipment for quality control and research — from incoming materials inspection to finished-component validation and fluid analysis.",
+  },
+  {
+    slug: "water-environmental",
+    name: "Water/Environmental",
+    shortName: "Water & Env",
+    headline: "Monitoring and analysis instruments for water quality and environmental compliance",
+    description:
+      "Labex supplies municipalities, environmental laboratories, and industrial water teams with instruments for water quality monitoring, effluent analysis, and environmental compliance testing across both field and laboratory applications.",
+    applications: [
+      "Water quality monitoring",
+      "Turbidity & photometry",
+      "pH, conductivity & DO",
+      "Effluent & sample testing",
+    ],
+    image: "/industries/environment.jpg",
+    color: "#FF6A1A",
+    intro:
+      "Labex provides a comprehensive selection of water and environmental testing equipment — supporting accurate monitoring of water quality, effluent, and environmental parameters for regulatory compliance and public health.",
+  },
+  {
+    slug: "mining",
+    name: "Mining",
+    shortName: "Mining",
+    headline: "Robust sample-prep and analytical instruments for mining and metallurgy",
+    description:
+      "Labex supplies the mining and minerals sector with durable laboratory equipment for sample preparation, assaying, and metallurgical analysis — engineered to withstand demanding ore, slurry, and process-control workloads.",
+    applications: [
+      "Sample preparation",
+      "Assaying & furnaces",
+      "Moisture & density analysis",
+      "Particle sizing",
+    ],
+    image: "/industries/mining.jpg",
+    color: "#FF6A1A",
+    intro:
+      "Labex equips mining and metallurgical laboratories with robust instruments for sample preparation, assaying, and process control — built for the throughput and durability the sector demands.",
+  },
+  {
+    slug: "life-sciences",
+    name: "Life Sciences",
+    shortName: "Life Sciences",
+    headline: "Precision instruments for molecular biology, clinical, and biotech laboratories",
+    description:
+      "Labex supports life science researchers, clinical laboratories, and biotech facilities with precision instruments for molecular biology, cell culture, sample storage, and analytical workflows.",
+    applications: [
+      "PCR & molecular biology",
+      "Centrifugation",
+      "Cold storage & cryogenics",
+      "Microscopy & imaging",
+    ],
+    image: "/industries/clinical.jpg",
+    color: "#FF6A1A",
+    intro:
+      "Labex offers a comprehensive range of life science laboratory equipment — supporting molecular biology, clinical diagnostics, and biotechnology research with reliable, precise instrumentation and full technical support.",
+  },
+  {
+    slug: "agriculture",
+    name: "Agriculture",
+    shortName: "Agriculture",
+    headline: "Soil, plant, and feed analysis instruments for agricultural laboratories",
+    description:
+      "Labex equips agricultural laboratories, agronomists, and research stations with instruments for soil, plant, water, and feed analysis — supporting crop science, fertiliser management, and food-security research across Southern Africa.",
+    applications: [
+      "Soil & plant analysis",
+      "Kjeldahl nitrogen",
+      "Moisture analysis",
+      "Water & nutrient testing",
+    ],
+    image: "/industries/agriculture.jpg",
+    color: "#FF6A1A",
+    intro:
+      "Labex provides a comprehensive selection of agricultural laboratory equipment — supporting soil, plant, feed, and water analysis for agronomy, crop science, and agricultural research.",
+  },
 ];
+
+// Client-confirmed sector set + display order (overrides the legacy six).
+const INDUSTRY_ORDER = [
+  "automotive",
+  "water-environmental",
+  "pharmaceutical",
+  "mining",
+  "life-sciences",
+  "education",
+  "research",
+  "agriculture",
+  "food-beverage",
+  "chemical",
+] as const;
+
+export const industries: Industry[] = INDUSTRY_ORDER.map((slug) => {
+  const found = ALL_INDUSTRIES.find((i) => i.slug === slug);
+  if (!found) throw new Error(`industries: missing entry for "${slug}"`);
+  return found;
+});

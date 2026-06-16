@@ -1,8 +1,10 @@
 "use client";
 
 import MarqueeKinetic from "@/components/motion/MarqueeKinetic";
+import { yearsTrading } from "@/lib/company";
 
 export default function YearsMarquee() {
+  const years = yearsTrading();
   return (
     <section
       className="relative overflow-hidden"
@@ -21,7 +23,7 @@ export default function YearsMarquee() {
 
       {/* Row 1 — scrolls left, orange tint */}
       <MarqueeKinetic
-        text="45 YEARS · SINCE 1979 · LABEX ·"
+        text={`${years} YEARS · SINCE 1979 · LABEX ·`}
         speed={55}
         direction="left"
         textClassName="font-display font-black text-[var(--color-orange)] opacity-20"
@@ -38,7 +40,7 @@ export default function YearsMarquee() {
         style={{ fontSize: "clamp(5rem, 14vw, 12rem)", lineHeight: 1 } as React.CSSProperties}
       />
 
-      {/* Centre overlay — big "45" stat */}
+      {/* Centre overlay — big years-trading stat */}
       <div
         aria-hidden="true"
         style={{
@@ -62,7 +64,7 @@ export default function YearsMarquee() {
             userSelect: "none",
           }}
         >
-          45
+          {years}
         </span>
         <span
           style={{

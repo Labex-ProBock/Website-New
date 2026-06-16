@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { useEffect } from "react";
 import { Menu, X, Phone, ArrowRight } from "lucide-react";
 import { useLabexStore } from "@/lib/store";
@@ -30,10 +31,17 @@ export default function SiteNav() {
           {/* Col 1: Logo */}
           <Link
             href="/"
-            className="font-display font-black text-2xl tracking-tight text-white hover:text-[var(--color-orange)] transition-colors"
+            className="flex items-center transition-opacity hover:opacity-80"
             aria-label="Labex — home"
           >
-            LABEX<span className="text-[var(--color-orange)]">.</span>
+            <Image
+              src="/labex-logo.png"
+              alt="Labex (Pty) Ltd"
+              width={168}
+              height={36}
+              priority
+              className="w-auto h-8 md:h-9"
+            />
           </Link>
 
           {/* Col 2: Nav links — true viewport-centre */}

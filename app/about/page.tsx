@@ -4,7 +4,7 @@ import SiteFooter from "@/components/sections/SiteFooter";
 import { aboutContent } from "@/content/about";
 
 export const metadata: Metadata = {
-  title: "About Labex | 50+ Years of Laboratory Excellence",
+  title: "About Labex | 47 Years of Laboratory Excellence",
   description:
     "Family-run since 1979, Labex is South Africa's most trusted laboratory equipment distributor.",
 };
@@ -37,8 +37,8 @@ export default function AboutPage() {
 
       {/* ── Stats ── */}
       <section style={{ backgroundColor: "var(--color-black)", paddingTop: "5rem", paddingBottom: "5rem", paddingLeft: "1.5rem", paddingRight: "1.5rem" }}>
-        <div style={{ maxWidth: "56rem", margin: "0 auto", display: "grid", gridTemplateColumns: "repeat(2, 1fr)", gap: "1rem" }}
-          className="md:grid-cols-4">
+        <div style={{ maxWidth: "56rem", margin: "0 auto", display: "grid", gap: "1rem" }}
+          className="grid-cols-1 md:grid-cols-3">
           {aboutContent.stats.map((stat, i) => (
             <RevealOnScroll key={stat.label} delay={i * 0.1}>
               <div

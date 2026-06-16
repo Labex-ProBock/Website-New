@@ -266,7 +266,7 @@ export default function HeroSection() {
             marginBottom: "2rem",
           }}
         >
-          The laboratory behind South Africa&apos;s laboratories
+          Your Partner Behind Every Result
         </h1>
 
         {/* Subheading */}

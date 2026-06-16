@@ -8,26 +8,34 @@ import {
   PharmaceuticalMotif,
   ChemicalMotif,
   EducationMotif,
-  QualityControlMotif,
   FoodBeverageMotif,
+  AutomotiveMotif,
+  WaterEnvironmentalMotif,
+  MiningMotif,
+  LifeSciencesMotif,
+  AgricultureMotif,
 } from "@/components/industry-motifs";
 import { ArrowRight } from "lucide-react";
 
 export const metadata: Metadata = {
   title: "Industries | Labex",
   description:
-    "Labex serves research, pharmaceutical, chemical, education, quality control, and food & beverage laboratories across South Africa.",
+    "Labex serves automotive, water & environmental, pharmaceutical, mining, life sciences, education, research, agriculture, food & beverage, and chemical/petrochemical laboratories across South Africa.",
 };
 
 const C = "center" as const;
 
 const MOTIFS: Record<string, React.ComponentType> = {
-  research: ResearchMotif,
+  automotive: AutomotiveMotif,
+  "water-environmental": WaterEnvironmentalMotif,
   pharmaceutical: PharmaceuticalMotif,
-  chemical: ChemicalMotif,
+  mining: MiningMotif,
+  "life-sciences": LifeSciencesMotif,
   education: EducationMotif,
-  "quality-control": QualityControlMotif,
+  research: ResearchMotif,
+  agriculture: AgricultureMotif,
   "food-beverage": FoodBeverageMotif,
+  chemical: ChemicalMotif,
 };
 
 export default function IndustriesPage() {
@@ -88,7 +96,7 @@ export default function IndustriesPage() {
                 marginRight: "auto",
               }}
             >
-              Six sectors, four decades of continuous supply. If your lab needs it,
+              Ten sectors, 47 years of continuous supply. If your lab needs it,
               we stock it — and we&apos;ll have a quote to you within one business day.
             </p>
           </RevealOnScroll>
@@ -106,13 +114,17 @@ export default function IndustriesPage() {
         }}
       >
         <div
-          className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5"
-          style={{ maxWidth: "72rem", margin: "0 auto", gridAutoRows: "1fr" }}
+          className="flex flex-wrap justify-center gap-5"
+          style={{ maxWidth: "72rem", margin: "0 auto" }}
         >
           {industries.map((industry, i) => {
             const Motif = MOTIFS[industry.slug];
             return (
-              <RevealOnScroll key={industry.slug} delay={i * 0.07} className="h-full">
+              <RevealOnScroll
+                key={industry.slug}
+                delay={i * 0.07}
+                className="h-full basis-full md:basis-[calc((100%-1.25rem)/2)] lg:basis-[calc((100%-2.5rem)/3)]"
+              >
                 <Link
                   href={`/industries/${industry.slug}`}
                   className="group block h-full relative overflow-hidden rounded-2xl border border-[var(--color-border)] transition-all duration-300 hover:border-[rgba(255,106,26,0.4)] hover:shadow-[0_0_28px_4px_rgba(255,106,26,0.12)]"

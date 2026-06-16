@@ -4,10 +4,10 @@ export const homeContent = {
     headlines: [
       "Equipping South African science since 1979",           /* Option A — legacy-led */
       "The laboratory behind South Africa's laboratories",    /* Option B — B2B authority */
-      "45 years. Every instrument. Every sector.",            /* Option C — depth + range */
+      "47 years. Every instrument. Every sector.",            /* Option C — depth + range */
     ],
     /* Active headline used on the site */
-    headline: "The laboratory behind South Africa's laboratories",
+    headline: "Your Partner Behind Every Result",
     subheadline:
       "Premium laboratory equipment and scientific instruments — supplied, supported, and serviced by people who know science.",
     cta: { label: "Request a quote", href: "/quote" },
@@ -24,31 +24,32 @@ export const homeContent = {
     {
       title: "Expert Support",
       stat: "3",
-      statLabel: "internationally trained technicians",
+      statLabel: "internationally trained applications, service engineers and sales consultants",
       body: "On-site installation, calibration, and repair. We don't just sell instruments — we keep them running.",
     },
     {
-      title: "45 Years of Trust",
+      title: "47 Years of Trust",
       stat: "1979",
       statLabel: "founded in Johannesburg",
       body: "Deep supplier relationships built over four decades. Access to product depth and priority support that newer distributors simply can't match.",
     },
   ],
 
-  marqueeText: "45 YEARS",
+  marqueeText: "47 YEARS",
 
   story: {
-    headline: "Four decades of equipping South African science",
-    body: "Founded in 1979 by Mandy in Edenvale, Johannesburg, Labex has grown from a specialist importer into the go-to distributor for research, pharma, and chemical laboratories across Southern Africa.",
+    headline: "47 years of equipping South African science",
+    body: "Founded in 1979 by Willem Proost and family-run ever since, Labex has grown from a specialist importer into the go-to distributor for research, pharma, and chemical laboratories across Southern Africa.",
     milestones: [
-      { year: "1979", event: "Labex founded in Edenvale, Johannesburg" },
-      { year: "1985", event: "First pharmaceutical sector clients" },
-      { year: "1994", event: "Expanded to national distribution" },
-      { year: "2002", event: "ISO-certified service centre opened" },
-      { year: "2010", event: "Heidolph & Sartorius partnerships formalised" },
-      { year: "2018", event: "Internationally trained technical team established" },
-      { year: "2024", event: "Digital infrastructure rebuild begins" },
-      { year: "2026", event: "New era — Labex online" },
+      { year: "1979", event: "Founded by Willem Proost, working from his home." },
+      { year: "1985", event: "First office, in Orange Grove." },
+      { year: "1993", event: "Mandy Proost took ownership." },
+      { year: "2005", event: "Internationally trained applications, service engineers and sales consultants." },
+      { year: "2010", event: "National footprint." },
+      { year: "2015", event: "Moved corporate headquarters to Edenvale." },
+      { year: "2022", event: "Opened Zambia office." },
+      { year: "2024", event: "Opened Malawi office." },
+      { year: "2025", event: "SAHPRA Licence obtained." },
     ],
   },
 

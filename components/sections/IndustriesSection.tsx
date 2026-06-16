@@ -10,21 +10,29 @@ import {
   PharmaceuticalMotif,
   ChemicalMotif,
   EducationMotif,
-  QualityControlMotif,
   FoodBeverageMotif,
+  AutomotiveMotif,
+  WaterEnvironmentalMotif,
+  MiningMotif,
+  LifeSciencesMotif,
+  AgricultureMotif,
 } from "@/components/industry-motifs";
 
-// Intro + 6 industries + final "all" slide = 8 panels
-const TOTAL_PANELS = 8;
-const SCROLL_PAGES = 7;
+// Panels = intro + one per industry + final "all" slide.
+const TOTAL_PANELS = industries.length + 2;
+const SCROLL_PAGES = TOTAL_PANELS - 1;
 
 const MOTIFS: Record<string, React.ComponentType> = {
-  research: ResearchMotif,
+  automotive: AutomotiveMotif,
+  "water-environmental": WaterEnvironmentalMotif,
   pharmaceutical: PharmaceuticalMotif,
-  chemical: ChemicalMotif,
+  mining: MiningMotif,
+  "life-sciences": LifeSciencesMotif,
   education: EducationMotif,
-  "quality-control": QualityControlMotif,
+  research: ResearchMotif,
+  agriculture: AgricultureMotif,
   "food-beverage": FoodBeverageMotif,
+  chemical: ChemicalMotif,
 };
 
 function MagneticCTA({ href, label }: { href: string; label: string }) {
@@ -165,7 +173,7 @@ export default function IndustriesSection() {
                   marginBottom: "3.5rem",
                 }}
               >
-                Six sectors, four decades of continuous supply, one phone number.
+                Ten sectors, 47 years of continuous supply, one phone number.
               </p>
 
               {/* scroll hint */}
@@ -404,7 +412,7 @@ export default function IndustriesSection() {
             Built for the labs that move South African science.
           </h2>
           <p style={{ color: "rgba(255,255,255,0.35)", fontSize: "0.875rem", lineHeight: 1.7 }}>
-            Six sectors, four decades of continuous supply, one phone number.
+            Ten sectors, 47 years of continuous supply, one phone number.
           </p>
         </div>
 

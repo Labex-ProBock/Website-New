@@ -4,3 +4,8 @@ export { ChemicalMotif }       from "./ChemicalMotif";
 export { EducationMotif }      from "./EducationMotif";
 export { QualityControlMotif } from "./QualityControlMotif";
 export { FoodBeverageMotif }   from "./FoodBeverageMotif";
+export { AutomotiveMotif }         from "./AutomotiveMotif";
+export { WaterEnvironmentalMotif } from "./WaterEnvironmentalMotif";
+export { MiningMotif }             from "./MiningMotif";
+export { LifeSciencesMotif }       from "./LifeSciencesMotif";
+export { AgricultureMotif }        from "./AgricultureMotif";
