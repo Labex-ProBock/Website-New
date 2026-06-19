@@ -1,0 +1,4860 @@
+{
+  "generated": "2026-06-19T12:52:08.030Z",
+  "total": 539,
+  "matchedCatalogue": 9,
+  "matchedPriceList": 76,
+  "unmatched": 463,
+  "products": [
+    {
+      "code": "-86 upright",
+      "brand": "HAIER",
+      "sourceFile": "Images/HAIER/-86 upright.jpg",
+      "optimized": "Images/_optimized/-86_upright.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "103",
+      "brand": "Scientific Engineering",
+      "sourceFile": "Images/Scientific Engineering/103.JPG",
+      "optimized": "Images/_optimized/103.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "105",
+      "brand": "Scientific Engineering",
+      "sourceFile": "Images/Scientific Engineering/105.jpg",
+      "optimized": "Images/_optimized/105.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "130",
+      "brand": "Scientific Engineering",
+      "sourceFile": "Images/Scientific Engineering/130.jpg",
+      "optimized": "Images/_optimized/130.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "132",
+      "brand": "ROOT",
+      "sourceFile": "Images/132.JPG",
+      "optimized": "Images/_optimized/132.jpg",
+      "match": "unmatched",
+      "duplicate": true,
+      "nonClean": false
+    },
+    {
+      "code": "132",
+      "brand": "Scientific Engineering",
+      "sourceFile": "Images/Scientific Engineering/132.jpg",
+      "optimized": "Images/_optimized/132.jpg",
+      "match": "unmatched",
+      "duplicate": true,
+      "nonClean": false
+    },
+    {
+      "code": "132A",
+      "brand": "Scientific Engineering",
+      "sourceFile": "Images/Scientific Engineering/132A.jpg",
+      "optimized": "Images/_optimized/132A.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "170",
+      "brand": "Scientific Engineering",
+      "sourceFile": "Images/Scientific Engineering/170.jpg",
+      "optimized": "Images/_optimized/170.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "175",
+      "brand": "Scientific Engineering",
+      "sourceFile": "Images/Scientific Engineering/175.jpg",
+      "optimized": "Images/_optimized/175.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "20007144_1",
+      "brand": "IKA",
+      "sourceFile": "Images/IKA/20007144_1.jpg",
+      "optimized": "Images/_optimized/20007144_1.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "207",
+      "brand": "Scientific Engineering",
+      "sourceFile": "Images/Scientific Engineering/207.jpg",
+      "optimized": "Images/_optimized/207.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "220",
+      "brand": "Scientific Engineering",
+      "sourceFile": "Images/Scientific Engineering/220.jpg",
+      "optimized": "Images/_optimized/220.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "221",
+      "brand": "Scientific Engineering",
+      "sourceFile": "Images/Scientific Engineering/221.jpg",
+      "optimized": "Images/_optimized/221.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "222",
+      "brand": "Scientific Engineering",
+      "sourceFile": "Images/Scientific Engineering/222.jpg",
+      "optimized": "Images/_optimized/222.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "223",
+      "brand": "Scientific Engineering",
+      "sourceFile": "Images/Scientific Engineering/223.jpg",
+      "optimized": "Images/_optimized/223.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "223D",
+      "brand": "Scientific Engineering",
+      "sourceFile": "Images/Scientific Engineering/223D.jpg",
+      "optimized": "Images/_optimized/223D.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "224",
+      "brand": "Scientific Engineering",
+      "sourceFile": "Images/Scientific Engineering/224.jpg",
+      "optimized": "Images/_optimized/224.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "224D",
+      "brand": "Scientific Engineering",
+      "sourceFile": "Images/Scientific Engineering/224D.jpg",
+      "optimized": "Images/_optimized/224D.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "224V",
+      "brand": "Scientific Engineering",
+      "sourceFile": "Images/Scientific Engineering/224V.jpg",
+      "optimized": "Images/_optimized/224V.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "225",
+      "brand": "Scientific Engineering",
+      "sourceFile": "Images/Scientific Engineering/225.jpg",
+      "optimized": "Images/_optimized/225.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "226",
+      "brand": "Scientific Engineering",
+      "sourceFile": "Images/Scientific Engineering/226.jpg",
+      "optimized": "Images/_optimized/226.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "227",
+      "brand": "Scientific Engineering",
+      "sourceFile": "Images/Scientific Engineering/227.jpg",
+      "optimized": "Images/_optimized/227.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "228",
+      "brand": "Scientific Engineering",
+      "sourceFile": "Images/Scientific Engineering/228.jpg",
+      "optimized": "Images/_optimized/228.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "228D",
+      "brand": "Scientific Engineering",
+      "sourceFile": "Images/Scientific Engineering/228D.jpg",
+      "optimized": "Images/_optimized/228D.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "229",
+      "brand": "Scientific Engineering",
+      "sourceFile": "Images/Scientific Engineering/229.jpg",
+      "optimized": "Images/_optimized/229.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "229D",
+      "brand": "Scientific Engineering",
+      "sourceFile": "Images/Scientific Engineering/229D.jpg",
+      "optimized": "Images/_optimized/229D.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "229V",
+      "brand": "Scientific Engineering",
+      "sourceFile": "Images/Scientific Engineering/229V.jpg",
+      "optimized": "Images/_optimized/229V.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "2526400",
+      "brand": "IKA",
+      "sourceFile": "Images/IKA/2526400.JPG",
+      "optimized": "Images/_optimized/2526400.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "2527000",
+      "brand": "IKA",
+      "sourceFile": "Images/IKA/2527000.JPG",
+      "optimized": "Images/_optimized/2527000.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "260",
+      "brand": "Scientific Engineering",
+      "sourceFile": "Images/Scientific Engineering/260.jpg",
+      "optimized": "Images/_optimized/260.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "261",
+      "brand": "Scientific Engineering",
+      "sourceFile": "Images/Scientific Engineering/261.jpg",
+      "optimized": "Images/_optimized/261.jpg",
+      "match": "price-list",
+      "duplicate": false,
+      "nonClean": false
+    },
+    {
+      "code": "262",
+      "brand": "Scientific Engineering",
+      "sourceFile": "Images/Scientific Engineering/262.jpg",
+      "optimized": "Images/_optimized/262.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "275",
+      "brand": "Scientific Engineering",
+      "sourceFile": "Images/Scientific Engineering/275.jpg",
+      "optimized": "Images/_optimized/275.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "276",
+      "brand": "Scientific Engineering",
+      "sourceFile": "Images/Scientific Engineering/276.jpg",
+      "optimized": "Images/_optimized/276.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "277",
+      "brand": "Scientific Engineering",
+      "sourceFile": "Images/Scientific Engineering/277.jpg",
+      "optimized": "Images/_optimized/277.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "278",
+      "brand": "Scientific Engineering",
+      "sourceFile": "Images/Scientific Engineering/278.jpg",
+      "optimized": "Images/_optimized/278.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "278D",
+      "brand": "Scientific Engineering",
+      "sourceFile": "Images/Scientific Engineering/278D.jpg",
+      "optimized": "Images/_optimized/278D.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "279",
+      "brand": "Scientific Engineering",
+      "sourceFile": "Images/Scientific Engineering/279.jpg",
+      "optimized": "Images/_optimized/279.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "279D",
+      "brand": "Scientific Engineering",
+      "sourceFile": "Images/Scientific Engineering/279D.jpg",
+      "optimized": "Images/_optimized/279D.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "279V",
+      "brand": "Scientific Engineering",
+      "sourceFile": "Images/Scientific Engineering/279V.jpg",
+      "optimized": "Images/_optimized/279V.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "2900000_1",
+      "brand": "IKA",
+      "sourceFile": "Images/IKA/2900000_1.jpg",
+      "optimized": "Images/_optimized/2900000_1.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "2930300",
+      "brand": "IKA",
+      "sourceFile": "Images/IKA/2930300.JPG",
+      "optimized": "Images/_optimized/2930300.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "2930500",
+      "brand": "IKA",
+      "sourceFile": "Images/IKA/2930500.JPG",
+      "optimized": "Images/_optimized/2930500.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "2930700",
+      "brand": "IKA",
+      "sourceFile": "Images/IKA/2930700.JPG",
+      "optimized": "Images/_optimized/2930700.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "295",
+      "brand": "Scientific Engineering",
+      "sourceFile": "Images/Scientific Engineering/295.jpg",
+      "optimized": "Images/_optimized/295.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "296",
+      "brand": "Scientific Engineering",
+      "sourceFile": "Images/Scientific Engineering/296.jpg",
+      "optimized": "Images/_optimized/296.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "297",
+      "brand": "Scientific Engineering",
+      "sourceFile": "Images/Scientific Engineering/297.jpg",
+      "optimized": "Images/_optimized/297.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "298",
+      "brand": "Scientific Engineering",
+      "sourceFile": "Images/Scientific Engineering/298.jpg",
+      "optimized": "Images/_optimized/298.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "2980300",
+      "brand": "IKA",
+      "sourceFile": "Images/IKA/2980300.JPG",
+      "optimized": "Images/_optimized/2980300.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "298D",
+      "brand": "Scientific Engineering",
+      "sourceFile": "Images/Scientific Engineering/298D.jpg",
+      "optimized": "Images/_optimized/298D.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "299",
+      "brand": "Scientific Engineering",
+      "sourceFile": "Images/Scientific Engineering/299.jpg",
+      "optimized": "Images/_optimized/299.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "299D",
+      "brand": "Scientific Engineering",
+      "sourceFile": "Images/Scientific Engineering/299D.jpg",
+      "optimized": "Images/_optimized/299D.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "310",
+      "brand": "Scientific Engineering",
+      "sourceFile": "Images/Scientific Engineering/310.jpg",
+      "optimized": "Images/_optimized/310.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "3339000",
+      "brand": "IKA",
+      "sourceFile": "Images/IKA/3339000.JPG",
+      "optimized": "Images/_optimized/3339000.jpg",
+      "match": "price-list",
+      "duplicate": false,
+      "nonClean": false
+    },
+    {
+      "code": "3340000",
+      "brand": "IKA",
+      "sourceFile": "Images/IKA/3340000.JPG",
+      "optimized": "Images/_optimized/3340000.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "3365000",
+      "brand": "IKA",
+      "sourceFile": "Images/IKA/3365000.JPG",
+      "optimized": "Images/_optimized/3365000.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "3487000",
+      "brand": "IKA",
+      "sourceFile": "Images/IKA/3487000.JPG",
+      "optimized": "Images/_optimized/3487000.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "351000",
+      "brand": "IKA",
+      "sourceFile": "Images/IKA/351000.JPG",
+      "optimized": "Images/_optimized/351000.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "3510100",
+      "brand": "IKA",
+      "sourceFile": "Images/IKA/3510100.JPG",
+      "optimized": "Images/_optimized/3510100.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "353",
+      "brand": "Scientific Engineering",
+      "sourceFile": "Images/Scientific Engineering/353.jpg",
+      "optimized": "Images/_optimized/353.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "354",
+      "brand": "Scientific Engineering",
+      "sourceFile": "Images/Scientific Engineering/354.jpg",
+      "optimized": "Images/_optimized/354.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "355",
+      "brand": "Scientific Engineering",
+      "sourceFile": "Images/Scientific Engineering/355.jpg",
+      "optimized": "Images/_optimized/355.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "356",
+      "brand": "Scientific Engineering",
+      "sourceFile": "Images/Scientific Engineering/356.jpg",
+      "optimized": "Images/_optimized/356.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "357",
+      "brand": "Scientific Engineering",
+      "sourceFile": "Images/Scientific Engineering/357.jpg",
+      "optimized": "Images/_optimized/357.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "358",
+      "brand": "Scientific Engineering",
+      "sourceFile": "Images/Scientific Engineering/358.jpg",
+      "optimized": "Images/_optimized/358.jpg",
+      "match": "price-list",
+      "duplicate": false,
+      "nonClean": false
+    },
+    {
+      "code": "3581000",
+      "brand": "IKA",
+      "sourceFile": "Images/IKA/3581000.JPG",
+      "optimized": "Images/_optimized/3581000.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "3581200",
+      "brand": "IKA",
+      "sourceFile": "Images/IKA/3581200.JPG",
+      "optimized": "Images/_optimized/3581200.jpg",
+      "match": "price-list",
+      "duplicate": false,
+      "nonClean": false
+    },
+    {
+      "code": "3581400",
+      "brand": "IKA",
+      "sourceFile": "Images/IKA/3581400.JPG",
+      "optimized": "Images/_optimized/3581400.jpg",
+      "match": "price-list",
+      "duplicate": false,
+      "nonClean": false
+    },
+    {
+      "code": "3582200",
+      "brand": "IKA",
+      "sourceFile": "Images/IKA/3582200.JPG",
+      "optimized": "Images/_optimized/3582200.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "362",
+      "brand": "Scientific Engineering",
+      "sourceFile": "Images/Scientific Engineering/362.jpg",
+      "optimized": "Images/_optimized/362.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "3622000",
+      "brand": "IKA",
+      "sourceFile": "Images/IKA/3622000.JPG",
+      "optimized": "Images/_optimized/3622000.jpg",
+      "match": "price-list",
+      "duplicate": false,
+      "nonClean": false
+    },
+    {
+      "code": "363",
+      "brand": "Scientific Engineering",
+      "sourceFile": "Images/Scientific Engineering/363.jpg",
+      "optimized": "Images/_optimized/363.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "381000",
+      "brand": "IKA",
+      "sourceFile": "Images/IKA/381000.JPG",
+      "optimized": "Images/_optimized/381000.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "3810000",
+      "brand": "IKA",
+      "sourceFile": "Images/IKA/3810000.JPG",
+      "optimized": "Images/_optimized/3810000.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "385",
+      "brand": "Scientific Engineering",
+      "sourceFile": "Images/Scientific Engineering/385.jpg",
+      "optimized": "Images/_optimized/385.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "386",
+      "brand": "Scientific Engineering",
+      "sourceFile": "Images/Scientific Engineering/386.jpg",
+      "optimized": "Images/_optimized/386.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "387",
+      "brand": "Scientific Engineering",
+      "sourceFile": "Images/Scientific Engineering/387.jpg",
+      "optimized": "Images/_optimized/387.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "388",
+      "brand": "Scientific Engineering",
+      "sourceFile": "Images/Scientific Engineering/388.jpg",
+      "optimized": "Images/_optimized/388.jpg",
+      "match": "price-list",
+      "duplicate": false,
+      "nonClean": false
+    },
+    {
+      "code": "389",
+      "brand": "Scientific Engineering",
+      "sourceFile": "Images/Scientific Engineering/389.jpg",
+      "optimized": "Images/_optimized/389.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "3964000",
+      "brand": "IKA",
+      "sourceFile": "Images/IKA/3964000.JPG",
+      "optimized": "Images/_optimized/3964000.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "3990000",
+      "brand": "IKA",
+      "sourceFile": "Images/IKA/3990000.JPG",
+      "optimized": "Images/_optimized/3990000.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "3992000",
+      "brand": "IKA",
+      "sourceFile": "Images/IKA/3992000.JPG",
+      "optimized": "Images/_optimized/3992000.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "4001757",
+      "brand": "Selecta",
+      "sourceFile": "Images/Selecta/4001757.png",
+      "optimized": "Images/_optimized/4001757.png",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "401",
+      "brand": "Scientific Engineering",
+      "sourceFile": "Images/Scientific Engineering/401.jpg",
+      "optimized": "Images/_optimized/401.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "402",
+      "brand": "Scientific Engineering",
+      "sourceFile": "Images/Scientific Engineering/402.jpg",
+      "optimized": "Images/_optimized/402.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "4020700_1",
+      "brand": "IKA",
+      "sourceFile": "Images/IKA/4020700_1.jpg",
+      "optimized": "Images/_optimized/4020700_1.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "4028500",
+      "brand": "IKA",
+      "sourceFile": "Images/IKA/4028500.JPG",
+      "optimized": "Images/_optimized/4028500.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "4028600",
+      "brand": "IKA",
+      "sourceFile": "Images/IKA/4028600.JPG",
+      "optimized": "Images/_optimized/4028600.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "4090000",
+      "brand": "IKA",
+      "sourceFile": "Images/IKA/4090000.JPG",
+      "optimized": "Images/_optimized/4090000.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "4124000",
+      "brand": "IKA",
+      "sourceFile": "Images/IKA/4124000/4124000.jpg",
+      "optimized": "Images/_optimized/4124000.jpg",
+      "match": "unmatched",
+      "duplicate": true,
+      "nonClean": false
+    },
+    {
+      "code": "4124000",
+      "brand": "IKA",
+      "sourceFile": "Images/IKA/4124000/4124000.png",
+      "optimized": "Images/_optimized/4124000.png",
+      "match": "unmatched",
+      "duplicate": true,
+      "nonClean": false
+    },
+    {
+      "code": "415",
+      "brand": "Scientific Engineering",
+      "sourceFile": "Images/Scientific Engineering/415.jpg",
+      "optimized": "Images/_optimized/415.jpg",
+      "match": "price-list",
+      "duplicate": false,
+      "nonClean": false
+    },
+    {
+      "code": "416",
+      "brand": "Scientific Engineering",
+      "sourceFile": "Images/Scientific Engineering/416.jpg",
+      "optimized": "Images/_optimized/416.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "4238100",
+      "brand": "IKA",
+      "sourceFile": "Images/IKA/4238100.JPG",
+      "optimized": "Images/_optimized/4238100.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "4240200",
+      "brand": "IKA",
+      "sourceFile": "Images/IKA/4240200.JPG",
+      "optimized": "Images/_optimized/4240200.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "4240400",
+      "brand": "IKA",
+      "sourceFile": "Images/IKA/4240400.JPG",
+      "optimized": "Images/_optimized/4240400.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "4440000",
+      "brand": "IKA",
+      "sourceFile": "Images/IKA/4440000.JPG",
+      "optimized": "Images/_optimized/4440000.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "4442000",
+      "brand": "IKA",
+      "sourceFile": "Images/IKA/4442000.JPG",
+      "optimized": "Images/_optimized/4442000.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "4444000",
+      "brand": "IKA",
+      "sourceFile": "Images/IKA/4444000.JPG",
+      "optimized": "Images/_optimized/4444000.jpg",
+      "match": "price-list",
+      "duplicate": false,
+      "nonClean": false
+    },
+    {
+      "code": "4446000",
+      "brand": "IKA",
+      "sourceFile": "Images/IKA/4446000.JPG",
+      "optimized": "Images/_optimized/4446000.jpg",
+      "match": "price-list",
+      "duplicate": false,
+      "nonClean": false
+    },
+    {
+      "code": "500",
+      "brand": "Scientific Engineering",
+      "sourceFile": "Images/Scientific Engineering/500.jpg",
+      "optimized": "Images/_optimized/500.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "501",
+      "brand": "Scientific Engineering",
+      "sourceFile": "Images/Scientific Engineering/501.jpg",
+      "optimized": "Images/_optimized/501.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "502",
+      "brand": "Scientific Engineering",
+      "sourceFile": "Images/Scientific Engineering/502.jpg",
+      "optimized": "Images/_optimized/502.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "552",
+      "brand": "Scientific Engineering",
+      "sourceFile": "Images/Scientific Engineering/552.jpg",
+      "optimized": "Images/_optimized/552.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "554",
+      "brand": "Scientific Engineering",
+      "sourceFile": "Images/Scientific Engineering/554.jpg",
+      "optimized": "Images/_optimized/554.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "600",
+      "brand": "Scientific Engineering",
+      "sourceFile": "Images/Scientific Engineering/600.jpg",
+      "optimized": "Images/_optimized/600.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "601",
+      "brand": "Scientific Engineering",
+      "sourceFile": "Images/Scientific Engineering/601.jpg",
+      "optimized": "Images/_optimized/601.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "602",
+      "brand": "Scientific Engineering",
+      "sourceFile": "Images/Scientific Engineering/602.jpg",
+      "optimized": "Images/_optimized/602.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "603",
+      "brand": "Scientific Engineering",
+      "sourceFile": "Images/Scientific Engineering/603.jpg",
+      "optimized": "Images/_optimized/603.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "620",
+      "brand": "Scientific Engineering",
+      "sourceFile": "Images/Scientific Engineering/620.jpg",
+      "optimized": "Images/_optimized/620.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "661",
+      "brand": "Scientific Engineering",
+      "sourceFile": "Images/Scientific Engineering/661.jpg",
+      "optimized": "Images/_optimized/661.jpg",
+      "match": "price-list",
+      "duplicate": false,
+      "nonClean": false
+    },
+    {
+      "code": "662",
+      "brand": "Scientific Engineering",
+      "sourceFile": "Images/Scientific Engineering/662.jpg",
+      "optimized": "Images/_optimized/662.jpg",
+      "match": "price-list",
+      "duplicate": false,
+      "nonClean": false
+    },
+    {
+      "code": "663",
+      "brand": "Scientific Engineering",
+      "sourceFile": "Images/Scientific Engineering/663.jpg",
+      "optimized": "Images/_optimized/663.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "701",
+      "brand": "Scientific Engineering",
+      "sourceFile": "Images/Scientific Engineering/701.jpg",
+      "optimized": "Images/_optimized/701.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "702",
+      "brand": "Scientific Engineering",
+      "sourceFile": "Images/Scientific Engineering/702.jpg",
+      "optimized": "Images/_optimized/702.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "703",
+      "brand": "Scientific Engineering",
+      "sourceFile": "Images/Scientific Engineering/703.jpg",
+      "optimized": "Images/_optimized/703.jpg",
+      "match": "unmatched",
+      "duplicate": true,
+      "nonClean": false
+    },
+    {
+      "code": "703",
+      "brand": "Scientific Engineering",
+      "sourceFile": "Images/Scientific Engineering/703.png",
+      "optimized": "Images/_optimized/703.png",
+      "match": "unmatched",
+      "duplicate": true,
+      "nonClean": false
+    },
+    {
+      "code": "704",
+      "brand": "Scientific Engineering",
+      "sourceFile": "Images/Scientific Engineering/704.jpg",
+      "optimized": "Images/_optimized/704.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "705",
+      "brand": "Scientific Engineering",
+      "sourceFile": "Images/Scientific Engineering/705.jpg",
+      "optimized": "Images/_optimized/705.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "7BZ-HF100-001",
+      "brand": "Healforce",
+      "sourceFile": "Images/Healforce/7BZ-HF100-001.JPG",
+      "optimized": "Images/_optimized/7BZ-HF100-001.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "7BZ-HF100-00T",
+      "brand": "Healforce",
+      "sourceFile": "Images/Healforce/7BZ-HF100-00T.JPG",
+      "optimized": "Images/_optimized/7BZ-HF100-00T.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "7BZ-HF100-01H",
+      "brand": "Healforce",
+      "sourceFile": "Images/Healforce/7BZ-HF100-01H.JPG",
+      "optimized": "Images/_optimized/7BZ-HF100-01H.jpg",
+      "match": "price-list",
+      "duplicate": false,
+      "nonClean": false
+    },
+    {
+      "code": "7BZ-HF100-01L",
+      "brand": "Healforce",
+      "sourceFile": "Images/Healforce/7BZ-HF100-01L.JPG",
+      "optimized": "Images/_optimized/7BZ-HF100-01L.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "7BZ-HF1200C+A2-001",
+      "brand": "Healforce",
+      "sourceFile": "Images/Healforce/7BZ-HF1200C+A2-001.JPG",
+      "optimized": "Images/_optimized/7BZ-HF1200C_A2-001.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "7BZ-HF1200LC+-00E",
+      "brand": "Healforce",
+      "sourceFile": "Images/Healforce/7BZ-HF1200LC+-00E.JPG",
+      "optimized": "Images/_optimized/7BZ-HF1200LC_-00E.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "7BZ-HF1200LC+-00K",
+      "brand": "Healforce",
+      "sourceFile": "Images/Healforce/7BZ-HF1200LC+-00K.JPG",
+      "optimized": "Images/_optimized/7BZ-HF1200LC_-00K.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "7BZ-HF1200TEB2-001",
+      "brand": "Healforce",
+      "sourceFile": "Images/Healforce/7BZ-HF1200TEB2-001.JPG",
+      "optimized": "Images/_optimized/7BZ-HF1200TEB2-001.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "7BZ-HF1200TECB2-001",
+      "brand": "Healforce",
+      "sourceFile": "Images/Healforce/7BZ-HF1200TECB2-001.JPG",
+      "optimized": "Images/_optimized/7BZ-HF1200TECB2-001.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "7BZ-HF1500C+A2-001",
+      "brand": "Healforce",
+      "sourceFile": "Images/Healforce/7BZ-HF1500C+A2-001.JPG",
+      "optimized": "Images/_optimized/7BZ-HF1500C_A2-001.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "7BZ-HF1500LC+-00E",
+      "brand": "Healforce",
+      "sourceFile": "Images/Healforce/7BZ-HF1500LC+-00E.JPG",
+      "optimized": "Images/_optimized/7BZ-HF1500LC_-00E.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "7BZ-HF1500TEB2-001",
+      "brand": "Healforce",
+      "sourceFile": "Images/Healforce/7BZ-HF1500TEB2-001.JPG",
+      "optimized": "Images/_optimized/7BZ-HF1500TEB2-001.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "7BZ-HF1500TECB2-001",
+      "brand": "Healforce",
+      "sourceFile": "Images/Healforce/7BZ-HF1500TECB2-001.JPG",
+      "optimized": "Images/_optimized/7BZ-HF1500TECB2-001.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "7BZ-HF151-0CE",
+      "brand": "Healforce",
+      "sourceFile": "Images/Healforce/7BZ-HF151-0CE.JPG",
+      "optimized": "Images/_optimized/7BZ-HF151-0CE.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "7BZ-HF160W-001",
+      "brand": "Healforce",
+      "sourceFile": "Images/Healforce/7BZ-HF160W-001.JPG",
+      "optimized": "Images/_optimized/7BZ-HF160W-001.jpg",
+      "match": "price-list",
+      "duplicate": false,
+      "nonClean": false
+    },
+    {
+      "code": "7BZ-HF160W-00T",
+      "brand": "Healforce",
+      "sourceFile": "Images/Healforce/7BZ-HF160W-00T.JPG",
+      "optimized": "Images/_optimized/7BZ-HF160W-00T.jpg",
+      "match": "price-list",
+      "duplicate": false,
+      "nonClean": false
+    },
+    {
+      "code": "7BZ-HF1800C+A2-001",
+      "brand": "Healforce",
+      "sourceFile": "Images/Healforce/7BZ-HF1800C+A2-001.JPG",
+      "optimized": "Images/_optimized/7BZ-HF1800C_A2-001.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "7BZ-HF1800TECB2-001",
+      "brand": "Healforce",
+      "sourceFile": "Images/Healforce/7BZ-HF1800TECB2-001.JPG",
+      "optimized": "Images/_optimized/7BZ-HF1800TECB2-001.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "7BZ-HF212-0CE",
+      "brand": "Healforce",
+      "sourceFile": "Images/Healforce/7BZ-HF212-0CE.JPG",
+      "optimized": "Images/_optimized/7BZ-HF212-0CE.jpg",
+      "match": "price-list",
+      "duplicate": false,
+      "nonClean": false
+    },
+    {
+      "code": "7BZ-HF240-00A",
+      "brand": "Healforce",
+      "sourceFile": "Images/Healforce/7BZ-HF240-00A.JPG",
+      "optimized": "Images/_optimized/7BZ-HF240-00A.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "7BZ-HF240-0A6",
+      "brand": "Healforce",
+      "sourceFile": "Images/Healforce/7BZ-HF240-0A6.JPG",
+      "optimized": "Images/_optimized/7BZ-HF240-0A6.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "7BZ-HF90-0CE",
+      "brand": "Healforce",
+      "sourceFile": "Images/Healforce/7BZ-HF90-0CE.JPG",
+      "optimized": "Images/_optimized/7BZ-HF90-0CE.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "7BZ-HF900C+A2-001",
+      "brand": "Healforce",
+      "sourceFile": "Images/Healforce/7BZ-HF900C+A2-001.JPG",
+      "optimized": "Images/_optimized/7BZ-HF900C_A2-001.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "7BZ-HF900LC+-00E",
+      "brand": "Healforce",
+      "sourceFile": "Images/Healforce/7BZ-HF900LC+-00E.JPG",
+      "optimized": "Images/_optimized/7BZ-HF900LC_-00E.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "7BZ-HF900TECB2-001",
+      "brand": "Healforce",
+      "sourceFile": "Images/Healforce/7BZ-HF900TECB2-001.JPG",
+      "optimized": "Images/_optimized/7BZ-HF900TECB2-001.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "7BZ-NHF1200A2-001",
+      "brand": "Healforce",
+      "sourceFile": "Images/Healforce/7BZ-NHF1200A2-001.JPG",
+      "optimized": "Images/_optimized/7BZ-NHF1200A2-001.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "7BZ-NHF1500A2-001",
+      "brand": "Healforce",
+      "sourceFile": "Images/Healforce/7BZ-NHF1500A2-001.JPG",
+      "optimized": "Images/_optimized/7BZ-NHF1500A2-001.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "7BZ-NHF900A2-001",
+      "brand": "Healforce",
+      "sourceFile": "Images/Healforce/7BZ-NHF900A2-001.JPG",
+      "optimized": "Images/_optimized/7BZ-NHF900A2-001.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "8022300",
+      "brand": "IKA",
+      "sourceFile": "Images/IKA/8022300.JPG",
+      "optimized": "Images/_optimized/8022300.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "8022500",
+      "brand": "IKA",
+      "sourceFile": "Images/IKA/8022500.JPG",
+      "optimized": "Images/_optimized/8022500.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "8022900",
+      "brand": "IKA",
+      "sourceFile": "Images/IKA/8022900.JPG",
+      "optimized": "Images/_optimized/8022900.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "8023100",
+      "brand": "IKA",
+      "sourceFile": "Images/IKA/8023100.JPG",
+      "optimized": "Images/_optimized/8023100.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "8031500",
+      "brand": "IKA",
+      "sourceFile": "Images/IKA/8031500.JPG",
+      "optimized": "Images/_optimized/8031500.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "8031600",
+      "brand": "IKA",
+      "sourceFile": "Images/IKA/8031600.JPG",
+      "optimized": "Images/_optimized/8031600.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "804",
+      "brand": "Scientific Engineering",
+      "sourceFile": "Images/Scientific Engineering/804.jpg",
+      "optimized": "Images/_optimized/804.jpg",
+      "match": "price-list",
+      "duplicate": false,
+      "nonClean": false
+    },
+    {
+      "code": "805",
+      "brand": "Scientific Engineering",
+      "sourceFile": "Images/Scientific Engineering/805.jpg",
+      "optimized": "Images/_optimized/805.jpg",
+      "match": "price-list",
+      "duplicate": false,
+      "nonClean": false
+    },
+    {
+      "code": "806",
+      "brand": "Scientific Engineering",
+      "sourceFile": "Images/Scientific Engineering/806.jpg",
+      "optimized": "Images/_optimized/806.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "807",
+      "brand": "Scientific Engineering",
+      "sourceFile": "Images/Scientific Engineering/807.jpg",
+      "optimized": "Images/_optimized/807.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "9015900",
+      "brand": "IKA",
+      "sourceFile": "Images/IKA/9015900.JPG",
+      "optimized": "Images/_optimized/9015900.jpg",
+      "match": "price-list",
+      "duplicate": false,
+      "nonClean": false
+    },
+    {
+      "code": "909",
+      "brand": "Scientific Engineering",
+      "sourceFile": "Images/Scientific Engineering/909.jpg",
+      "optimized": "Images/_optimized/909.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "930",
+      "brand": "Scientific Engineering",
+      "sourceFile": "Images/Scientific Engineering/930.jpg",
+      "optimized": "Images/_optimized/930.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "A00000012",
+      "brand": "VELP",
+      "sourceFile": "Images/VELP/A00000012.JPG",
+      "optimized": "Images/_optimized/A00000012.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "A00000013",
+      "brand": "VELP",
+      "sourceFile": "Images/VELP/A00000013.JPG",
+      "optimized": "Images/_optimized/A00000013.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "A000000135",
+      "brand": "VELP",
+      "sourceFile": "Images/VELP/A000000135.png",
+      "optimized": "Images/_optimized/A000000135.png",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "A00000014",
+      "brand": "VELP",
+      "sourceFile": "Images/VELP/A00000014.JPG",
+      "optimized": "Images/_optimized/A00000014.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "A00000015",
+      "brand": "VELP",
+      "sourceFile": "Images/VELP/A00000015.JPG",
+      "optimized": "Images/_optimized/A00000015.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "A00000016",
+      "brand": "VELP",
+      "sourceFile": "Images/VELP/A00000016.JPG",
+      "optimized": "Images/_optimized/A00000016.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "A00000017",
+      "brand": "VELP",
+      "sourceFile": "Images/VELP/A00000017.JPG",
+      "optimized": "Images/_optimized/A00000017.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "A00000019",
+      "brand": "VELP",
+      "sourceFile": "Images/VELP/A00000019.JPG",
+      "optimized": "Images/_optimized/A00000019.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "A00000020",
+      "brand": "VELP",
+      "sourceFile": "Images/VELP/A00000020.JPG",
+      "optimized": "Images/_optimized/A00000020.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "A00000045",
+      "brand": "VELP",
+      "sourceFile": "Images/VELP/A00000045.JPG",
+      "optimized": "Images/_optimized/A00000045.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "A00000142",
+      "brand": "VELP",
+      "sourceFile": "Images/VELP/A00000142.png",
+      "optimized": "Images/_optimized/A00000142.png",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "A00000230",
+      "brand": "VELP",
+      "sourceFile": "Images/VELP/A00000230.png",
+      "optimized": "Images/_optimized/A00000230.png",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "A00001141",
+      "brand": "VELP",
+      "sourceFile": "Images/VELP/A00001141.png",
+      "optimized": "Images/_optimized/A00001141.png",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "A00001300",
+      "brand": "VELP",
+      "sourceFile": "Images/VELP/A00001300.JPG",
+      "optimized": "Images/_optimized/A00001300.jpg",
+      "match": "price-list",
+      "duplicate": false,
+      "nonClean": false
+    },
+    {
+      "code": "A00001301",
+      "brand": "VELP",
+      "sourceFile": "Images/VELP/A00001301.JPG",
+      "optimized": "Images/_optimized/A00001301.jpg",
+      "match": "price-list",
+      "duplicate": false,
+      "nonClean": false
+    },
+    {
+      "code": "A00001304",
+      "brand": "VELP",
+      "sourceFile": "Images/VELP/A00001304.png",
+      "optimized": "Images/_optimized/A00001304.png",
+      "match": "price-list",
+      "duplicate": false,
+      "nonClean": false
+    },
+    {
+      "code": "A00001305",
+      "brand": "VELP",
+      "sourceFile": "Images/VELP/A00001305.png",
+      "optimized": "Images/_optimized/A00001305.png",
+      "match": "price-list",
+      "duplicate": false,
+      "nonClean": false
+    },
+    {
+      "code": "A214",
+      "brand": "Thermo",
+      "sourceFile": "Images/Thermo/A214.jpg",
+      "optimized": "Images/_optimized/A214.jpg",
+      "match": "price-list",
+      "duplicate": false,
+      "nonClean": false
+    },
+    {
+      "code": "ABH 1",
+      "brand": "PROLAB",
+      "sourceFile": "Images/PROLAB/ABH 1.PNG",
+      "optimized": "Images/_optimized/ABH_1.png",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "ABH 2",
+      "brand": "PROLAB",
+      "sourceFile": "Images/PROLAB/ABH 2.PNG",
+      "optimized": "Images/_optimized/ABH_2.png",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "ABH 450",
+      "brand": "PROLAB",
+      "sourceFile": "Images/PROLAB/ABH 450.PNG",
+      "optimized": "Images/_optimized/ABH_450.png",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "AD1000",
+      "brand": "Adwa",
+      "sourceFile": "Images/Adwa/AD1000.JPG",
+      "optimized": "Images/_optimized/AD1000.jpg",
+      "match": "price-list",
+      "duplicate": false,
+      "nonClean": false
+    },
+    {
+      "code": "AD1020",
+      "brand": "Adwa",
+      "sourceFile": "Images/Adwa/AD1020.JPG",
+      "optimized": "Images/_optimized/AD1020.jpg",
+      "match": "catalogue",
+      "duplicate": false,
+      "nonClean": false
+    },
+    {
+      "code": "AD1030",
+      "brand": "Adwa",
+      "sourceFile": "Images/Adwa/AD1030.JPG",
+      "optimized": "Images/_optimized/AD1030.jpg",
+      "match": "price-list",
+      "duplicate": false,
+      "nonClean": false
+    },
+    {
+      "code": "AD1040",
+      "brand": "Adwa",
+      "sourceFile": "Images/Adwa/AD1040.JPG",
+      "optimized": "Images/_optimized/AD1040.jpg",
+      "match": "price-list",
+      "duplicate": false,
+      "nonClean": false
+    },
+    {
+      "code": "AD110",
+      "brand": "Adwa",
+      "sourceFile": "Images/Adwa/AD110.JPG",
+      "optimized": "Images/_optimized/AD110.jpg",
+      "match": "price-list",
+      "duplicate": false,
+      "nonClean": false
+    },
+    {
+      "code": "AD111",
+      "brand": "Adwa",
+      "sourceFile": "Images/Adwa/AD111.JPG",
+      "optimized": "Images/_optimized/AD111.jpg",
+      "match": "catalogue",
+      "duplicate": false,
+      "nonClean": false
+    },
+    {
+      "code": "AD12",
+      "brand": "Adwa",
+      "sourceFile": "Images/Adwa/ad12.PNG",
+      "optimized": "Images/_optimized/AD12.png",
+      "match": "catalogue",
+      "duplicate": false,
+      "nonClean": false
+    },
+    {
+      "code": "AD1200",
+      "brand": "Adwa",
+      "sourceFile": "Images/Adwa/AD1200.JPG",
+      "optimized": "Images/_optimized/AD1200.jpg",
+      "match": "price-list",
+      "duplicate": false,
+      "nonClean": false
+    },
+    {
+      "code": "AD130",
+      "brand": "Adwa",
+      "sourceFile": "Images/Adwa/AD130.JPG",
+      "optimized": "Images/_optimized/AD130.jpg",
+      "match": "catalogue",
+      "duplicate": false,
+      "nonClean": false
+    },
+    {
+      "code": "AD131",
+      "brand": "Adwa",
+      "sourceFile": "Images/Adwa/AD131.JPG",
+      "optimized": "Images/_optimized/AD131.jpg",
+      "match": "catalogue",
+      "duplicate": false,
+      "nonClean": false
+    },
+    {
+      "code": "AD132",
+      "brand": "Adwa",
+      "sourceFile": "Images/Adwa/AD132.JPG",
+      "optimized": "Images/_optimized/AD132.jpg",
+      "match": "catalogue",
+      "duplicate": false,
+      "nonClean": false
+    },
+    {
+      "code": "AD8000",
+      "brand": "Adwa",
+      "sourceFile": "Images/Adwa/AD8000.JPG",
+      "optimized": "Images/_optimized/AD8000.jpg",
+      "match": "catalogue",
+      "duplicate": false,
+      "nonClean": false
+    },
+    {
+      "code": "C3010",
+      "brand": "CONSORT",
+      "sourceFile": "Images/CONSORT/C3010.JPG",
+      "optimized": "Images/_optimized/C3010.jpg",
+      "match": "price-list",
+      "duplicate": false,
+      "nonClean": false
+    },
+    {
+      "code": "C3011",
+      "brand": "CONSORT",
+      "sourceFile": "Images/CONSORT/C3011.JPG",
+      "optimized": "Images/_optimized/C3011.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "C3020",
+      "brand": "CONSORT",
+      "sourceFile": "Images/CONSORT/C3020.JPG",
+      "optimized": "Images/_optimized/C3020.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "C3021",
+      "brand": "CONSORT",
+      "sourceFile": "Images/CONSORT/C3021.JPG",
+      "optimized": "Images/_optimized/C3021.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "C3030",
+      "brand": "CONSORT",
+      "sourceFile": "Images/CONSORT/C3030.JPG",
+      "optimized": "Images/_optimized/C3030.jpg",
+      "match": "price-list",
+      "duplicate": false,
+      "nonClean": false
+    },
+    {
+      "code": "C3031",
+      "brand": "CONSORT",
+      "sourceFile": "Images/CONSORT/C3031.JPG",
+      "optimized": "Images/_optimized/C3031.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "C3040",
+      "brand": "CONSORT",
+      "sourceFile": "Images/CONSORT/C3040.JPG",
+      "optimized": "Images/_optimized/C3040.jpg",
+      "match": "price-list",
+      "duplicate": false,
+      "nonClean": false
+    },
+    {
+      "code": "C3041",
+      "brand": "CONSORT",
+      "sourceFile": "Images/CONSORT/C3041.JPG",
+      "optimized": "Images/_optimized/C3041.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "C3050",
+      "brand": "CONSORT",
+      "sourceFile": "Images/CONSORT/C3050.JPG",
+      "optimized": "Images/_optimized/C3050.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "C3051",
+      "brand": "CONSORT",
+      "sourceFile": "Images/CONSORT/C3051.JPG",
+      "optimized": "Images/_optimized/C3051.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "C3060",
+      "brand": "CONSORT",
+      "sourceFile": "Images/CONSORT/C3060.JPG",
+      "optimized": "Images/_optimized/C3060.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "C3061",
+      "brand": "CONSORT",
+      "sourceFile": "Images/CONSORT/C3061.JPG",
+      "optimized": "Images/_optimized/C3061.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "C370",
+      "brand": "TELSTAR",
+      "sourceFile": "Images/TELSTAR/C370.JPG",
+      "optimized": "Images/_optimized/C370.jpg",
+      "match": "price-list",
+      "duplicate": false,
+      "nonClean": false
+    },
+    {
+      "code": "C5010",
+      "brand": "CONSORT",
+      "sourceFile": "Images/CONSORT/C5010.JPG",
+      "optimized": "Images/_optimized/C5010.jpg",
+      "match": "price-list",
+      "duplicate": false,
+      "nonClean": false
+    },
+    {
+      "code": "C5020",
+      "brand": "CONSORT",
+      "sourceFile": "Images/CONSORT/C5020.JPG",
+      "optimized": "Images/_optimized/C5020.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "C5020T",
+      "brand": "CONSORT",
+      "sourceFile": "Images/CONSORT/C5020T.JPG",
+      "optimized": "Images/_optimized/C5020T.jpg",
+      "match": "price-list",
+      "duplicate": true,
+      "nonClean": false
+    },
+    {
+      "code": "C5020T",
+      "brand": "CONSORT",
+      "sourceFile": "Images/CONSORT/C5020TJPG.jpg",
+      "optimized": "Images/_optimized/C5020T.jpg",
+      "match": "price-list",
+      "duplicate": true,
+      "nonClean": true
+    },
+    {
+      "code": "C5030",
+      "brand": "CONSORT",
+      "sourceFile": "Images/CONSORT/C5030.JPG",
+      "optimized": "Images/_optimized/C5030.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "C6010",
+      "brand": "CONSORT",
+      "sourceFile": "Images/CONSORT/C6010.JPG",
+      "optimized": "Images/_optimized/C6010.jpg",
+      "match": "price-list",
+      "duplicate": false,
+      "nonClean": false
+    },
+    {
+      "code": "C6020",
+      "brand": "CONSORT",
+      "sourceFile": "Images/CONSORT/C6020.JPG",
+      "optimized": "Images/_optimized/C6020.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "C6030",
+      "brand": "CONSORT",
+      "sourceFile": "Images/CONSORT/C6030.JPG",
+      "optimized": "Images/_optimized/C6030.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "C620",
+      "brand": "TELSTAR",
+      "sourceFile": "Images/TELSTAR/C620.JPG",
+      "optimized": "Images/_optimized/C620.jpg",
+      "match": "price-list",
+      "duplicate": false,
+      "nonClean": false
+    },
+    {
+      "code": "C820",
+      "brand": "TELSTAR",
+      "sourceFile": "Images/TELSTAR/C820.JPG",
+      "optimized": "Images/_optimized/C820.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "C860",
+      "brand": "CONSORT",
+      "sourceFile": "Images/CONSORT/C860.JPG",
+      "optimized": "Images/_optimized/C860.jpg",
+      "match": "price-list",
+      "duplicate": false,
+      "nonClean": false
+    },
+    {
+      "code": "CBK",
+      "brand": "Adams",
+      "sourceFile": "Images/Adams/CBK.JPG",
+      "optimized": "Images/_optimized/CBK.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "CE 110",
+      "brand": "ORTO",
+      "sourceFile": "Images/ORTO/CE 110.JPG",
+      "optimized": "Images/_optimized/CE_110.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "ce 111",
+      "brand": "ORTO",
+      "sourceFile": "Images/ORTO/ce 111.JPG",
+      "optimized": "Images/_optimized/ce_111.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "CE 112",
+      "brand": "ORTO",
+      "sourceFile": "Images/ORTO/CE 112.JPG",
+      "optimized": "Images/_optimized/CE_112.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "CE 113",
+      "brand": "ORTO",
+      "sourceFile": "Images/ORTO/CE 113.JPG",
+      "optimized": "Images/_optimized/CE_113.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "CE 114",
+      "brand": "ORTO",
+      "sourceFile": "Images/ORTO/CE 114.JPG",
+      "optimized": "Images/_optimized/CE_114.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "CE 115",
+      "brand": "ORTO",
+      "sourceFile": "Images/ORTO/CE 115.JPG",
+      "optimized": "Images/_optimized/CE_115.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "CE 126",
+      "brand": "ORTO",
+      "sourceFile": "Images/ORTO/CE 126.JPG",
+      "optimized": "Images/_optimized/CE_126.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "CE 144",
+      "brand": "ORTO",
+      "sourceFile": "Images/ORTO/CE 144.JPG",
+      "optimized": "Images/_optimized/CE_144.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "CE 146",
+      "brand": "ORTO",
+      "sourceFile": "Images/ORTO/CE 146.JPG",
+      "optimized": "Images/_optimized/CE_146.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "CE 148",
+      "brand": "ORTO",
+      "sourceFile": "Images/ORTO/CE 148.JPG",
+      "optimized": "Images/_optimized/CE_148.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "CR-Smart-E15",
+      "brand": "Healforce",
+      "sourceFile": "Images/Healforce/CR-Smart-E15.JPG",
+      "optimized": "Images/_optimized/CR-Smart-E15.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "CR-Smart-N15UV",
+      "brand": "Healforce",
+      "sourceFile": "Images/Healforce/CR-Smart-N15UV.JPG",
+      "optimized": "Images/_optimized/CR-Smart-N15UV.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "CR-Smart-N15VF",
+      "brand": "Healforce",
+      "sourceFile": "Images/Healforce/CR-Smart-N15VF.JPG",
+      "optimized": "Images/_optimized/CR-Smart-N15VF.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "CR-Smart-N2-15UV",
+      "brand": "Healforce",
+      "sourceFile": "Images/Healforce/CR-Smart-N2-15UV.JPG",
+      "optimized": "Images/_optimized/CR-Smart-N2-15UV.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "CR-Smart-N2-15VF",
+      "brand": "Healforce",
+      "sourceFile": "Images/Healforce/CR-Smart-N2-15VF.JPG",
+      "optimized": "Images/_optimized/CR-Smart-N2-15VF.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "CR-Smart-N30UV",
+      "brand": "Healforce",
+      "sourceFile": "Images/Healforce/CR-Smart-N30UV.JPG",
+      "optimized": "Images/_optimized/CR-Smart-N30UV.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "CR-Smart-N30VF",
+      "brand": "Healforce",
+      "sourceFile": "Images/Healforce/CR-Smart-N30VF.JPG",
+      "optimized": "Images/_optimized/CR-Smart-N30VF.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "CR-Smart-NE15UV",
+      "brand": "Healforce",
+      "sourceFile": "Images/Healforce/CR-Smart-NE15UV.JPG",
+      "optimized": "Images/_optimized/CR-Smart-NE15UV.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "CR-Smart-NE15VF",
+      "brand": "Healforce",
+      "sourceFile": "Images/Healforce/CR-Smart-NE15VF.JPG",
+      "optimized": "Images/_optimized/CR-Smart-NE15VF.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "CR-Smart-PUV",
+      "brand": "Healforce",
+      "sourceFile": "Images/Healforce/CR-Smart-PUV.JPG",
+      "optimized": "Images/_optimized/CR-Smart-PUV.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "CR-Smart-PVF",
+      "brand": "Healforce",
+      "sourceFile": "Images/Healforce/CR-Smart-PVF.JPG",
+      "optimized": "Images/_optimized/CR-Smart-PVF.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "DB 005",
+      "brand": "Gemmy",
+      "sourceFile": "Images/Gemmy/DB 005.JPG",
+      "optimized": "Images/_optimized/DB_005.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "DB 006",
+      "brand": "Gemmy",
+      "sourceFile": "Images/Gemmy/DB 006.JPG",
+      "optimized": "Images/_optimized/DB_006.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "DB 006E",
+      "brand": "Gemmy",
+      "sourceFile": "Images/Gemmy/DB 006E.JPG",
+      "optimized": "Images/_optimized/DB_006E.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "DBC 06",
+      "brand": "Gemmy",
+      "sourceFile": "Images/Gemmy/DBC 06.JPG",
+      "optimized": "Images/_optimized/DBC_06.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "DBC 09",
+      "brand": "Gemmy",
+      "sourceFile": "Images/Gemmy/DBC 09.JPG",
+      "optimized": "Images/_optimized/DBC_09.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "DBC 8E",
+      "brand": "Gemmy",
+      "sourceFile": "Images/Gemmy/DBC 8E.JPG",
+      "optimized": "Images/_optimized/DBC_8E.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "DV-11",
+      "brand": "Brookfield",
+      "sourceFile": "Images/Brookfield/DV-11.JPG",
+      "optimized": "Images/_optimized/DV-11.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "DV1",
+      "brand": "Brookfield",
+      "sourceFile": "Images/Brookfield/DV1.JPG",
+      "optimized": "Images/_optimized/DV1.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "DVE",
+      "brand": "Brookfield",
+      "sourceFile": "Images/Brookfield/DVE.JPG",
+      "optimized": "Images/_optimized/DVE.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "F10100120",
+      "brand": "VELP",
+      "sourceFile": "Images/VELP/F10100120.png",
+      "optimized": "Images/_optimized/F10100120.png",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "F10100126",
+      "brand": "VELP",
+      "sourceFile": "Images/VELP/F10100126.png",
+      "optimized": "Images/_optimized/F10100126.png",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "F101A0125",
+      "brand": "VELP",
+      "sourceFile": "Images/VELP/F101A0125.png",
+      "optimized": "Images/_optimized/F101A0125.png",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "F101A0127",
+      "brand": "VELP",
+      "sourceFile": "Images/VELP/F101A0127.png",
+      "optimized": "Images/_optimized/F101A0127.png",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "F10230131",
+      "brand": "VELP",
+      "sourceFile": "Images/VELP/F10230131.png",
+      "optimized": "Images/_optimized/F10230131.png",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "F102V0134",
+      "brand": "VELP",
+      "sourceFile": "Images/VELP/F102V0134.jpg",
+      "optimized": "Images/_optimized/F102V0134.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "F10300310",
+      "brand": "VELP",
+      "sourceFile": "Images/VELP/F10300310.png",
+      "optimized": "Images/_optimized/F10300310.png",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "F10300330",
+      "brand": "VELP",
+      "sourceFile": "Images/VELP/F10300330.png",
+      "optimized": "Images/_optimized/F10300330.png",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "F10400320",
+      "brand": "VELP",
+      "sourceFile": "Images/VELP/F10400320.png",
+      "optimized": "Images/_optimized/F10400320.png",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "F10400320 (2)",
+      "brand": "VELP",
+      "sourceFile": "Images/VELP/F10400320 (2).png",
+      "optimized": "Images/_optimized/F10400320_2_.png",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "F105A0108",
+      "brand": "VELP",
+      "sourceFile": "Images/VELP/F105A0108.JPG",
+      "optimized": "Images/_optimized/F105A0108.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "F105A0109",
+      "brand": "VELP",
+      "sourceFile": "Images/VELP/F105A0109.JPG",
+      "optimized": "Images/_optimized/F105A0109.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "F105A0109 (2)",
+      "brand": "VELP",
+      "sourceFile": "Images/VELP/F105A0109 (2).jpg",
+      "optimized": "Images/_optimized/F105A0109_2_.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "F105A0111",
+      "brand": "VELP",
+      "sourceFile": "Images/VELP/F105A0111.JPG",
+      "optimized": "Images/_optimized/F105A0111.jpg",
+      "match": "unmatched",
+      "duplicate": true,
+      "nonClean": false
+    },
+    {
+      "code": "F105A0111",
+      "brand": "VELP",
+      "sourceFile": "Images/VELP/F105A0111.png",
+      "optimized": "Images/_optimized/F105A0111.png",
+      "match": "unmatched",
+      "duplicate": true,
+      "nonClean": false
+    },
+    {
+      "code": "F105A0112",
+      "brand": "VELP",
+      "sourceFile": "Images/VELP/F105A0112.png",
+      "optimized": "Images/_optimized/F105A0112.png",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "F105A0117",
+      "brand": "VELP",
+      "sourceFile": "Images/VELP/F105A0117.JPG",
+      "optimized": "Images/_optimized/F105A0117.jpg",
+      "match": "unmatched",
+      "duplicate": true,
+      "nonClean": false
+    },
+    {
+      "code": "F105A0117",
+      "brand": "VELP",
+      "sourceFile": "Images/VELP/F105A0117.png",
+      "optimized": "Images/_optimized/F105A0117.png",
+      "match": "unmatched",
+      "duplicate": true,
+      "nonClean": false
+    },
+    {
+      "code": "F105A012",
+      "brand": "VELP",
+      "sourceFile": "Images/VELP/F105A012.JPG",
+      "optimized": "Images/_optimized/F105A012.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "F105A0180",
+      "brand": "VELP",
+      "sourceFile": "Images/VELP/F105A0180.png",
+      "optimized": "Images/_optimized/F105A0180.png",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "F10600118",
+      "brand": "VELP",
+      "sourceFile": "Images/VELP/F10600118.png",
+      "optimized": "Images/_optimized/F10600118.png",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "F20100150",
+      "brand": "VELP",
+      "sourceFile": "Images/VELP/F20100150.JPG",
+      "optimized": "Images/_optimized/F20100150.jpg",
+      "match": "price-list",
+      "duplicate": false,
+      "nonClean": false
+    },
+    {
+      "code": "F20100151",
+      "brand": "VELP",
+      "sourceFile": "Images/VELP/F20100151.JPG",
+      "optimized": "Images/_optimized/F20100151.jpg",
+      "match": "price-list",
+      "duplicate": false,
+      "nonClean": false
+    },
+    {
+      "code": "F20100152",
+      "brand": "VELP",
+      "sourceFile": "Images/VELP/F20100152.JPG",
+      "optimized": "Images/_optimized/F20100152.jpg",
+      "match": "price-list",
+      "duplicate": false,
+      "nonClean": false
+    },
+    {
+      "code": "F20100155",
+      "brand": "VELP",
+      "sourceFile": "Images/VELP/F20100155.JPG",
+      "optimized": "Images/_optimized/F20100155.jpg",
+      "match": "price-list",
+      "duplicate": false,
+      "nonClean": false
+    },
+    {
+      "code": "F20100156",
+      "brand": "VELP",
+      "sourceFile": "Images/VELP/F20100156.JPG",
+      "optimized": "Images/_optimized/F20100156.jpg",
+      "match": "catalogue",
+      "duplicate": false,
+      "nonClean": false
+    },
+    {
+      "code": "F201A0150",
+      "brand": "VELP",
+      "sourceFile": "Images/VELP/F201A0150.png",
+      "optimized": "Images/_optimized/F201A0150.png",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "F201A0151",
+      "brand": "VELP",
+      "sourceFile": "Images/VELP/F201A0151.png",
+      "optimized": "Images/_optimized/F201A0151.png",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "F201A0152",
+      "brand": "VELP",
+      "sourceFile": "Images/VELP/F201A0152.png",
+      "optimized": "Images/_optimized/F201A0152.png",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "F201A0155",
+      "brand": "VELP",
+      "sourceFile": "Images/VELP/F201A0155.png",
+      "optimized": "Images/_optimized/F201A0155.png",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "F201A0156",
+      "brand": "VELP",
+      "sourceFile": "Images/VELP/F201A0156.png",
+      "optimized": "Images/_optimized/F201A0156.png",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "F201A0157",
+      "brand": "VELP",
+      "sourceFile": "Images/VELP/F201A0157.png",
+      "optimized": "Images/_optimized/F201A0157.png",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "F202A0171",
+      "brand": "VELP",
+      "sourceFile": "Images/VELP/F202A0171.JPG",
+      "optimized": "Images/_optimized/F202A0171.jpg",
+      "match": "price-list",
+      "duplicate": true,
+      "nonClean": false
+    },
+    {
+      "code": "F202A0171",
+      "brand": "VELP",
+      "sourceFile": "Images/VELP/F202A0171.png",
+      "optimized": "Images/_optimized/F202A0171.png",
+      "match": "price-list",
+      "duplicate": true,
+      "nonClean": false
+    },
+    {
+      "code": "F202A0173",
+      "brand": "VELP",
+      "sourceFile": "Images/VELP/F202A0173.JPG",
+      "optimized": "Images/_optimized/F202A0173.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "F202A0174",
+      "brand": "VELP",
+      "sourceFile": "Images/VELP/F202A0174.png",
+      "optimized": "Images/_optimized/F202A0174.png",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "F202A0175",
+      "brand": "VELP",
+      "sourceFile": "Images/VELP/F202A0175.JPG",
+      "optimized": "Images/_optimized/F202A0175.jpg",
+      "match": "price-list",
+      "duplicate": true,
+      "nonClean": false
+    },
+    {
+      "code": "F202A0175",
+      "brand": "VELP",
+      "sourceFile": "Images/VELP/F202A0175.png",
+      "optimized": "Images/_optimized/F202A0175.png",
+      "match": "price-list",
+      "duplicate": true,
+      "nonClean": false
+    },
+    {
+      "code": "F202A0176",
+      "brand": "VELP",
+      "sourceFile": "Images/VELP/F202A0176.JPG",
+      "optimized": "Images/_optimized/F202A0176.jpg",
+      "match": "unmatched",
+      "duplicate": true,
+      "nonClean": false
+    },
+    {
+      "code": "F202A0176",
+      "brand": "VELP",
+      "sourceFile": "Images/VELP/F202A0176.png",
+      "optimized": "Images/_optimized/F202A0176.png",
+      "match": "unmatched",
+      "duplicate": true,
+      "nonClean": false
+    },
+    {
+      "code": "F202A0270",
+      "brand": "VELP",
+      "sourceFile": "Images/VELP/F202A0270.png",
+      "optimized": "Images/_optimized/F202A0270.png",
+      "match": "price-list",
+      "duplicate": false,
+      "nonClean": false
+    },
+    {
+      "code": "F202A0280",
+      "brand": "VELP",
+      "sourceFile": "Images/VELP/F202A0280.png",
+      "optimized": "Images/_optimized/F202A0280.png",
+      "match": "price-list",
+      "duplicate": false,
+      "nonClean": false
+    },
+    {
+      "code": "F20300165",
+      "brand": "VELP",
+      "sourceFile": "Images/VELP/F20300165.png",
+      "optimized": "Images/_optimized/F20300165.png",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "F20330164",
+      "brand": "VELP",
+      "sourceFile": "Images/VELP/F20330164.png",
+      "optimized": "Images/_optimized/F20330164.png",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "F203A0160",
+      "brand": "VELP",
+      "sourceFile": "Images/VELP/F203A0160.png",
+      "optimized": "Images/_optimized/F203A0160.png",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "F203A0161",
+      "brand": "VELP",
+      "sourceFile": "Images/VELP/F203A0161.png",
+      "optimized": "Images/_optimized/F203A0161.png",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "F203A0177",
+      "brand": "VELP",
+      "sourceFile": "Images/VELP/F203A0177.png",
+      "optimized": "Images/_optimized/F203A0177.png",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "F203A0178",
+      "brand": "VELP",
+      "sourceFile": "Images/VELP/F203A0178.png",
+      "optimized": "Images/_optimized/F203A0178.png",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "F203A0440",
+      "brand": "VELP",
+      "sourceFile": "Images/VELP/F203A0440.jpg",
+      "optimized": "Images/_optimized/F203A0440.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "F204A0167",
+      "brand": "VELP",
+      "sourceFile": "Images/VELP/F204A0167.png",
+      "optimized": "Images/_optimized/F204A0167.png",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "F204A0168",
+      "brand": "VELP",
+      "sourceFile": "Images/VELP/F204A0168.png",
+      "optimized": "Images/_optimized/F204A0168.png",
+      "match": "price-list",
+      "duplicate": false,
+      "nonClean": false
+    },
+    {
+      "code": "F20500011",
+      "brand": "VELP",
+      "sourceFile": "Images/VELP/F20500011.png",
+      "optimized": "Images/_optimized/F20500011.png",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "F20500051",
+      "brand": "VELP",
+      "sourceFile": "Images/VELP/F20500051.png",
+      "optimized": "Images/_optimized/F20500051.png",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "F20500061",
+      "brand": "VELP",
+      "sourceFile": "Images/VELP/F20500061.png",
+      "optimized": "Images/_optimized/F20500061.png",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "F20500101",
+      "brand": "VELP",
+      "sourceFile": "Images/VELP/F20500101.png",
+      "optimized": "Images/_optimized/F20500101.png",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "F20510463",
+      "brand": "VELP",
+      "sourceFile": "Images/VELP/F20510463.png",
+      "optimized": "Images/_optimized/F20510463.png",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "F20520166",
+      "brand": "VELP",
+      "sourceFile": "Images/VELP/F20520166.png",
+      "optimized": "Images/_optimized/F20520166.png",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "F20530162",
+      "brand": "VELP",
+      "sourceFile": "Images/VELP/F20530162.png",
+      "optimized": "Images/_optimized/F20530162.png",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "F20530163",
+      "brand": "VELP",
+      "sourceFile": "Images/VELP/F20530163.png",
+      "optimized": "Images/_optimized/F20530163.png",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "F20530163 (2)",
+      "brand": "VELP",
+      "sourceFile": "Images/VELP/F20530163 (2).png",
+      "optimized": "Images/_optimized/F20530163_2_.png",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "F206A0179",
+      "brand": "VELP",
+      "sourceFile": "Images/VELP/F206A0179.png",
+      "optimized": "Images/_optimized/F206A0179.png",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "F20700081",
+      "brand": "VELP",
+      "sourceFile": "Images/VELP/F20700081.png",
+      "optimized": "Images/_optimized/F20700081.png",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "F20700172",
+      "brand": "VELP",
+      "sourceFile": "Images/VELP/F20700172.png",
+      "optimized": "Images/_optimized/F20700172.png",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "F20700174",
+      "brand": "VELP",
+      "sourceFile": "Images/VELP/F20700174.png",
+      "optimized": "Images/_optimized/F20700174.png",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "F30100020",
+      "brand": "VELP",
+      "sourceFile": "Images/VELP/F30100020.png",
+      "optimized": "Images/_optimized/F30100020.png",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "F30100020 (2)",
+      "brand": "VELP",
+      "sourceFile": "Images/VELP/F30100020 (2).png",
+      "optimized": "Images/_optimized/F30100020_2_.png",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "F301000350",
+      "brand": "VELP",
+      "sourceFile": "Images/VELP/F301000350.png",
+      "optimized": "Images/_optimized/F301000350.png",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "F30100182",
+      "brand": "VELP",
+      "sourceFile": "Images/VELP/F30100182.png",
+      "optimized": "Images/_optimized/F30100182.png",
+      "match": "catalogue",
+      "duplicate": false,
+      "nonClean": false
+    },
+    {
+      "code": "F30100185",
+      "brand": "VELP",
+      "sourceFile": "Images/VELP/F30100185.png",
+      "optimized": "Images/_optimized/F30100185.png",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "F30100188",
+      "brand": "VELP",
+      "sourceFile": "Images/VELP/F30100188.jpg",
+      "optimized": "Images/_optimized/F30100188.jpg",
+      "match": "unmatched",
+      "duplicate": true,
+      "nonClean": false
+    },
+    {
+      "code": "F30100188",
+      "brand": "VELP",
+      "sourceFile": "Images/VELP/F30100188.png",
+      "optimized": "Images/_optimized/F30100188.png",
+      "match": "unmatched",
+      "duplicate": true,
+      "nonClean": false
+    },
+    {
+      "code": "F30100360",
+      "brand": "VELP",
+      "sourceFile": "Images/VELP/F30100360.png",
+      "optimized": "Images/_optimized/F30100360.png",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "F30100360 (2)",
+      "brand": "VELP",
+      "sourceFile": "Images/VELP/F30100360 (2).png",
+      "optimized": "Images/_optimized/F30100360_2_.png",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "F30200120",
+      "brand": "VELP",
+      "sourceFile": "Images/VELP/F30200120.png",
+      "optimized": "Images/_optimized/F30200120.png",
+      "match": "price-list",
+      "duplicate": false,
+      "nonClean": false
+    },
+    {
+      "code": "F30200130",
+      "brand": "VELP",
+      "sourceFile": "Images/VELP/F30200130.png",
+      "optimized": "Images/_optimized/F30200130.png",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "F30200140",
+      "brand": "VELP",
+      "sourceFile": "Images/VELP/F30200140.png",
+      "optimized": "Images/_optimized/F30200140.png",
+      "match": "price-list",
+      "duplicate": false,
+      "nonClean": false
+    },
+    {
+      "code": "F30200150",
+      "brand": "VELP",
+      "sourceFile": "Images/VELP/F30200150.png",
+      "optimized": "Images/_optimized/F30200150.png",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "F30200160",
+      "brand": "VELP",
+      "sourceFile": "Images/VELP/F30200160.png",
+      "optimized": "Images/_optimized/F30200160.png",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "F30300110",
+      "brand": "VELP",
+      "sourceFile": "Images/VELP/F30300110.png",
+      "optimized": "Images/_optimized/F30300110.png",
+      "match": "price-list",
+      "duplicate": false,
+      "nonClean": false
+    },
+    {
+      "code": "F30400209",
+      "brand": "VELP",
+      "sourceFile": "Images/VELP/F30400209.png",
+      "optimized": "Images/_optimized/F30400209.png",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "F30420210",
+      "brand": "VELP",
+      "sourceFile": "Images/VELP/F30420210.png",
+      "optimized": "Images/_optimized/F30420210.png",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "F30520200",
+      "brand": "VELP",
+      "sourceFile": "Images/VELP/F30520200.png",
+      "optimized": "Images/_optimized/F30520200.png",
+      "match": "price-list",
+      "duplicate": false,
+      "nonClean": false
+    },
+    {
+      "code": "F30520201",
+      "brand": "VELP",
+      "sourceFile": "Images/VELP/F30520201.png",
+      "optimized": "Images/_optimized/F30520201.png",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "F30520204",
+      "brand": "VELP",
+      "sourceFile": "Images/VELP/F30520204.png",
+      "optimized": "Images/_optimized/F30520204.png",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "F30630198",
+      "brand": "VELP",
+      "sourceFile": "Images/VELP/F30630198.png",
+      "optimized": "Images/_optimized/F30630198.png",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "F307C0199",
+      "brand": "VELP",
+      "sourceFile": "Images/VELP/F307C0199.png",
+      "optimized": "Images/_optimized/F307C0199.png",
+      "match": "price-list",
+      "duplicate": false,
+      "nonClean": false
+    },
+    {
+      "code": "F30800070",
+      "brand": "VELP",
+      "sourceFile": "Images/VELP/F30800070.jpg",
+      "optimized": "Images/_optimized/F30800070.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "FSOM 16",
+      "brand": "Labcon",
+      "sourceFile": "Images/Labcon/FSOM 16.JPG",
+      "optimized": "Images/_optimized/FSOM_16.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "FSOM 24JPG",
+      "brand": "Labcon",
+      "sourceFile": "Images/Labcon/FSOM 24JPG.JPG",
+      "optimized": "Images/_optimized/FSOM_24JPG.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": true
+    },
+    {
+      "code": "FSOM 4",
+      "brand": "Labcon",
+      "sourceFile": "Images/Labcon/FSOM 4.JPG",
+      "optimized": "Images/_optimized/FSOM_4.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "FSOM 40",
+      "brand": "Labcon",
+      "sourceFile": "Images/Labcon/FSOM 40.JPG",
+      "optimized": "Images/_optimized/FSOM_40.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "FSOM 73",
+      "brand": "Labcon",
+      "sourceFile": "Images/Labcon/FSOM 73.JPG",
+      "optimized": "Images/_optimized/FSOM_73.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "FSOM 8",
+      "brand": "Labcon",
+      "sourceFile": "Images/Labcon/FSOM 8.JPG",
+      "optimized": "Images/_optimized/FSOM_8.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "FSOM SPO16",
+      "brand": "Labcon",
+      "sourceFile": "Images/Labcon/FSOM SPO16.JPG",
+      "optimized": "Images/_optimized/FSOM_SPO16.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "GDO 16",
+      "brand": "Labcon",
+      "sourceFile": "Images/Labcon/GDO 16.JPG",
+      "optimized": "Images/_optimized/GDO_16.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "Glove",
+      "brand": "Labfriend",
+      "sourceFile": "Images/Labfriend/Glove.jpg",
+      "optimized": "Images/_optimized/Glove.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "HL 341",
+      "brand": "Gemmy",
+      "sourceFile": "Images/Gemmy/HL 341.JPG",
+      "optimized": "Images/_optimized/HL_341.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "HL 350",
+      "brand": "Gemmy",
+      "sourceFile": "Images/Gemmy/HL 350.JPG",
+      "optimized": "Images/_optimized/HL_350.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "HPE 30",
+      "brand": "Labcon",
+      "sourceFile": "Images/Labcon/HPE 30.JPG",
+      "optimized": "Images/_optimized/HPE_30.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "HPE 45",
+      "brand": "Labcon",
+      "sourceFile": "Images/Labcon/HPE 45.JPG",
+      "optimized": "Images/_optimized/HPE_45.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "HPE 60",
+      "brand": "Labcon",
+      "sourceFile": "Images/Labcon/HPE 60.JPG",
+      "optimized": "Images/_optimized/HPE_60.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "HPH 30",
+      "brand": "Labcon",
+      "sourceFile": "Images/Labcon/HPH 30.JPG",
+      "optimized": "Images/_optimized/HPH_30.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "HPH 45",
+      "brand": "Labcon",
+      "sourceFile": "Images/Labcon/HPH 45.JPG",
+      "optimized": "Images/_optimized/HPH_45.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "HPH 60",
+      "brand": "Labcon",
+      "sourceFile": "Images/Labcon/HPH 60.JPG",
+      "optimized": "Images/_optimized/HPH_60.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "HPR",
+      "brand": "PROLAB",
+      "sourceFile": "Images/PROLAB/HPR.png",
+      "optimized": "Images/_optimized/HPR.png",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "HPR 300",
+      "brand": "PROLAB",
+      "sourceFile": "Images/PROLAB/HPR 300.PNG",
+      "optimized": "Images/_optimized/HPR_300.png",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "HPR 450",
+      "brand": "PROLAB",
+      "sourceFile": "Images/PROLAB/HPR 450.PNG",
+      "optimized": "Images/_optimized/HPR_450.png",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "HPR 600",
+      "brand": "PROLAB",
+      "sourceFile": "Images/PROLAB/HPR 600.PNG",
+      "optimized": "Images/_optimized/HPR_600.png",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "HV 211",
+      "brand": "FRIGOGLASS",
+      "sourceFile": "Images/FRIGOGLASS/HV 211.JPG",
+      "optimized": "Images/_optimized/HV_211.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "HV 362",
+      "brand": "FRIGOGLASS",
+      "sourceFile": "Images/FRIGOGLASS/HV 362.JPG",
+      "optimized": "Images/_optimized/HV_362.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "HV 463",
+      "brand": "FRIGOGLASS",
+      "sourceFile": "Images/FRIGOGLASS/HV 463.JPG",
+      "optimized": "Images/_optimized/HV_463.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "IDS 160",
+      "brand": "PROLAB",
+      "sourceFile": "Images/PROLAB/IDS 160.JPG",
+      "optimized": "Images/_optimized/IDS_160.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "IDS 240",
+      "brand": "PROLAB",
+      "sourceFile": "Images/PROLAB/IDS 240.JPG",
+      "optimized": "Images/_optimized/IDS_240.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "IDS 40",
+      "brand": "PROLAB",
+      "sourceFile": "Images/PROLAB/IDS 40.PNG",
+      "optimized": "Images/_optimized/IDS_40.png",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "IDS 400",
+      "brand": "PROLAB",
+      "sourceFile": "Images/PROLAB/IDS 400.JPG",
+      "optimized": "Images/_optimized/IDS_400.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "IDS 80",
+      "brand": "PROLAB",
+      "sourceFile": "Images/PROLAB/IDS 80.JPG",
+      "optimized": "Images/_optimized/IDS_80.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "ITE 160",
+      "brand": "PROLAB",
+      "sourceFile": "Images/PROLAB/ITE 160.PNG",
+      "optimized": "Images/_optimized/ITE_160.png",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "ITE 240",
+      "brand": "PROLAB",
+      "sourceFile": "Images/PROLAB/ITE 240.JPG",
+      "optimized": "Images/_optimized/ITE_240.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "ITE 40",
+      "brand": "PROLAB",
+      "sourceFile": "Images/PROLAB/ITE 40.PNG",
+      "optimized": "Images/_optimized/ITE_40.png",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "ITE 400",
+      "brand": "PROLAB",
+      "sourceFile": "Images/PROLAB/ITE 400.JPG",
+      "optimized": "Images/_optimized/ITE_400.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "ITE 80",
+      "brand": "PROLAB",
+      "sourceFile": "Images/PROLAB/ITE 80.PNG",
+      "optimized": "Images/_optimized/ITE_80.png",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "K912",
+      "brand": "CONSORT",
+      "sourceFile": "Images/CONSORT/K912.JPG",
+      "optimized": "Images/_optimized/K912.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "KHT 400",
+      "brand": "Gemmy",
+      "sourceFile": "Images/Gemmy/KHT 400.JPG",
+      "optimized": "Images/_optimized/KHT_400.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "KHT 410",
+      "brand": "Gemmy",
+      "sourceFile": "Images/Gemmy/KHT 410.JPG",
+      "optimized": "Images/_optimized/KHT_410.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "KHT 410E",
+      "brand": "Gemmy",
+      "sourceFile": "Images/Gemmy/KHT 410E.JPG",
+      "optimized": "Images/_optimized/KHT_410E.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "LT 100",
+      "brand": "Labcon",
+      "sourceFile": "Images/Labcon/LT 100.JPG",
+      "optimized": "Images/_optimized/LT_100.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "LT 150",
+      "brand": "Labcon",
+      "sourceFile": "Images/Labcon/LT 150.JPG",
+      "optimized": "Images/_optimized/LT_150.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "LTG-M-20",
+      "brand": "Labcon",
+      "sourceFile": "Images/Labcon/LTG-M-20.JPG",
+      "optimized": "Images/_optimized/LTG-M-20.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "LTG-M-73",
+      "brand": "Labcon",
+      "sourceFile": "Images/Labcon/LTG-M-73.JPG",
+      "optimized": "Images/_optimized/LTG-M-73.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "LTIM 20",
+      "brand": "Labcon",
+      "sourceFile": "Images/Labcon/LTIM 20.JPG",
+      "optimized": "Images/_optimized/LTIM_20.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "MHP 140",
+      "brand": "PROLAB",
+      "sourceFile": "Images/PROLAB/MHP 140.PNG",
+      "optimized": "Images/_optimized/MHP_140.png",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "MS 20",
+      "brand": "Labcon",
+      "sourceFile": "Images/Labcon/MS 20.JPG",
+      "optimized": "Images/_optimized/MS_20.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "MSH 10",
+      "brand": "Labcon",
+      "sourceFile": "Images/Labcon/MSH 10.JPG",
+      "optimized": "Images/_optimized/MSH_10.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "NW15UV",
+      "brand": "Healforce",
+      "sourceFile": "Images/Healforce/NW15UV.JPG",
+      "optimized": "Images/_optimized/NW15UV.jpg",
+      "match": "price-list",
+      "duplicate": false,
+      "nonClean": false
+    },
+    {
+      "code": "NW15VF",
+      "brand": "Healforce",
+      "sourceFile": "Images/Healforce/NW15VF.JPG",
+      "optimized": "Images/_optimized/NW15VF.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "NW2-15UV",
+      "brand": "Healforce",
+      "sourceFile": "Images/Healforce/NW2-15UV.JPG",
+      "optimized": "Images/_optimized/NW2-15UV.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "NW2-15VF",
+      "brand": "Healforce",
+      "sourceFile": "Images/Healforce/NW2-15VF.JPG",
+      "optimized": "Images/_optimized/NW2-15VF.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "NW30UV",
+      "brand": "Healforce",
+      "sourceFile": "Images/Healforce/NW30UV.JPG",
+      "optimized": "Images/_optimized/NW30UV.jpg",
+      "match": "price-list",
+      "duplicate": false,
+      "nonClean": false
+    },
+    {
+      "code": "NW30VF",
+      "brand": "Healforce",
+      "sourceFile": "Images/Healforce/NW30VF.JPG",
+      "optimized": "Images/_optimized/NW30VF.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "ODS 160",
+      "brand": "PROLAB",
+      "sourceFile": "Images/PROLAB/ODS 160.JPG",
+      "optimized": "Images/_optimized/ODS_160.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "ODS 240",
+      "brand": "PROLAB",
+      "sourceFile": "Images/PROLAB/ODS 240.JPG",
+      "optimized": "Images/_optimized/ODS_240.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "ODS 40",
+      "brand": "PROLAB",
+      "sourceFile": "Images/PROLAB/ODS 40.PNG",
+      "optimized": "Images/_optimized/ODS_40.png",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "ODS 400",
+      "brand": "PROLAB",
+      "sourceFile": "Images/PROLAB/ODS 400.JPG",
+      "optimized": "Images/_optimized/ODS_400.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "ODS 80",
+      "brand": "PROLAB",
+      "sourceFile": "Images/PROLAB/ODS 80.PNG",
+      "optimized": "Images/_optimized/ODS_80.png",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "Orion 212",
+      "brand": "Thermo",
+      "sourceFile": "Images/Thermo/Orion 212.jpg",
+      "optimized": "Images/_optimized/Orion_212.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "OTE 160",
+      "brand": "PROLAB",
+      "sourceFile": "Images/PROLAB/OTE 160.PNG",
+      "optimized": "Images/_optimized/OTE_160.png",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "OTE 240",
+      "brand": "PROLAB",
+      "sourceFile": "Images/PROLAB/OTE 240.PNG",
+      "optimized": "Images/_optimized/OTE_240.png",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "OTE 40",
+      "brand": "PROLAB",
+      "sourceFile": "Images/PROLAB/OTE 40.PNG",
+      "optimized": "Images/_optimized/OTE_40.png",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "OTE 80",
+      "brand": "PROLAB",
+      "sourceFile": "Images/PROLAB/OTE 80.PNG",
+      "optimized": "Images/_optimized/OTE_80.png",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "PGL",
+      "brand": "Adams",
+      "sourceFile": "Images/Adams/PGL.JPG",
+      "optimized": "Images/_optimized/PGL.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "PGW",
+      "brand": "Adams",
+      "sourceFile": "Images/Adams/PGW.JPG",
+      "optimized": "Images/_optimized/PGW.jpg",
+      "match": "price-list",
+      "duplicate": false,
+      "nonClean": false
+    },
+    {
+      "code": "PLC 01",
+      "brand": "Gemmy",
+      "sourceFile": "Images/Gemmy/PLC 01.JPG",
+      "optimized": "Images/_optimized/PLC_01.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "PLC 012",
+      "brand": "Gemmy",
+      "sourceFile": "Images/Gemmy/PLC 012.JPG",
+      "optimized": "Images/_optimized/PLC_012.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "PLC 02",
+      "brand": "Gemmy",
+      "sourceFile": "Images/Gemmy/PLC 02.JPG",
+      "optimized": "Images/_optimized/PLC_02.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "PLC 025",
+      "brand": "Gemmy",
+      "sourceFile": "Images/Gemmy/PLC 025.JPG",
+      "optimized": "Images/_optimized/PLC_025.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "PLC 025E",
+      "brand": "Gemmy",
+      "sourceFile": "Images/Gemmy/PLC 025E.JPG",
+      "optimized": "Images/_optimized/PLC_025E.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "PLC 03",
+      "brand": "Gemmy",
+      "sourceFile": "Images/Gemmy/PLC 03.JPG",
+      "optimized": "Images/_optimized/PLC_03.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "PLC 036",
+      "brand": "Gemmy",
+      "sourceFile": "Images/Gemmy/PLC 036.JPG",
+      "optimized": "Images/_optimized/PLC_036.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "PLC 036B",
+      "brand": "Gemmy",
+      "sourceFile": "Images/Gemmy/PLC 036B.JPG",
+      "optimized": "Images/_optimized/PLC_036B.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "PLC 12E",
+      "brand": "Gemmy",
+      "sourceFile": "Images/Gemmy/PLC 12E.JPG",
+      "optimized": "Images/_optimized/PLC_12E.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "PLS 036",
+      "brand": "Gemmy",
+      "sourceFile": "Images/Gemmy/PLS 036.JPG",
+      "optimized": "Images/_optimized/PLS_036.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "PMB",
+      "brand": "Adams",
+      "sourceFile": "Images/Adams/PMB.JPG",
+      "optimized": "Images/_optimized/PMB.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "PS 2A",
+      "brand": "Gemmy",
+      "sourceFile": "Images/Gemmy/PS 2A.JPG",
+      "optimized": "Images/_optimized/PS_2A.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "PS 8B",
+      "brand": "Gemmy",
+      "sourceFile": "Images/Gemmy/PS 8B.JPG",
+      "optimized": "Images/_optimized/PS_8B.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "PW",
+      "brand": "Adams",
+      "sourceFile": "Images/Adams/PW.JPG",
+      "optimized": "Images/_optimized/PW.jpg",
+      "match": "unmatched",
+      "duplicate": true,
+      "nonClean": false
+    },
+    {
+      "code": "PW",
+      "brand": "Healforce",
+      "sourceFile": "Images/Healforce/PW.JPG",
+      "optimized": "Images/_optimized/PW.jpg",
+      "match": "unmatched",
+      "duplicate": true,
+      "nonClean": false
+    },
+    {
+      "code": "PW UF",
+      "brand": "Healforce",
+      "sourceFile": "Images/Healforce/PW UF.JPG",
+      "optimized": "Images/_optimized/PW_UF.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "PW UV",
+      "brand": "Healforce",
+      "sourceFile": "Images/Healforce/PW UV.JPG",
+      "optimized": "Images/_optimized/PW_UV.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "PW VF",
+      "brand": "Healforce",
+      "sourceFile": "Images/Healforce/PW VF.JPG",
+      "optimized": "Images/_optimized/PW_VF.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "PWUV",
+      "brand": "Healforce",
+      "sourceFile": "Images/Healforce/PWUV.JPG",
+      "optimized": "Images/_optimized/PWUV.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "PWVF",
+      "brand": "Healforce",
+      "sourceFile": "Images/Healforce/PWVF.JPG",
+      "optimized": "Images/_optimized/PWVF.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "R10800340",
+      "brand": "VELP",
+      "sourceFile": "Images/VELP/R10800340.JPG",
+      "optimized": "Images/_optimized/R10800340.jpg",
+      "match": "price-list",
+      "duplicate": true,
+      "nonClean": false
+    },
+    {
+      "code": "R10800340",
+      "brand": "VELP",
+      "sourceFile": "Images/VELP/R10800340.png",
+      "optimized": "Images/_optimized/R10800340.png",
+      "match": "price-list",
+      "duplicate": true,
+      "nonClean": false
+    },
+    {
+      "code": "R109B12150",
+      "brand": "VELP",
+      "sourceFile": "Images/VELP/R109B12150.JPG",
+      "optimized": "Images/_optimized/R109B12150.jpg",
+      "match": "unmatched",
+      "duplicate": true,
+      "nonClean": false
+    },
+    {
+      "code": "R109B12150",
+      "brand": "VELP",
+      "sourceFile": "Images/VELP/R109B12150.png",
+      "optimized": "Images/_optimized/R109B12150.png",
+      "match": "unmatched",
+      "duplicate": true,
+      "nonClean": false
+    },
+    {
+      "code": "R20900010",
+      "brand": "VELP",
+      "sourceFile": "Images/VELP/R20900010.JPG",
+      "optimized": "Images/_optimized/R20900010.jpg",
+      "match": "price-list",
+      "duplicate": false,
+      "nonClean": false
+    },
+    {
+      "code": "RM4",
+      "brand": "Labcon",
+      "sourceFile": "Images/Labcon/RM4.JPG",
+      "optimized": "Images/_optimized/RM4.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "RM7",
+      "brand": "Labcon",
+      "sourceFile": "Images/Labcon/RM7.JPG",
+      "optimized": "Images/_optimized/RM7.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "RO100",
+      "brand": "Healforce",
+      "sourceFile": "Images/Healforce/RO100.JPG",
+      "optimized": "Images/_optimized/RO100.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "RO15",
+      "brand": "Healforce",
+      "sourceFile": "Images/Healforce/RO15.JPG",
+      "optimized": "Images/_optimized/RO15.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "RO2-15",
+      "brand": "Healforce",
+      "sourceFile": "Images/Healforce/RO2-15.JPG",
+      "optimized": "Images/_optimized/RO2-15.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "RO2-30",
+      "brand": "Healforce",
+      "sourceFile": "Images/Healforce/RO2-30.JPG",
+      "optimized": "Images/_optimized/RO2-30.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "RO2-50",
+      "brand": "Healforce",
+      "sourceFile": "Images/Healforce/RO2-50.JPG",
+      "optimized": "Images/_optimized/RO2-50.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "RO30",
+      "brand": "Healforce",
+      "sourceFile": "Images/Healforce/RO30.JPG",
+      "optimized": "Images/_optimized/RO30.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "RO50",
+      "brand": "Healforce",
+      "sourceFile": "Images/Healforce/RO50.JPG",
+      "optimized": "Images/_optimized/RO50.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "ROP10",
+      "brand": "Healforce",
+      "sourceFile": "Images/Healforce/ROP10.JPG",
+      "optimized": "Images/_optimized/ROP10.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "ROP15",
+      "brand": "Healforce",
+      "sourceFile": "Images/Healforce/ROP15.JPG",
+      "optimized": "Images/_optimized/ROP15.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "ROP2-15",
+      "brand": "Healforce",
+      "sourceFile": "Images/Healforce/ROP2-15.JPG",
+      "optimized": "Images/_optimized/ROP2-15.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "ROP20",
+      "brand": "Healforce",
+      "sourceFile": "Images/Healforce/ROP20.JPG",
+      "optimized": "Images/_optimized/ROP20.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "ROP5",
+      "brand": "Healforce",
+      "sourceFile": "Images/Healforce/ROP5.JPG",
+      "optimized": "Images/_optimized/ROP5.jpg",
+      "match": "unmatched",
+      "duplicate": true,
+      "nonClean": false
+    },
+    {
+      "code": "ROP5",
+      "brand": "ROOT",
+      "sourceFile": "Images/ROP5.JPG",
+      "optimized": "Images/_optimized/ROP5.jpg",
+      "match": "unmatched",
+      "duplicate": true,
+      "nonClean": false
+    },
+    {
+      "code": "RT 106",
+      "brand": "ORTO",
+      "sourceFile": "Images/ORTO/RT 106.JPG",
+      "optimized": "Images/_optimized/RT_106.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "RT 108",
+      "brand": "ORTO",
+      "sourceFile": "Images/ORTO/RT 108.JPG",
+      "optimized": "Images/_optimized/RT_108.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "RT 110",
+      "brand": "ORTO",
+      "sourceFile": "Images/ORTO/RT 110.JPG",
+      "optimized": "Images/_optimized/RT_110.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "RT 121",
+      "brand": "ORTO",
+      "sourceFile": "Images/ORTO/RT 121.JPG",
+      "optimized": "Images/_optimized/RT_121.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "RT 128",
+      "brand": "ORTO",
+      "sourceFile": "Images/ORTO/RT 128.JPG",
+      "optimized": "Images/_optimized/RT_128.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "RT 138",
+      "brand": "ORTO",
+      "sourceFile": "Images/ORTO/RT 138.JPG",
+      "optimized": "Images/_optimized/RT_138.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "RT 143",
+      "brand": "ORTO",
+      "sourceFile": "Images/ORTO/RT 143.JPG",
+      "optimized": "Images/_optimized/RT_143.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "RT 150",
+      "brand": "ORTO",
+      "sourceFile": "Images/ORTO/RT 150.JPG",
+      "optimized": "Images/_optimized/RT_150.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "RT 151",
+      "brand": "ORTO",
+      "sourceFile": "Images/ORTO/RT 151.JPG",
+      "optimized": "Images/_optimized/RT_151.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "RT 152",
+      "brand": "ORTO",
+      "sourceFile": "Images/ORTO/RT 152.JPG",
+      "optimized": "Images/_optimized/RT_152.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "RT 153",
+      "brand": "ORTO",
+      "sourceFile": "Images/ORTO/RT 153.JPG",
+      "optimized": "Images/_optimized/RT_153.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "RT 154",
+      "brand": "ORTO",
+      "sourceFile": "Images/ORTO/RT 154.JPG",
+      "optimized": "Images/_optimized/RT_154.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "RT 160",
+      "brand": "ORTO",
+      "sourceFile": "Images/ORTO/RT 160.JPG",
+      "optimized": "Images/_optimized/RT_160.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "RT 161",
+      "brand": "ORTO",
+      "sourceFile": "Images/ORTO/RT 161.JPG",
+      "optimized": "Images/_optimized/RT_161.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "RT 163",
+      "brand": "ORTO",
+      "sourceFile": "Images/ORTO/RT 163.JPG",
+      "optimized": "Images/_optimized/RT_163.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "RT 167",
+      "brand": "ORTO",
+      "sourceFile": "Images/ORTO/RT 167.JPG",
+      "optimized": "Images/_optimized/RT_167.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "RT 172",
+      "brand": "ORTO",
+      "sourceFile": "Images/ORTO/RT 172.JPG",
+      "optimized": "Images/_optimized/RT_172.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "RT 173",
+      "brand": "ORTO",
+      "sourceFile": "Images/ORTO/RT 173.JPG",
+      "optimized": "Images/_optimized/RT_173.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "RT 175",
+      "brand": "ORTO",
+      "sourceFile": "Images/ORTO/RT 175.JPG",
+      "optimized": "Images/_optimized/RT_175.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "RT 177",
+      "brand": "ORTO",
+      "sourceFile": "Images/ORTO/RT 177.JPG",
+      "optimized": "Images/_optimized/RT_177.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "RT 183",
+      "brand": "ORTO",
+      "sourceFile": "Images/ORTO/RT 183.JPG",
+      "optimized": "Images/_optimized/RT_183.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "RT 188",
+      "brand": "ORTO",
+      "sourceFile": "Images/ORTO/RT 188.JPG",
+      "optimized": "Images/_optimized/RT_188.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "RT 191",
+      "brand": "ORTO",
+      "sourceFile": "Images/ORTO/RT 191.JPG",
+      "optimized": "Images/_optimized/RT_191.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "RT 192",
+      "brand": "ORTO",
+      "sourceFile": "Images/ORTO/RT 192.JPG",
+      "optimized": "Images/_optimized/RT_192.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "RT 195",
+      "brand": "ORTO",
+      "sourceFile": "Images/ORTO/RT 195.JPG",
+      "optimized": "Images/_optimized/RT_195.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "RT 196",
+      "brand": "ORTO",
+      "sourceFile": "Images/ORTO/RT 196.JPG",
+      "optimized": "Images/_optimized/RT_196.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "RT 197",
+      "brand": "ORTO",
+      "sourceFile": "Images/ORTO/RT 197.JPG",
+      "optimized": "Images/_optimized/RT_197.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "RT 198",
+      "brand": "ORTO",
+      "sourceFile": "Images/ORTO/RT 198.JPG",
+      "optimized": "Images/_optimized/RT_198.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "RT 199",
+      "brand": "ORTO",
+      "sourceFile": "Images/ORTO/RT 199.JPG",
+      "optimized": "Images/_optimized/RT_199.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "RT 203",
+      "brand": "ORTO",
+      "sourceFile": "Images/ORTO/RT 203.JPG",
+      "optimized": "Images/_optimized/RT_203.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "RT 205",
+      "brand": "ORTO",
+      "sourceFile": "Images/ORTO/RT 205.JPG",
+      "optimized": "Images/_optimized/RT_205.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "RT 206",
+      "brand": "ORTO",
+      "sourceFile": "Images/ORTO/RT 206.JPG",
+      "optimized": "Images/_optimized/RT_206.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "RT 219",
+      "brand": "ORTO",
+      "sourceFile": "Images/ORTO/RT 219.JPG",
+      "optimized": "Images/_optimized/RT_219.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "RT 222",
+      "brand": "ORTO",
+      "sourceFile": "Images/ORTO/RT 222.JPG",
+      "optimized": "Images/_optimized/RT_222.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "RT 223",
+      "brand": "ORTO",
+      "sourceFile": "Images/ORTO/RT 223.JPG",
+      "optimized": "Images/_optimized/RT_223.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "RT 224",
+      "brand": "ORTO",
+      "sourceFile": "Images/ORTO/RT 224.JPG",
+      "optimized": "Images/_optimized/RT_224.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "RT 225",
+      "brand": "ORTO",
+      "sourceFile": "Images/ORTO/RT 225.JPG",
+      "optimized": "Images/_optimized/RT_225.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "RT 226",
+      "brand": "ORTO",
+      "sourceFile": "Images/ORTO/RT 226.JPG",
+      "optimized": "Images/_optimized/RT_226.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "RT 227",
+      "brand": "ORTO",
+      "sourceFile": "Images/ORTO/RT 227.JPG",
+      "optimized": "Images/_optimized/RT_227.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "RT 228",
+      "brand": "ORTO",
+      "sourceFile": "Images/ORTO/RT 228.JPG",
+      "optimized": "Images/_optimized/RT_228.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "RT 229",
+      "brand": "ORTO",
+      "sourceFile": "Images/ORTO/RT 229.JPG",
+      "optimized": "Images/_optimized/RT_229.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "RT188",
+      "brand": "ORTO",
+      "sourceFile": "Images/ORTO/RT188.JPG",
+      "optimized": "Images/_optimized/RT188.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "S10220156",
+      "brand": "VELP",
+      "sourceFile": "Images/VELP/S10220156.png",
+      "optimized": "Images/_optimized/S10220156.png",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "S10230156",
+      "brand": "VELP",
+      "sourceFile": "Images/VELP/S10230156.png",
+      "optimized": "Images/_optimized/S10230156.png",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "S30100190",
+      "brand": "VELP",
+      "sourceFile": "Images/VELP/S30100190.png",
+      "optimized": "Images/_optimized/S30100190.png",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "S30100210",
+      "brand": "VELP",
+      "sourceFile": "Images/VELP/S30100210.png",
+      "optimized": "Images/_optimized/S30100210.png",
+      "match": "price-list",
+      "duplicate": false,
+      "nonClean": false
+    },
+    {
+      "code": "SA 232",
+      "brand": "Gemmy",
+      "sourceFile": "Images/Gemmy/SA 232.JPG",
+      "optimized": "Images/_optimized/SA_232.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "SA 232X",
+      "brand": "Gemmy",
+      "sourceFile": "Images/Gemmy/SA 232X.JPG",
+      "optimized": "Images/_optimized/SA_232X.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "SA 300MA",
+      "brand": "Gemmy",
+      "sourceFile": "Images/Gemmy/SA 300MA.JPG",
+      "optimized": "Images/_optimized/SA_300MA.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "SB20500410",
+      "brand": "VELP",
+      "sourceFile": "Images/VELP/SB20500410.png",
+      "optimized": "Images/_optimized/SB20500410.png",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "SHKL10",
+      "brand": "PROLAB",
+      "sourceFile": "Images/PROLAB/SHKL10.JPG",
+      "optimized": "Images/_optimized/SHKL10.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "SHKL20",
+      "brand": "PROLAB",
+      "sourceFile": "Images/PROLAB/SHKL20.JPG",
+      "optimized": "Images/_optimized/SHKL20.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "SHKO 10",
+      "brand": "PROLAB",
+      "sourceFile": "Images/PROLAB/SHKO 10.JPG",
+      "optimized": "Images/_optimized/SHKO_10.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "SHKO 20",
+      "brand": "PROLAB",
+      "sourceFile": "Images/PROLAB/SHKO 20.JPG",
+      "optimized": "Images/_optimized/SHKO_20.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "STR-MH",
+      "brand": "PROLAB",
+      "sourceFile": "Images/PROLAB/STR-MH.JPG",
+      "optimized": "Images/_optimized/STR-MH.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "TC 612",
+      "brand": "Gemmy",
+      "sourceFile": "Images/Gemmy/TC 612.JPG",
+      "optimized": "Images/_optimized/TC_612.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "thermo-orion-star-a214-ph-ise-meter-controls[1]",
+      "brand": "Thermo",
+      "sourceFile": "Images/Thermo/thermo-orion-star-a214-ph-ise-meter-controls[1].jpg",
+      "optimized": "Images/_optimized/thermo-orion-star-a214-ph-ise-meter-controls_1_.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "TNK14R20",
+      "brand": "PROLAB",
+      "sourceFile": "Images/PROLAB/TNK14R20.JPG",
+      "optimized": "Images/_optimized/TNK14R20.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "TNK23R20",
+      "brand": "PROLAB",
+      "sourceFile": "Images/PROLAB/TNK23R20.JPG",
+      "optimized": "Images/_optimized/TNK23R20.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "TR-E",
+      "brand": "PROLAB",
+      "sourceFile": "Images/PROLAB/TR-E.JPG",
+      "optimized": "Images/_optimized/TR-E.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "TR-H",
+      "brand": "PROLAB",
+      "sourceFile": "Images/PROLAB/TR-H.JPG",
+      "optimized": "Images/_optimized/TR-H.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "TR-HC",
+      "brand": "PROLAB",
+      "sourceFile": "Images/PROLAB/TR-HC.JPG",
+      "optimized": "Images/_optimized/TR-HC.jpg",
+      "match": "price-list",
+      "duplicate": false,
+      "nonClean": false
+    },
+    {
+      "code": "TR-HT",
+      "brand": "PROLAB",
+      "sourceFile": "Images/PROLAB/TR-HT.JPG",
+      "optimized": "Images/_optimized/TR-HT.jpg",
+      "match": "price-list",
+      "duplicate": false,
+      "nonClean": false
+    },
+    {
+      "code": "U445",
+      "brand": "TELSTAR",
+      "sourceFile": "Images/TELSTAR/U445.JPG",
+      "optimized": "Images/_optimized/U445.jpg",
+      "match": "price-list",
+      "duplicate": false,
+      "nonClean": false
+    },
+    {
+      "code": "U570",
+      "brand": "TELSTAR",
+      "sourceFile": "Images/TELSTAR/U570.JPG",
+      "optimized": "Images/_optimized/U570.jpg",
+      "match": "price-list",
+      "duplicate": false,
+      "nonClean": false
+    },
+    {
+      "code": "U830",
+      "brand": "TELSTAR",
+      "sourceFile": "Images/TELSTAR/U830.JPG",
+      "optimized": "Images/_optimized/U830.jpg",
+      "match": "price-list",
+      "duplicate": false,
+      "nonClean": false
+    },
+    {
+      "code": "VM 300",
+      "brand": "Gemmy",
+      "sourceFile": "Images/Gemmy/VM 300.JPG",
+      "optimized": "Images/_optimized/VM_300.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "VM 300P",
+      "brand": "Gemmy",
+      "sourceFile": "Images/Gemmy/VM 300P.JPG",
+      "optimized": "Images/_optimized/VM_300P.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "VM 370",
+      "brand": "Gemmy",
+      "sourceFile": "Images/Gemmy/VM 370.JPG",
+      "optimized": "Images/_optimized/VM_370.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "vrn 200",
+      "brand": "Gemmy",
+      "sourceFile": "Images/Gemmy/vrn 200.JPG",
+      "optimized": "Images/_optimized/vrn_200.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "VRN 210",
+      "brand": "Gemmy",
+      "sourceFile": "Images/Gemmy/VRN 210.JPG",
+      "optimized": "Images/_optimized/VRN_210.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "VRN 360",
+      "brand": "Gemmy",
+      "sourceFile": "Images/Gemmy/VRN 360.JPG",
+      "optimized": "Images/_optimized/VRN_360.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "VRN 380",
+      "brand": "Gemmy",
+      "sourceFile": "Images/Gemmy/VRN 380.JPG",
+      "optimized": "Images/_optimized/VRN_380.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "VRN 480",
+      "brand": "Gemmy",
+      "sourceFile": "Images/Gemmy/VRN 480.JPG",
+      "optimized": "Images/_optimized/VRN_480.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "WB-MP 13",
+      "brand": "PROLAB",
+      "sourceFile": "Images/PROLAB/WB-MP 13.JPG",
+      "optimized": "Images/_optimized/WB-MP_13.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "WB-MP 20",
+      "brand": "PROLAB",
+      "sourceFile": "Images/PROLAB/WB-MP 20.JPG",
+      "optimized": "Images/_optimized/WB-MP_20.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "WB-MP 27",
+      "brand": "PROLAB",
+      "sourceFile": "Images/PROLAB/WB-MP 27.JPG",
+      "optimized": "Images/_optimized/WB-MP_27.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "WB-T 13",
+      "brand": "PROLAB",
+      "sourceFile": "Images/PROLAB/WB-T 13.JPG",
+      "optimized": "Images/_optimized/WB-T_13.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "WB-T 20",
+      "brand": "PROLAB",
+      "sourceFile": "Images/PROLAB/WB-T 20.JPG",
+      "optimized": "Images/_optimized/WB-T_20.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "WB-T 27",
+      "brand": "PROLAB",
+      "sourceFile": "Images/PROLAB/WB-T 27.JPG",
+      "optimized": "Images/_optimized/WB-T_27.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "WBM 201",
+      "brand": "Labcon",
+      "sourceFile": "Images/Labcon/WBM 201.JPG",
+      "optimized": "Images/_optimized/WBM_201.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "WBM 301",
+      "brand": "Labcon",
+      "sourceFile": "Images/Labcon/WBM 301.JPG",
+      "optimized": "Images/_optimized/WBM_301.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "WBM 401",
+      "brand": "Labcon",
+      "sourceFile": "Images/Labcon/WBM 401.JPG",
+      "optimized": "Images/_optimized/WBM_401.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "WBM 501",
+      "brand": "Labcon",
+      "sourceFile": "Images/Labcon/WBM 501.JPG",
+      "optimized": "Images/_optimized/WBM_501.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "WBM 601",
+      "brand": "Labcon",
+      "sourceFile": "Images/Labcon/WBM 601.JPG",
+      "optimized": "Images/_optimized/WBM_601.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "WS 01-02",
+      "brand": "Labcon",
+      "sourceFile": "Images/Labcon/WS 01-02.JPG",
+      "optimized": "Images/_optimized/WS_01-02.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "WS 01-04",
+      "brand": "Labcon",
+      "sourceFile": "Images/Labcon/WS 01-04.JPG",
+      "optimized": "Images/_optimized/WS_01-04.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "WS 01-08",
+      "brand": "Labcon",
+      "sourceFile": "Images/Labcon/WS 01-08.JPG",
+      "optimized": "Images/_optimized/WS_01-08.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "WS 01-20",
+      "brand": "Labcon",
+      "sourceFile": "Images/Labcon/WS 01-20.JPG",
+      "optimized": "Images/_optimized/WS_01-20.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "WS 01-30",
+      "brand": "Labcon",
+      "sourceFile": "Images/Labcon/WS 01-30.JPG",
+      "optimized": "Images/_optimized/WS_01-30.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "WS 02-04",
+      "brand": "Labcon",
+      "sourceFile": "Images/Labcon/WS 02-04.JPG",
+      "optimized": "Images/_optimized/WS_02-04.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "WS 02-08",
+      "brand": "Labcon",
+      "sourceFile": "Images/Labcon/WS 02-08.JPG",
+      "optimized": "Images/_optimized/WS_02-08.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "YCO 010",
+      "brand": "Gemmy",
+      "sourceFile": "Images/Gemmy/YCO 010.JPG",
+      "optimized": "Images/_optimized/YCO_010.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "YCW 01",
+      "brand": "Gemmy",
+      "sourceFile": "Images/Gemmy/YCW 01.JPG",
+      "optimized": "Images/_optimized/YCW_01.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "YCW 010",
+      "brand": "Gemmy",
+      "sourceFile": "Images/Gemmy/YCW 010.JPG",
+      "optimized": "Images/_optimized/YCW_010.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "YCW 010E",
+      "brand": "Gemmy",
+      "sourceFile": "Images/Gemmy/YCW 010E.JPG",
+      "optimized": "Images/_optimized/YCW_010E.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "YCW 012S",
+      "brand": "Gemmy",
+      "sourceFile": "Images/Gemmy/YCW 012S.JPG",
+      "optimized": "Images/_optimized/YCW_012S.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "YCW 03S",
+      "brand": "Gemmy",
+      "sourceFile": "Images/Gemmy/YCW 03S.JPG",
+      "optimized": "Images/_optimized/YCW_03S.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "YCW 05",
+      "brand": "Gemmy",
+      "sourceFile": "Images/Gemmy/YCW 05.JPG",
+      "optimized": "Images/_optimized/YCW_05.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    },
+    {
+      "code": "YSO N10",
+      "brand": "Gemmy",
+      "sourceFile": "Images/Gemmy/YSO N10.JPG",
+      "optimized": "Images/_optimized/YSO_N10.jpg",
+      "match": "unmatched",
+      "duplicate": null,
+      "nonClean": false
+    }
+  ]
+}

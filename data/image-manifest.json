@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-12",
+  "generated": "2026-06-19",
   "total": 1191,
   "products": [
     {
@@ -3227,41 +3227,41 @@
     {
       "code": "AD1020",
       "slug": "ad1020",
-      "imageStatus": "auto-fetched",
-      "imageUrl": "https://d1mv2b9v99cq0i.cloudfront.net/eyJidWNrZXQiOiJ3ZWItbmluamEtaW1hZ2VzIiwia2V5IjoibGFiY29zY2llbnRpZmljXC9pbWFnZXNcL3Byb2RpbWdcLzMzODhfMS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQ4MCwiaGVpZ2h0Ijo0ODAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX19LCJ2ZXJzaW9uIjoiNTNiNjBjZjE1MzU0NmI0YmRlYzUzNDgxZTA1YWZkY2RjOTk5OTBiZiJ9",
-      "localPath": "/images/products/labex-measurement/bench-meter-hero.jpg",
-      "reviewStatus": "needs-mandy-review",
-      "lastChecked": "2026-05-24",
+      "imageStatus": "verified",
+      "imageUrl": "/images/products/AD1020.jpg",
+      "localPath": "/images/products/AD1020.jpg",
+      "reviewStatus": "approved",
+      "lastChecked": "2026-06-19",
       "queryUsed": "representative-type-image",
-      "imageSource": "representative-ddg",
-      "sourceUrl": "https://d1mv2b9v99cq0i.cloudfront.net/eyJidWNrZXQiOiJ3ZWItbmluamEtaW1hZ2VzIiwia2V5IjoibGFiY29zY2llbnRpZmljXC9pbWFnZXNcL3Byb2RpbWdcLzMzODhfMS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQ4MCwiaGVpZ2h0Ijo0ODAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX19LCJ2ZXJzaW9uIjoiNTNiNjBjZjE1MzU0NmI0YmRlYzUzNDgxZTA1YWZkY2RjOTk5OTBiZiJ9",
+      "imageSource": "labex-image-library",
+      "sourceUrl": null,
       "imagePaths": {
-        "thumbnail": "/images/products/labex-measurement/bench-meter-thumbnail.jpg",
-        "card": "/images/products/labex-measurement/bench-meter-card.jpg",
-        "hero": "/images/products/labex-measurement/bench-meter-hero.jpg"
+        "thumbnail": "/images/products/AD1020.jpg",
+        "card": "/images/products/AD1020.jpg",
+        "hero": "/images/products/AD1020.jpg"
       },
       "brand": "Measurement",
-      "reviewNote": "NEEDS REVIEW: representative bench meter/reagent image"
+      "reviewNote": "Real product image from the Labex image library (filename = code)."
     },
     {
       "code": "AD111",
       "slug": "ad111",
-      "imageStatus": "auto-fetched",
-      "imageUrl": "https://image.made-in-china.com/2f0j00dzMomiALeOkv/Industrial-Portable-pH-Meter-with-Laboratory-pH-Electrode-Combination-pH-Sensor.jpg",
-      "localPath": "/images/products/labex-measurement/ph-meter-hero.jpg",
-      "reviewStatus": "needs-mandy-review",
-      "lastChecked": "2026-05-24",
+      "imageStatus": "verified",
+      "imageUrl": "/images/products/AD111.jpg",
+      "localPath": "/images/products/AD111.jpg",
+      "reviewStatus": "approved",
+      "lastChecked": "2026-06-19",
       "queryUsed": "representative-type-image",
-      "imageSource": "representative-ddg",
-      "sourceUrl": "https://image.made-in-china.com/2f0j00dzMomiALeOkv/Industrial-Portable-pH-Meter-with-Laboratory-pH-Electrode-Combination-pH-Sensor.jpg",
+      "imageSource": "labex-image-library",
+      "sourceUrl": null,
       "imagePaths": {
-        "thumbnail": "/images/products/labex-measurement/ph-meter-thumbnail.jpg",
-        "card": "/images/products/labex-measurement/ph-meter-card.jpg",
-        "hero": "/images/products/labex-measurement/ph-meter-hero.jpg"
+        "thumbnail": "/images/products/AD111.jpg",
+        "card": "/images/products/AD111.jpg",
+        "hero": "/images/products/AD111.jpg"
       },
       "brand": "Measurement",
       "displayName": "AD111",
-      "reviewNote": "NEEDS REVIEW: representative pH meter image"
+      "reviewNote": "Real product image from the Labex image library (filename = code)."
     },
     {
       "code": "AD1131B",
@@ -3285,21 +3285,21 @@
     {
       "code": "AD12",
       "slug": "ad12",
-      "imageStatus": "auto-fetched",
-      "imageUrl": "representative-reuse",
-      "localPath": "/images/products/labex-measurement/ph-meter-hero.jpg",
-      "reviewStatus": "needs-mandy-review",
-      "lastChecked": "2026-05-24",
+      "imageStatus": "verified",
+      "imageUrl": "/images/products/AD12.png",
+      "localPath": "/images/products/AD12.png",
+      "reviewStatus": "approved",
+      "lastChecked": "2026-06-19",
       "queryUsed": "representative-type-image",
-      "imageSource": "representative-ddg",
-      "sourceUrl": "representative-reuse",
+      "imageSource": "labex-image-library",
+      "sourceUrl": null,
       "imagePaths": {
-        "thumbnail": "/images/products/labex-measurement/ph-meter-thumbnail.jpg",
-        "card": "/images/products/labex-measurement/ph-meter-card.jpg",
-        "hero": "/images/products/labex-measurement/ph-meter-hero.jpg"
+        "thumbnail": "/images/products/AD12.png",
+        "card": "/images/products/AD12.png",
+        "hero": "/images/products/AD12.png"
       },
       "brand": "Measurement",
-      "reviewNote": "NEEDS REVIEW: representative pH/ORP meter image"
+      "reviewNote": "Real product image from the Labex image library (filename = code)."
     },
     {
       "code": "AD1230/B",
@@ -3324,60 +3324,60 @@
     {
       "code": "AD130",
       "slug": "ad130",
-      "imageStatus": "auto-fetched",
-      "imageUrl": "https://5.imimg.com/data5/SELLER/Default/2025/12/566801161/NP/SB/QB/256196547/ph-probe-1000x1000.jpg",
-      "localPath": "/images/products/labex-measurement/electrode-ph-hero.jpg",
-      "reviewStatus": "needs-mandy-review",
-      "lastChecked": "2026-05-24",
+      "imageStatus": "verified",
+      "imageUrl": "/images/products/AD130.jpg",
+      "localPath": "/images/products/AD130.jpg",
+      "reviewStatus": "approved",
+      "lastChecked": "2026-06-19",
       "queryUsed": "representative-type-image",
-      "imageSource": "representative-ddg",
-      "sourceUrl": "https://5.imimg.com/data5/SELLER/Default/2025/12/566801161/NP/SB/QB/256196547/ph-probe-1000x1000.jpg",
+      "imageSource": "labex-image-library",
+      "sourceUrl": null,
       "imagePaths": {
-        "thumbnail": "/images/products/labex-measurement/electrode-ph-thumbnail.jpg",
-        "card": "/images/products/labex-measurement/electrode-ph-card.jpg",
-        "hero": "/images/products/labex-measurement/electrode-ph-hero.jpg"
+        "thumbnail": "/images/products/AD130.jpg",
+        "card": "/images/products/AD130.jpg",
+        "hero": "/images/products/AD130.jpg"
       },
       "brand": "Measurement",
-      "reviewNote": "NEEDS REVIEW: representative electrode image"
+      "reviewNote": "Real product image from the Labex image library (filename = code)."
     },
     {
       "code": "AD131",
       "slug": "ad131",
-      "imageStatus": "auto-fetched",
-      "imageUrl": "representative-reuse",
-      "localPath": "/images/products/labex-measurement/ph-meter-hero.jpg",
-      "reviewStatus": "needs-mandy-review",
-      "lastChecked": "2026-05-24",
+      "imageStatus": "verified",
+      "imageUrl": "/images/products/AD131.jpg",
+      "localPath": "/images/products/AD131.jpg",
+      "reviewStatus": "approved",
+      "lastChecked": "2026-06-19",
       "queryUsed": "representative-type-image",
-      "imageSource": "representative-ddg",
-      "sourceUrl": "representative-reuse",
+      "imageSource": "labex-image-library",
+      "sourceUrl": null,
       "imagePaths": {
-        "thumbnail": "/images/products/labex-measurement/ph-meter-thumbnail.jpg",
-        "card": "/images/products/labex-measurement/ph-meter-card.jpg",
-        "hero": "/images/products/labex-measurement/ph-meter-hero.jpg"
+        "thumbnail": "/images/products/AD131.jpg",
+        "card": "/images/products/AD131.jpg",
+        "hero": "/images/products/AD131.jpg"
       },
       "brand": "Measurement",
-      "reviewNote": "NEEDS REVIEW: representative pH/ORP meter image"
+      "reviewNote": "Real product image from the Labex image library (filename = code)."
     },
     {
       "code": "AD132",
       "slug": "ad132",
-      "imageStatus": "auto-fetched",
-      "imageUrl": "https://image.made-in-china.com/2f0j00dzMomiALeOkv/Industrial-Portable-pH-Meter-with-Laboratory-pH-Electrode-Combination-pH-Sensor.jpg",
-      "localPath": "/images/products/labex-measurement/ph-meter-hero.jpg",
-      "reviewStatus": "needs-mandy-review",
-      "lastChecked": "2026-05-24",
+      "imageStatus": "verified",
+      "imageUrl": "/images/products/AD132.jpg",
+      "localPath": "/images/products/AD132.jpg",
+      "reviewStatus": "approved",
+      "lastChecked": "2026-06-19",
       "queryUsed": "representative-type-image",
-      "imageSource": "representative-ddg",
-      "sourceUrl": "https://image.made-in-china.com/2f0j00dzMomiALeOkv/Industrial-Portable-pH-Meter-with-Laboratory-pH-Electrode-Combination-pH-Sensor.jpg",
+      "imageSource": "labex-image-library",
+      "sourceUrl": null,
       "imagePaths": {
-        "thumbnail": "/images/products/labex-measurement/ph-meter-thumbnail.jpg",
-        "card": "/images/products/labex-measurement/ph-meter-card.jpg",
-        "hero": "/images/products/labex-measurement/ph-meter-hero.jpg"
+        "thumbnail": "/images/products/AD132.jpg",
+        "card": "/images/products/AD132.jpg",
+        "hero": "/images/products/AD132.jpg"
       },
       "brand": "Measurement",
       "displayName": "AD132",
-      "reviewNote": "NEEDS REVIEW: representative pH meter image"
+      "reviewNote": "Real product image from the Labex image library (filename = code)."
     },
     {
       "code": "AD14P",
@@ -3496,21 +3496,21 @@
     {
       "code": "AD8000",
       "slug": "ad8000",
-      "imageStatus": "auto-fetched",
-      "imageUrl": "https://d1mv2b9v99cq0i.cloudfront.net/eyJidWNrZXQiOiJ3ZWItbmluamEtaW1hZ2VzIiwia2V5IjoibGFiY29zY2llbnRpZmljXC9pbWFnZXNcL3Byb2RpbWdcLzMzODhfMS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQ4MCwiaGVpZ2h0Ijo0ODAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX19LCJ2ZXJzaW9uIjoiNTNiNjBjZjE1MzU0NmI0YmRlYzUzNDgxZTA1YWZkY2RjOTk5OTBiZiJ9",
-      "localPath": "/images/products/labex-measurement/bench-meter-hero.jpg",
-      "reviewStatus": "needs-mandy-review",
-      "lastChecked": "2026-05-24",
+      "imageStatus": "verified",
+      "imageUrl": "/images/products/AD8000.jpg",
+      "localPath": "/images/products/AD8000.jpg",
+      "reviewStatus": "approved",
+      "lastChecked": "2026-06-19",
       "queryUsed": "representative-type-image",
-      "imageSource": "representative-ddg",
-      "sourceUrl": "https://d1mv2b9v99cq0i.cloudfront.net/eyJidWNrZXQiOiJ3ZWItbmluamEtaW1hZ2VzIiwia2V5IjoibGFiY29zY2llbnRpZmljXC9pbWFnZXNcL3Byb2RpbWdcLzMzODhfMS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQ4MCwiaGVpZ2h0Ijo0ODAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX19LCJ2ZXJzaW9uIjoiNTNiNjBjZjE1MzU0NmI0YmRlYzUzNDgxZTA1YWZkY2RjOTk5OTBiZiJ9",
+      "imageSource": "labex-image-library",
+      "sourceUrl": null,
       "imagePaths": {
-        "thumbnail": "/images/products/labex-measurement/bench-meter-thumbnail.jpg",
-        "card": "/images/products/labex-measurement/bench-meter-card.jpg",
-        "hero": "/images/products/labex-measurement/bench-meter-hero.jpg"
+        "thumbnail": "/images/products/AD8000.jpg",
+        "card": "/images/products/AD8000.jpg",
+        "hero": "/images/products/AD8000.jpg"
       },
       "brand": "Measurement",
-      "reviewNote": "NEEDS REVIEW: representative bench meter/reagent image"
+      "reviewNote": "Real product image from the Labex image library (filename = code)."
     },
     {
       "code": "AD9315",
@@ -4762,21 +4762,21 @@
     {
       "code": "F20100156",
       "slug": "f20100156",
-      "imageStatus": "auto-fetched",
-      "imageUrl": "https://www.witeg.de/media/5e/4a/f4/1720528204/dh-d-pro.jpg?1720528204",
-      "localPath": "/images/products/labex-equipment/overhead-stirrer-hero.jpg",
-      "reviewStatus": "needs-mandy-review",
-      "lastChecked": "2026-05-24",
+      "imageStatus": "verified",
+      "imageUrl": "/images/products/F20100156.jpg",
+      "localPath": "/images/products/F20100156.jpg",
+      "reviewStatus": "approved",
+      "lastChecked": "2026-06-19",
       "queryUsed": "representative-type-image",
-      "imageSource": "representative-ddg",
-      "sourceUrl": "https://www.witeg.de/media/5e/4a/f4/1720528204/dh-d-pro.jpg?1720528204",
+      "imageSource": "labex-image-library",
+      "sourceUrl": null,
       "imagePaths": {
-        "thumbnail": "/images/products/labex-equipment/overhead-stirrer-thumbnail.jpg",
-        "card": "/images/products/labex-equipment/overhead-stirrer-card.jpg",
-        "hero": "/images/products/labex-equipment/overhead-stirrer-hero.jpg"
+        "thumbnail": "/images/products/F20100156.jpg",
+        "card": "/images/products/F20100156.jpg",
+        "hero": "/images/products/F20100156.jpg"
       },
       "brand": "Laboratory Equipment",
-      "reviewNote": "NEEDS REVIEW: representative overhead stirrer image"
+      "reviewNote": "Real product image from the Labex image library (filename = code)."
     },
     {
       "code": "F8",
@@ -14422,11 +14422,19 @@
     {
       "code": "F30100182",
       "slug": "f30100182",
-      "imageStatus": "quote-on-request",
-      "imageUrl": null,
-      "localPath": null,
-      "reviewStatus": "pending",
-      "lastChecked": null
+      "imageStatus": "verified",
+      "imageUrl": "/images/products/F30100182.png",
+      "localPath": "/images/products/F30100182.png",
+      "reviewStatus": "approved",
+      "lastChecked": "2026-06-19",
+      "imageSource": "labex-image-library",
+      "sourceUrl": null,
+      "imagePaths": {
+        "thumbnail": "/images/products/F30100182.png",
+        "card": "/images/products/F30100182.png",
+        "hero": "/images/products/F30100182.png"
+      },
+      "reviewNote": "Real product image from the Labex image library (filename = code)."
     },
     {
       "code": "F40100541",

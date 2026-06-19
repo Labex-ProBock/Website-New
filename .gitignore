@@ -81,3 +81,10 @@ LABEX-PROMPT-REFERENCE.md
 
 # CRM (separate project)
 Labex_CRM
+
+# product image library — raw originals + optimised output are large binaries
+# and regeneratable from source; only the code-keyed images under
+# public/images/products are committed. The 33MB catalogue PDF is covered by *.pdf.
+/Images/
+.image-library-report.json
+/catalogue-extract/

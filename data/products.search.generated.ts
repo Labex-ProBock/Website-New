@@ -1,5 +1,5 @@
 // AUTO-GENERATED — do not edit manually. Run: npm run build:catalogue
-// Generated: 2026-06-12T10:49:15.345Z
+// Generated: 2026-06-19T12:59:38.024Z
 // Client-safe: no cost fields. Import this for search/command-palette.
 
 export interface SearchDoc {

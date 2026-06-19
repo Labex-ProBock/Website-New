@@ -1,5 +1,5 @@
 // AUTO-GENERATED — do not edit manually. Run: npm run build:catalogue
-// Generated: 2026-06-12T10:49:15.334Z
+// Generated: 2026-06-19T12:59:38.006Z
 // Sanitised: all price/cost fields are null; qtyOnHand is a 0/1 in-stock flag.
 // Quote-only site — no price, supplier cost, margin, or stock quantity here.
 import type { CatalogueProduct } from '@/lib/catalogue-types';
@@ -3401,8 +3401,8 @@ export const products: CatalogueProduct[] = [
     lastCost: null,
     qtyOnHand: 1,
     active: true,
-    imageStatus: "auto-fetched",
-    reviewStatus: "pending",
+    imageStatus: "verified",
+    reviewStatus: "approved",
     searchTerms: ["pH & Electrochemistry"],
   },
   {
@@ -3421,8 +3421,8 @@ export const products: CatalogueProduct[] = [
     lastCost: null,
     qtyOnHand: 1,
     active: true,
-    imageStatus: "auto-fetched",
-    reviewStatus: "pending",
+    imageStatus: "verified",
+    reviewStatus: "approved",
     searchTerms: ["pH & Electrochemistry"],
   },
   {
@@ -3461,8 +3461,8 @@ export const products: CatalogueProduct[] = [
     lastCost: null,
     qtyOnHand: 1,
     active: true,
-    imageStatus: "auto-fetched",
-    reviewStatus: "pending",
+    imageStatus: "verified",
+    reviewStatus: "approved",
     searchTerms: ["pH & Electrochemistry"],
   },
   {
@@ -3501,8 +3501,8 @@ export const products: CatalogueProduct[] = [
     lastCost: null,
     qtyOnHand: 1,
     active: true,
-    imageStatus: "auto-fetched",
-    reviewStatus: "pending",
+    imageStatus: "verified",
+    reviewStatus: "approved",
     searchTerms: ["pH & Electrochemistry"],
   },
   {
@@ -3521,8 +3521,8 @@ export const products: CatalogueProduct[] = [
     lastCost: null,
     qtyOnHand: 1,
     active: true,
-    imageStatus: "auto-fetched",
-    reviewStatus: "pending",
+    imageStatus: "verified",
+    reviewStatus: "approved",
     searchTerms: [],
   },
   {
@@ -3541,8 +3541,8 @@ export const products: CatalogueProduct[] = [
     lastCost: null,
     qtyOnHand: 1,
     active: true,
-    imageStatus: "auto-fetched",
-    reviewStatus: "pending",
+    imageStatus: "verified",
+    reviewStatus: "approved",
     searchTerms: ["pH & Electrochemistry"],
   },
   {
@@ -3681,8 +3681,8 @@ export const products: CatalogueProduct[] = [
     lastCost: null,
     qtyOnHand: 1,
     active: true,
-    imageStatus: "auto-fetched",
-    reviewStatus: "pending",
+    imageStatus: "verified",
+    reviewStatus: "approved",
     searchTerms: [],
   },
   {
@@ -5081,8 +5081,8 @@ export const products: CatalogueProduct[] = [
     lastCost: null,
     qtyOnHand: 0,
     active: true,
-    imageStatus: "auto-fetched",
-    reviewStatus: "pending",
+    imageStatus: "verified",
+    reviewStatus: "approved",
     searchTerms: [],
   },
   {
@@ -17721,8 +17721,8 @@ export const products: CatalogueProduct[] = [
     lastCost: null,
     qtyOnHand: 0,
     active: true,
-    imageStatus: "quote-on-request",
-    reviewStatus: "pending",
+    imageStatus: "verified",
+    reviewStatus: "approved",
     searchTerms: ["VELP"],
   },
   {
