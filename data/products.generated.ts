@@ -1,5 +1,5 @@
 // AUTO-GENERATED — do not edit manually. Run: npm run build:catalogue
-// Generated: 2026-06-19T12:59:38.006Z
+// Generated: 2026-06-21T07:39:45.981Z
 // Sanitised: all price/cost fields are null; qtyOnHand is a 0/1 in-stock flag.
 // Quote-only site — no price, supplier cost, margin, or stock quantity here.
 import type { CatalogueProduct } from '@/lib/catalogue-types';
@@ -101,8 +101,8 @@ export const products: CatalogueProduct[] = [
     lastCost: null,
     qtyOnHand: 0,
     active: true,
-    imageStatus: "auto-fetched",
-    reviewStatus: "pending",
+    imageStatus: "verified",
+    reviewStatus: "approved",
     searchTerms: [],
   },
   {
@@ -2701,8 +2701,8 @@ export const products: CatalogueProduct[] = [
     lastCost: null,
     qtyOnHand: 0,
     active: true,
-    imageStatus: "auto-fetched",
-    reviewStatus: "pending",
+    imageStatus: "verified",
+    reviewStatus: "approved",
     searchTerms: ["Burettes"],
   },
   {
@@ -2801,8 +2801,8 @@ export const products: CatalogueProduct[] = [
     lastCost: null,
     qtyOnHand: 0,
     active: true,
-    imageStatus: "auto-fetched",
-    reviewStatus: "pending",
+    imageStatus: "verified",
+    reviewStatus: "approved",
     searchTerms: ["Beakers"],
   },
   {
@@ -2861,8 +2861,8 @@ export const products: CatalogueProduct[] = [
     lastCost: null,
     qtyOnHand: 0,
     active: true,
-    imageStatus: "fallback",
-    reviewStatus: "pending",
+    imageStatus: "verified",
+    reviewStatus: "approved",
     searchTerms: [],
   },
   {
@@ -13421,8 +13421,8 @@ export const products: CatalogueProduct[] = [
     lastCost: null,
     qtyOnHand: 0,
     active: true,
-    imageStatus: "quote-on-request",
-    reviewStatus: "pending",
+    imageStatus: "verified",
+    reviewStatus: "approved",
     searchTerms: [],
   },
   {
@@ -13481,8 +13481,8 @@ export const products: CatalogueProduct[] = [
     lastCost: null,
     qtyOnHand: 0,
     active: true,
-    imageStatus: "quote-on-request",
-    reviewStatus: "pending",
+    imageStatus: "verified",
+    reviewStatus: "approved",
     searchTerms: [],
   },
   {
@@ -13581,8 +13581,8 @@ export const products: CatalogueProduct[] = [
     lastCost: null,
     qtyOnHand: 0,
     active: true,
-    imageStatus: "quote-on-request",
-    reviewStatus: "pending",
+    imageStatus: "verified",
+    reviewStatus: "approved",
     searchTerms: [],
   },
   {
@@ -14861,8 +14861,8 @@ export const products: CatalogueProduct[] = [
     lastCost: null,
     qtyOnHand: 0,
     active: true,
-    imageStatus: "quote-on-request",
-    reviewStatus: "pending",
+    imageStatus: "verified",
+    reviewStatus: "approved",
     searchTerms: [],
   },
   {
@@ -15221,8 +15221,8 @@ export const products: CatalogueProduct[] = [
     lastCost: null,
     qtyOnHand: 0,
     active: true,
-    imageStatus: "quote-on-request",
-    reviewStatus: "pending",
+    imageStatus: "verified",
+    reviewStatus: "approved",
     searchTerms: [],
   },
   {

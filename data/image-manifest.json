@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-19",
+  "generated": "2026-06-21",
   "total": 1191,
   "products": [
     {
@@ -83,21 +83,21 @@
     {
       "code": "1001009",
       "slug": "1001009",
-      "imageStatus": "auto-fetched",
-      "imageUrl": "https://5.imimg.com/data5/SELLER/Default/2023/6/319329532/RZ/BM/RX/34951366/comet-glass-thermometer-red-10-to-110-degrees-celsius-1000x1000.jpg",
-      "localPath": "/images/products/labex-measurement/thermometer-lab-hero.jpg",
-      "reviewStatus": "needs-mandy-review",
-      "lastChecked": "2026-05-24",
+      "imageStatus": "verified",
+      "imageUrl": "/images/products/1001009.png",
+      "localPath": "/images/products/1001009.png",
+      "reviewStatus": "approved",
+      "lastChecked": "2026-06-21",
       "queryUsed": "representative-type-image",
-      "imageSource": "representative-ddg",
-      "sourceUrl": "https://5.imimg.com/data5/SELLER/Default/2023/6/319329532/RZ/BM/RX/34951366/comet-glass-thermometer-red-10-to-110-degrees-celsius-1000x1000.jpg",
+      "imageSource": "labex-image-library",
+      "sourceUrl": null,
       "imagePaths": {
-        "thumbnail": "/images/products/labex-measurement/thermometer-lab-thumbnail.jpg",
-        "card": "/images/products/labex-measurement/thermometer-lab-card.jpg",
-        "hero": "/images/products/labex-measurement/thermometer-lab-hero.jpg"
+        "thumbnail": "/images/products/1001009.png",
+        "card": "/images/products/1001009.png",
+        "hero": "/images/products/1001009.png"
       },
       "brand": "Measurement",
-      "reviewNote": "NEEDS REVIEW: representative thermometer image"
+      "reviewNote": "Real product image from the Labex image library (filename = code)."
     },
     {
       "code": "1001255",
@@ -2564,22 +2564,22 @@
     {
       "code": "7000025",
       "slug": "7000025",
-      "imageStatus": "auto-fetched",
-      "imageUrl": "https://i5.walmartimages.com/seo/Lab-Burette-25mL-Schellbach-Design-Accurate-Miniscus-Reading-Class-B-0-1mL-Blue-Graduations-Glass-Stopcock-Borosilicate-Glass-Buret-Eisco-Labs_f1dec127-98df-400f-8d5c-bc1bfa286f1d.f6a549de486ba5ad6d8004760938e1ee.jpeg",
-      "localPath": "/images/products/labex-glassware/burette-hero.jpg",
-      "reviewStatus": "needs-mandy-review",
-      "lastChecked": "2026-05-24",
+      "imageStatus": "verified",
+      "imageUrl": "/images/products/7000025.jpeg",
+      "localPath": "/images/products/7000025.jpeg",
+      "reviewStatus": "approved",
+      "lastChecked": "2026-06-21",
       "queryUsed": "representative-type-image",
-      "imageSource": "representative-ddg",
-      "sourceUrl": "https://i5.walmartimages.com/seo/Lab-Burette-25mL-Schellbach-Design-Accurate-Miniscus-Reading-Class-B-0-1mL-Blue-Graduations-Glass-Stopcock-Borosilicate-Glass-Buret-Eisco-Labs_f1dec127-98df-400f-8d5c-bc1bfa286f1d.f6a549de486ba5ad6d8004760938e1ee.jpeg",
+      "imageSource": "labex-image-library",
+      "sourceUrl": null,
       "imagePaths": {
-        "thumbnail": "/images/products/labex-glassware/burette-thumbnail.jpg",
-        "card": "/images/products/labex-glassware/burette-card.jpg",
-        "hero": "/images/products/labex-glassware/burette-hero.jpg"
+        "thumbnail": "/images/products/7000025.jpeg",
+        "card": "/images/products/7000025.jpeg",
+        "hero": "/images/products/7000025.jpeg"
       },
       "brand": "Laboratory Glassware",
       "displayName": "7000025",
-      "reviewNote": "NEEDS REVIEW: representative burette image"
+      "reviewNote": "Real product image from the Labex image library (filename = code)."
     },
     {
       "code": "7000161",
@@ -2656,22 +2656,22 @@
     {
       "code": "7000406",
       "slug": "7000406",
-      "imageStatus": "auto-fetched",
-      "imageUrl": "https://www.lab-shop.com/images/scilabware-pyrex-low-form-griffin-clear-borosilicate-glass-beaker-with-spout-800ml-capacity-p352-1841_image.jpg",
-      "localPath": "/images/products/labex-glassware/beaker-hero.jpg",
-      "reviewStatus": "needs-mandy-review",
-      "lastChecked": "2026-05-24",
+      "imageStatus": "verified",
+      "imageUrl": "/images/products/7000406.jpeg",
+      "localPath": "/images/products/7000406.jpeg",
+      "reviewStatus": "approved",
+      "lastChecked": "2026-06-21",
       "queryUsed": "representative-type-image",
-      "imageSource": "representative-ddg",
-      "sourceUrl": "https://www.lab-shop.com/images/scilabware-pyrex-low-form-griffin-clear-borosilicate-glass-beaker-with-spout-800ml-capacity-p352-1841_image.jpg",
+      "imageSource": "labex-image-library",
+      "sourceUrl": null,
       "imagePaths": {
-        "thumbnail": "/images/products/labex-glassware/beaker-thumbnail.jpg",
-        "card": "/images/products/labex-glassware/beaker-card.jpg",
-        "hero": "/images/products/labex-glassware/beaker-hero.jpg"
+        "thumbnail": "/images/products/7000406.jpeg",
+        "card": "/images/products/7000406.jpeg",
+        "hero": "/images/products/7000406.jpeg"
       },
       "brand": "Laboratory Glassware",
       "displayName": "7000406",
-      "reviewNote": "NEEDS REVIEW: representative beaker image - verify style matches Labex stock"
+      "reviewNote": "Real product image from the Labex image library (filename = code)."
     },
     {
       "code": "7000446",
@@ -2716,14 +2716,20 @@
     {
       "code": "7000700",
       "slug": "7000700",
-      "imageStatus": "fallback",
-      "imageUrl": null,
-      "localPath": null,
-      "reviewStatus": "pending",
-      "lastChecked": "2026-05-24",
+      "imageStatus": "verified",
+      "imageUrl": "/images/products/7000700.jpeg",
+      "localPath": "/images/products/7000700.jpeg",
+      "reviewStatus": "approved",
+      "lastChecked": "2026-06-21",
       "queryUsed": "Adatptor 7 ml tube Centro 8 laboratory -stock -istockphoto -shutterstock -gettyimages -alamy -dreamstime",
-      "imageSource": null,
-      "sourceUrl": null
+      "imageSource": "labex-image-library",
+      "sourceUrl": null,
+      "imagePaths": {
+        "thumbnail": "/images/products/7000700.jpeg",
+        "card": "/images/products/7000700.jpeg",
+        "hero": "/images/products/7000700.jpeg"
+      },
+      "reviewNote": "Real product image from the Labex image library (filename = code)."
     },
     {
       "code": "7000769",
@@ -3231,7 +3237,7 @@
       "imageUrl": "/images/products/AD1020.jpg",
       "localPath": "/images/products/AD1020.jpg",
       "reviewStatus": "approved",
-      "lastChecked": "2026-06-19",
+      "lastChecked": "2026-06-21",
       "queryUsed": "representative-type-image",
       "imageSource": "labex-image-library",
       "sourceUrl": null,
@@ -3250,7 +3256,7 @@
       "imageUrl": "/images/products/AD111.jpg",
       "localPath": "/images/products/AD111.jpg",
       "reviewStatus": "approved",
-      "lastChecked": "2026-06-19",
+      "lastChecked": "2026-06-21",
       "queryUsed": "representative-type-image",
       "imageSource": "labex-image-library",
       "sourceUrl": null,
@@ -3289,7 +3295,7 @@
       "imageUrl": "/images/products/AD12.png",
       "localPath": "/images/products/AD12.png",
       "reviewStatus": "approved",
-      "lastChecked": "2026-06-19",
+      "lastChecked": "2026-06-21",
       "queryUsed": "representative-type-image",
       "imageSource": "labex-image-library",
       "sourceUrl": null,
@@ -3328,7 +3334,7 @@
       "imageUrl": "/images/products/AD130.jpg",
       "localPath": "/images/products/AD130.jpg",
       "reviewStatus": "approved",
-      "lastChecked": "2026-06-19",
+      "lastChecked": "2026-06-21",
       "queryUsed": "representative-type-image",
       "imageSource": "labex-image-library",
       "sourceUrl": null,
@@ -3347,7 +3353,7 @@
       "imageUrl": "/images/products/AD131.jpg",
       "localPath": "/images/products/AD131.jpg",
       "reviewStatus": "approved",
-      "lastChecked": "2026-06-19",
+      "lastChecked": "2026-06-21",
       "queryUsed": "representative-type-image",
       "imageSource": "labex-image-library",
       "sourceUrl": null,
@@ -3366,7 +3372,7 @@
       "imageUrl": "/images/products/AD132.jpg",
       "localPath": "/images/products/AD132.jpg",
       "reviewStatus": "approved",
-      "lastChecked": "2026-06-19",
+      "lastChecked": "2026-06-21",
       "queryUsed": "representative-type-image",
       "imageSource": "labex-image-library",
       "sourceUrl": null,
@@ -3500,7 +3506,7 @@
       "imageUrl": "/images/products/AD8000.jpg",
       "localPath": "/images/products/AD8000.jpg",
       "reviewStatus": "approved",
-      "lastChecked": "2026-06-19",
+      "lastChecked": "2026-06-21",
       "queryUsed": "representative-type-image",
       "imageSource": "labex-image-library",
       "sourceUrl": null,
@@ -4766,7 +4772,7 @@
       "imageUrl": "/images/products/F20100156.jpg",
       "localPath": "/images/products/F20100156.jpg",
       "reviewStatus": "approved",
-      "lastChecked": "2026-06-19",
+      "lastChecked": "2026-06-21",
       "queryUsed": "representative-type-image",
       "imageSource": "labex-image-library",
       "sourceUrl": null,
@@ -12390,11 +12396,19 @@
     {
       "code": "1000867",
       "slug": "1000867",
-      "imageStatus": "quote-on-request",
-      "imageUrl": null,
-      "localPath": null,
-      "reviewStatus": "pending",
-      "lastChecked": null
+      "imageStatus": "verified",
+      "imageUrl": "/images/products/1000867.jpeg",
+      "localPath": "/images/products/1000867.jpeg",
+      "reviewStatus": "approved",
+      "lastChecked": "2026-06-21",
+      "imageSource": "labex-image-library",
+      "sourceUrl": null,
+      "imagePaths": {
+        "thumbnail": "/images/products/1000867.jpeg",
+        "card": "/images/products/1000867.jpeg",
+        "hero": "/images/products/1000867.jpeg"
+      },
+      "reviewNote": "Real product image from the Labex image library (filename = code)."
     },
     {
       "code": "1001126",
@@ -12427,11 +12441,19 @@
     {
       "code": "1001332",
       "slug": "1001332",
-      "imageStatus": "quote-on-request",
-      "imageUrl": null,
-      "localPath": null,
-      "reviewStatus": "pending",
-      "lastChecked": null
+      "imageStatus": "verified",
+      "imageUrl": "/images/products/1001332.jpeg",
+      "localPath": "/images/products/1001332.jpeg",
+      "reviewStatus": "approved",
+      "lastChecked": "2026-06-21",
+      "imageSource": "labex-image-library",
+      "sourceUrl": null,
+      "imagePaths": {
+        "thumbnail": "/images/products/1001332.jpeg",
+        "card": "/images/products/1001332.jpeg",
+        "hero": "/images/products/1001332.jpeg"
+      },
+      "reviewNote": "Real product image from the Labex image library (filename = code)."
     },
     {
       "code": "1004770",
@@ -12472,11 +12494,19 @@
     {
       "code": "1276210",
       "slug": "1276210",
-      "imageStatus": "quote-on-request",
-      "imageUrl": null,
-      "localPath": null,
-      "reviewStatus": "pending",
-      "lastChecked": null
+      "imageStatus": "verified",
+      "imageUrl": "/images/products/1276210.jpeg",
+      "localPath": "/images/products/1276210.jpeg",
+      "reviewStatus": "approved",
+      "lastChecked": "2026-06-21",
+      "imageSource": "labex-image-library",
+      "sourceUrl": null,
+      "imagePaths": {
+        "thumbnail": "/images/products/1276210.jpeg",
+        "card": "/images/products/1276210.jpeg",
+        "hero": "/images/products/1276210.jpeg"
+      },
+      "reviewNote": "Real product image from the Labex image library (filename = code)."
     },
     {
       "code": "1395",
@@ -13105,11 +13135,19 @@
     {
       "code": "6000270",
       "slug": "6000270",
-      "imageStatus": "quote-on-request",
-      "imageUrl": null,
-      "localPath": null,
-      "reviewStatus": "pending",
-      "lastChecked": null
+      "imageStatus": "verified",
+      "imageUrl": "/images/products/6000270.png",
+      "localPath": "/images/products/6000270.png",
+      "reviewStatus": "approved",
+      "lastChecked": "2026-06-21",
+      "imageSource": "labex-image-library",
+      "sourceUrl": null,
+      "imagePaths": {
+        "thumbnail": "/images/products/6000270.png",
+        "card": "/images/products/6000270.png",
+        "hero": "/images/products/6000270.png"
+      },
+      "reviewNote": "Real product image from the Labex image library (filename = code)."
     },
     {
       "code": "6000278",
@@ -13267,11 +13305,19 @@
     {
       "code": "7000745",
       "slug": "7000745",
-      "imageStatus": "quote-on-request",
-      "imageUrl": null,
-      "localPath": null,
-      "reviewStatus": "pending",
-      "lastChecked": null
+      "imageStatus": "verified",
+      "imageUrl": "/images/products/7000745.jpeg",
+      "localPath": "/images/products/7000745.jpeg",
+      "reviewStatus": "approved",
+      "lastChecked": "2026-06-21",
+      "imageSource": "labex-image-library",
+      "sourceUrl": null,
+      "imagePaths": {
+        "thumbnail": "/images/products/7000745.jpeg",
+        "card": "/images/products/7000745.jpeg",
+        "hero": "/images/products/7000745.jpeg"
+      },
+      "reviewNote": "Real product image from the Labex image library (filename = code)."
     },
     {
       "code": "7000750",
@@ -14426,7 +14472,7 @@
       "imageUrl": "/images/products/F30100182.png",
       "localPath": "/images/products/F30100182.png",
       "reviewStatus": "approved",
-      "lastChecked": "2026-06-19",
+      "lastChecked": "2026-06-21",
       "imageSource": "labex-image-library",
       "sourceUrl": null,
       "imagePaths": {
